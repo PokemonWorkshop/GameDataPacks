@@ -1,0 +1,131 @@
+{
+  "klass": "Specie",
+  "id": 602,
+  "dbSymbol": "tynamo",
+  "forms": [
+    {
+      "form": 0,
+      "height": 0.2,
+      "weight": 0.3,
+      "type1": "electric",
+      "type2": "__undef__",
+      "baseHp": 35,
+      "baseAtk": 55,
+      "baseDfe": 40,
+      "baseAts": 45,
+      "baseDfs": 40,
+      "baseSpd": 60,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evAts": 0,
+      "evDfs": 0,
+      "evSpd": 1,
+      "evolutions": [
+        {
+          "dbSymbol": "eelektrik",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "minLevel",
+              "value": 39
+            }
+          ]
+        }
+      ],
+      "experienceType": 2,
+      "baseExperience": 55,
+      "baseLoyalty": 70,
+      "catchRate": 190,
+      "femaleRate": 50.0,
+      "breedGroups": [
+        11,
+        0
+      ],
+      "hatchSteps": 2560,
+      "babyDbSymbol": "tynamo",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "levitate",
+        "levitate",
+        "levitate"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "0602_00",
+        "iconShiny": "0602_00",
+        "front": "0602_00",
+        "back": "0602_00",
+        "frontShiny": "0602_00",
+        "backShiny": "0602_00",
+        "frontF": "0602f_00",
+        "backF": "0602f_00",
+        "frontShinyF": "0602f_00",
+        "backShinyF": "0602f_00",
+        "footprint": "0602_00",
+        "character": "0602_00",
+        "characterF": "0602f_00",
+        "characterShiny": "0602s_00",
+        "characterShinyF": "0602fs_00",
+        "cry": "0602cry_00.ogg",
+        "hasFemale": false
+      },
+      "moveSet": [
+        {
+          "move": "tackle",
+          "klass": "LevelLearnableMove",
+          "level": 1
+        },
+        {
+          "move": "thunder_wave",
+          "klass": "LevelLearnableMove",
+          "level": 1
+        },
+        {
+          "move": "thunder_wave",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "spark",
+          "klass": "LevelLearnableMove",
+          "level": 1
+        },
+        {
+          "move": "charge",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "knock_off",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "charge_beam",
+          "klass": "LevelLearnableMove",
+          "level": 1
+        },
+        {
+          "move": "charge_beam",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "tera_blast",
+          "klass": "TechLearnableMove"
+        }
+      ],
+      "formTextId": {
+        "name": 954,
+        "description": 0
+      }
+    }
+  ]
+}

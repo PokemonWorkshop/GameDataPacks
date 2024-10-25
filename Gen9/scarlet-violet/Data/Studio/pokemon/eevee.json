@@ -1,0 +1,460 @@
+{
+  "klass": "Specie",
+  "id": 133,
+  "dbSymbol": "eevee",
+  "forms": [
+    {
+      "form": 0,
+      "height": 0.3,
+      "weight": 6.5,
+      "type1": "normal",
+      "type2": "__undef__",
+      "baseHp": 55,
+      "baseAtk": 55,
+      "baseDfe": 50,
+      "baseAts": 45,
+      "baseDfs": 65,
+      "baseSpd": 55,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evAts": 0,
+      "evDfs": 1,
+      "evSpd": 0,
+      "evolutions": [
+        {
+          "dbSymbol": "vaporeon",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "stone",
+              "value": "water_stone"
+            }
+          ]
+        },
+        {
+          "dbSymbol": "jolteon",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "stone",
+              "value": "thunder_stone"
+            }
+          ]
+        },
+        {
+          "dbSymbol": "flareon",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "stone",
+              "value": "fire_stone"
+            }
+          ]
+        },
+        {
+          "dbSymbol": "espeon",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "dayNight",
+              "value": 3
+            },
+            {
+              "type": "minLoyalty",
+              "value": 160
+            }
+          ]
+        },
+        {
+          "dbSymbol": "umbreon",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "dayNight",
+              "value": 0
+            },
+            {
+              "type": "minLoyalty",
+              "value": 160
+            }
+          ]
+        },
+        {
+          "dbSymbol": "leafeon",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "stone",
+              "value": "leaf_stone"
+            }
+          ]
+        },
+        {
+          "dbSymbol": "glaceon",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "stone",
+              "value": "ice_stone"
+            }
+          ]
+        },
+        {
+          "dbSymbol": "sylveon",
+          "form": 0,
+          "conditions": []
+        }
+      ],
+      "experienceType": 1,
+      "baseExperience": 65,
+      "baseLoyalty": 50,
+      "catchRate": 45,
+      "femaleRate": 12.5,
+      "breedGroups": [
+        5,
+        0
+      ],
+      "hatchSteps": 4480,
+      "babyDbSymbol": "eevee",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "run_away",
+        "adaptability",
+        "anticipation"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "0133_00",
+        "iconShiny": "0133_00",
+        "front": "0133_00",
+        "back": "0133_00",
+        "frontShiny": "0133_00",
+        "backShiny": "0133_00",
+        "frontF": "0133f_00",
+        "backF": "0133f_00",
+        "frontShinyF": "0133f_00",
+        "backShinyF": "0133f_00",
+        "footprint": "0133_00",
+        "character": "0133_00",
+        "characterF": "0133f_00",
+        "characterShiny": "0133s_00",
+        "characterShinyF": "0133fs_00",
+        "cry": "0133cry_00.ogg",
+        "hasFemale": true
+      },
+      "moveSet": [
+        {
+          "move": "double_kick",
+          "klass": "BreedLearnableMove"
+        },
+        {
+          "move": "sand_attack",
+          "klass": "LevelLearnableMove",
+          "level": 5
+        },
+        {
+          "move": "tackle",
+          "klass": "LevelLearnableMove",
+          "level": 1
+        },
+        {
+          "move": "body_slam",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "take_down",
+          "klass": "LevelLearnableMove",
+          "level": 40
+        },
+        {
+          "move": "take_down",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "double_edge",
+          "klass": "LevelLearnableMove",
+          "level": 50
+        },
+        {
+          "move": "double_edge",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "tail_whip",
+          "klass": "LevelLearnableMove",
+          "level": 1
+        },
+        {
+          "move": "bite",
+          "klass": "LevelLearnableMove",
+          "level": 25
+        },
+        {
+          "move": "growl",
+          "klass": "LevelLearnableMove",
+          "level": 1
+        },
+        {
+          "move": "roar",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "dig",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "quick_attack",
+          "klass": "LevelLearnableMove",
+          "level": 10
+        },
+        {
+          "move": "swift",
+          "klass": "LevelLearnableMove",
+          "level": 20
+        },
+        {
+          "move": "swift",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "rest",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "substitute",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "curse",
+          "klass": "BreedLearnableMove"
+        },
+        {
+          "move": "curse",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "flail",
+          "klass": "BreedLearnableMove"
+        },
+        {
+          "move": "protect",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "mud_slap",
+          "klass": "BreedLearnableMove"
+        },
+        {
+          "move": "mud_slap",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "detect",
+          "klass": "BreedLearnableMove"
+        },
+        {
+          "move": "endure",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "charm",
+          "klass": "LevelLearnableMove",
+          "level": 45
+        },
+        {
+          "move": "charm",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "sleep_talk",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "baton_pass",
+          "klass": "LevelLearnableMove",
+          "level": 35
+        },
+        {
+          "move": "baton_pass",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "rain_dance",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "sunny_day",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "shadow_ball",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "facade",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "helping_hand",
+          "klass": "LevelLearnableMove",
+          "level": 1
+        },
+        {
+          "move": "helping_hand",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "wish",
+          "klass": "BreedLearnableMove"
+        },
+        {
+          "move": "yawn",
+          "klass": "BreedLearnableMove"
+        },
+        {
+          "move": "hyper_voice",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "weather_ball",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "fake_tears",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "tickle",
+          "klass": "BreedLearnableMove"
+        },
+        {
+          "move": "covet",
+          "klass": "LevelLearnableMove",
+          "level": 1
+        },
+        {
+          "move": "calm_mind",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "copycat",
+          "klass": "LevelLearnableMove",
+          "level": 30
+        },
+        {
+          "move": "last_resort",
+          "klass": "LevelLearnableMove",
+          "level": 55
+        },
+        {
+          "move": "stored_power",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "baby_doll_eyes",
+          "klass": "LevelLearnableMove",
+          "level": 15
+        },
+        {
+          "move": "tera_blast",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "trailblaze",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "alluring_voice",
+          "klass": "TechLearnableMove"
+        }
+      ],
+      "formTextId": {
+        "name": 245,
+        "description": 0
+      }
+    },
+    {
+      "form": 80,
+      "height": 18.0,
+      "weight": 1000.0,
+      "type1": "normal",
+      "type2": "__undef__",
+      "baseHp": 55,
+      "baseAtk": 55,
+      "baseDfe": 50,
+      "baseAts": 45,
+      "baseDfs": 65,
+      "baseSpd": 55,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evAts": 0,
+      "evDfs": 1,
+      "evSpd": 0,
+      "evolutions": [],
+      "experienceType": 1,
+      "baseExperience": 65,
+      "baseLoyalty": 50,
+      "catchRate": 45,
+      "femaleRate": 12.5,
+      "breedGroups": [
+        5,
+        0
+      ],
+      "hatchSteps": 4480,
+      "babyDbSymbol": "eevee",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "run_away",
+        "adaptability",
+        "anticipation"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "0133_80",
+        "iconShiny": "0133_80",
+        "front": "0133_80",
+        "back": "0133_80",
+        "frontShiny": "0133_80",
+        "backShiny": "0133_80",
+        "frontF": "0133f_80",
+        "backF": "0133f_80",
+        "frontShinyF": "0133f_80",
+        "backShinyF": "0133f_80",
+        "footprint": "0133_80",
+        "character": "0133_80",
+        "characterF": "0133f_80",
+        "characterShiny": "0133s_80",
+        "characterShinyF": "0133fs_80",
+        "cry": "0133cry_80.ogg",
+        "hasFemale": true
+      },
+      "moveSet": [],
+      "formTextId": {
+        "name": 1248,
+        "description": 0
+      }
+    }
+  ]
+}
