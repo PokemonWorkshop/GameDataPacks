@@ -1,0 +1,25 @@
+{
+  "title": "Ability",
+  "description": "A Pokémon ability",
+  "type": "object",
+  "properties": {
+    "klass": {
+      "description": "Klass identifier for Studio to recognise this file as an ability",
+      "type": "string",
+      "const": "Ability"
+    },
+    "dbSymbol": {
+      "description": "dbSymbol of this ability",
+      "type": "string"
+    },
+    "id": {
+      "description": "Unique ID designating this ability",
+      "type": "integer"
+    },
+    "textId": {
+      "description": "ID of this ability as defined in official games, also used to find this ability's name and description in the corresponding CSV files",
+      "type": "integer"
+    }
+  },
+  "required": ["klass", "dbSymbol", "id", "textId"]
+}

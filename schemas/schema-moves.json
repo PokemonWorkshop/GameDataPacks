@@ -1,0 +1,266 @@
+{
+  "title": "Move",
+  "description": "A Pokémon move",
+  "type": "object",
+  "properties": {
+    "klass": {
+      "description": "Klass identifier for Studio to recognise this file as a move",
+      "type": "string",
+      "const": "Move"
+    },
+    "dbSymbol": {
+      "description": "dbSymbol of this move",
+      "type": "string"
+    },
+    "id": {
+      "description": "ID of this move as defined in official games, also used to find this ability's name and description in the corresponding CSV files",
+      "type": "integer"
+    },
+    "mapUse": {
+      "description": "If above 0, ID of common event to call when this move is used from the party screen",
+      "type": "integer"
+    },
+    "battleEngineMethod": {
+      "description": "Method name to call when using this move",
+      "type": "string"
+    },
+    "type": {
+      "description": "Type of this move",
+      "type": "string"
+    },
+    "power": {
+      "description": "Power of this move",
+      "type": "integer"
+    },
+    "accuracy": {
+      "description": "Accuracy of this move",
+      "type": "integer"
+    },
+    "pp": {
+      "description": "Base PP amount of this move",
+      "type": "integer"
+    },
+    "category": {
+      "description": "Category of this move",
+      "type": "string",
+      "enum": ["physical", "special", "status"]
+    },
+    "movecriticalRate": {
+      "description": "Critical rate of this move",
+      "type": "integer"
+    },
+    "priority": {
+      "description": "Priority of this move",
+      "type": "integer"
+    },
+    "isAuthentic": {
+      "description": "Can this move hit through subsitute",
+      "type": "boolean"
+    },
+    "isBallistics": {
+      "description": "Is this move ballistics-based",
+      "type": "boolean"
+    },
+    "isBite": {
+      "description": "Is this move jaw-based",
+      "type": "boolean"
+    },
+    "isBlocable": {
+      "description": "Can this move be blocked by protection moves",
+      "type": "boolean"
+    },
+    "isCharge": {
+      "description": "Does this move need a charging turn",
+      "type": "boolean"
+    },
+    "isDance": {
+      "description": "Is this move dance-based",
+      "type": "boolean"
+    },
+    "isDirect": {
+      "description": "Does this move make direct contact",
+      "type": "boolean"
+    },
+    "isDistance": {
+      "description": "Can this move hit non-adjacent targets",
+      "type": "boolean"
+    },
+    "isGravity": {
+      "description": "Is this move unusable under the effect of Gravity",
+      "type": "boolean"
+    },
+    "isHeal": {
+      "description": "Does this move heals",
+      "type": "boolean"
+    },
+    "isKingRockUtility": {
+      "description": "Does this move get flinch chance when the user holds a King's rock",
+      "type": "boolean"
+    },
+    "isMagicCoatAffected": {
+      "description": "Is this move reflected by Magic Coat",
+      "type": "boolean"
+    },
+    "isMental": {
+      "description": "Is this move mental-based",
+      "type": "boolean"
+    },
+    "isMirrorMove": {
+      "description": "Can this move be copied by moves like Mirror Move",
+      "type": "boolean"
+    },
+    "isNonSkyBattle": {
+      "description": "Is this move unusable in a sky battle",
+      "type": "boolean"
+    },
+    "isPowder": {
+      "description": "Is this move powder-based",
+      "type": "boolean"
+    },
+    "isPulse": {
+      "description": "Is this move pulse-based",
+      "type": "boolean"
+    },
+    "isPunch": {
+      "description": "Is this move punch-based",
+      "type": "boolean"
+    },
+    "isRecharge": {
+      "description": "Does the user of this move need to recharge during the next turn",
+      "type": "boolean"
+    },
+    "isSnatchable": {
+      "description": "Is this move affected by Snatch",
+      "type": "boolean"
+    },
+    "isSoundAttack": {
+      "description": "Is this move sound-based",
+      "type": "boolean"
+    },
+    "isUnfreeze": {
+      "description": "Does using this move thaws the user",
+      "type": "boolean"
+    },
+    "isSlicingAttack": {
+      "description": "Is this move slice-based",
+      "type": "boolean"
+    },
+    "isWind": {
+      "description": "Is this move wind-based",
+      "type": "boolean"
+    },
+    "battleEngineAimedTarget": {
+      "description": "Targetting mode of this move",
+      "type": "string",
+      "enum": [
+        "any_other_pokemon",
+        "adjacent_pokemon",
+        "adjacent_ally",
+        "adjacent_foe",
+        "all_ally",
+        "user",
+        "all_foe",
+        "all_pokemon",
+        "adjacent_all_foe",
+        "adjacent_all_pokemon",
+        "random_foe",
+        "user_or_adjacent_ally"
+      ]
+    },
+    "battleStageMod": {
+      "description": "List of stats that can be affected by the move",
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "properties": {
+          "battleStage": {
+            "description": "Stat to be affected",
+            "type": "string",
+            "enum": ["ATK_STAGE", "DFE_STAGE", "ATS_STAGE", "DFS_STAGE", "SPD_STAGE", "ACC_STAGE", "EVA_STAGE"]
+          },
+          "modificator": {
+            "description": "How the stat is affected",
+            "type": "integer"
+          }
+        },
+        "required": ["battleStage", "modificator"]
+      }
+    },
+    "moveStatus": {
+      "description": "List of statuses that can be inflicted by the move",
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "properties": {
+          "status": {
+            "description": "Status that can be inflicted",
+            "anyOf": [
+              {
+                "type": "string",
+                "enum": ["POISONED", "PARALYZED", "BURN", "ASLEEP", "FROZEN", "CONFUSED", "FLINCH", "TOXIC", "DEATH"]
+              },
+              {
+                "type": "string",
+                "pattern": "^Custom_.*"
+              }
+            ]
+          },
+          "luckRate": {
+            "description": "How frequent this status is compared to the others listed",
+            "type": "integer"
+          }
+        },
+        "required": ["status", "luckRate"]
+      }
+    },
+    "effectChance": {
+      "description": "Chance of this move to inflict one of its side-effects on the target",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "klass",
+    "id",
+    "dbSymbol",
+    "mapUse",
+    "battleEngineMethod",
+    "type",
+    "power",
+    "accuracy",
+    "pp",
+    "category",
+    "movecriticalRate",
+    "priority",
+    "isAuthentic",
+    "isBallistics",
+    "isBite",
+    "isBlocable",
+    "isCharge",
+    "isDance",
+    "isDirect",
+    "isDistance",
+    "isEffectChance",
+    "isGravity",
+    "isHeal",
+    "isKingRockUtility",
+    "isMagicCoatAffected",
+    "isMental",
+    "isMirrorMove",
+    "isNonSkyBattle",
+    "isPowder",
+    "isPulse",
+    "isPunch",
+    "isRecharge",
+    "isSnatchable",
+    "isSoundAttack",
+    "isUnfreeze",
+    "battleEngineAimedTarget",
+    "battleStageMod",
+    "moveStatus",
+    "effectChance",
+    "isSlicingAttack",
+    "isWind"
+  ]
+}

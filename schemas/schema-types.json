@@ -1,0 +1,50 @@
+{
+  "title": "Type",
+  "description": "A Pokémon type",
+  "type": "object",
+  "properties": {
+    "klass": {
+      "description": "Klass identifier for Studio to recognise this file as a type",
+      "type": "string",
+      "const": "Type"
+    },
+    "dbSymbol": {
+      "description": "dbSymbol of this type",
+      "type": "string"
+    },
+    "id": {
+      "description": "Unique ID designating this type",
+      "type": "integer"
+    },
+    "textId": {
+      "description": "ID of this type as defined in official games, also used to find this type's name in the corresponding CSV file",
+      "type": "integer"
+    },
+    "color": {
+      "description": "Color of this type",
+      "type": "string",
+      "pattern": "^#[0-9a-fA-F]{6}$"
+    },
+    "damageTo": {
+      "description": "List of factors that modify this type's damage when hitting another type",
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "properties": {
+          "defensiveType": {
+            "description": "dbSymbol of the defensive type",
+            "type": "string"
+          },
+          "factor": {
+            "description": "Factor to apply to the move's damage",
+            "type": "number",
+            "enum": [0, 0.5, 2]
+          }
+        },
+        "required": ["defensiveType", "factor"]
+      }
+    }
+  },
+  "required": ["klass", "dbSymbol", "id", "textId", "color"]
+}

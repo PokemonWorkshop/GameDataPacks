@@ -1,0 +1,76 @@
+{
+  "title": "Item",
+  "description": "An item",
+  "type": "object",
+  "properties": {
+    "klass": {
+      "description": "Klass identifier for Studio to recognise this file as an item",
+      "type": "string",
+      "enum": [
+        "Item",
+        "EventItem",
+        "HealingItem",
+        "RateHealItem",
+        "ConstantHealItem",
+        "StatusHealItem",
+        "StatusRateHealItem",
+        "StatBoostItem",
+        "PPHealItem",
+        "AllPPHealItem",
+        "PPIncreaseItem",
+        "LevelIncreaseItem",
+        "TechItem",
+        "StoneItem",
+        "EVBoostItem",
+        "BallItem",
+        "FleeingItem",
+        "RepelItem"
+      ]
+    },
+    "dbSymbol": {
+      "description": "dbSymbol of this item",
+      "type": "string"
+    },
+    "id": {
+      "description": "ID of this item as defined in official games, also used to find this item's name and description in the corresponding CSV files",
+      "type": "integer"
+    },
+    "icon": {
+      "description": "Image name of this item in the graphics/icons folder without extension",
+      "type": "string"
+    },
+    "price": {
+      "description": "Price for buying this item",
+      "type": "integer"
+    },
+    "socket": {
+      "description": "Socket in which this item is stored",
+      "type": "integer"
+    },
+    "position": {
+      "description": "Position of this item, used for sorting purposes",
+      "type": "integer"
+    },
+    "isBattleUsable": {
+      "description": "Can this item be used during a battle",
+      "type": "boolean"
+    },
+    "isMapUsable": {
+      "description": "Can this item be used from the bag",
+      "type": "boolean"
+    },
+    "isLimited": {
+      "description": "Is this item consumed when used",
+      "type": "boolean"
+    },
+    "isHoldable": {
+      "description": "Can this item be held bya Pokémon",
+      "type": "boolean"
+    },
+    "flingPower": {
+      "description": "Power of the move Fling when using this item",
+      "type": "integer"
+    }
+  },
+  "required": ["id", "dbSymbol", "icon", "price", "socket", "position", "isBattleUsable", "isMapUsable", "isLimited", "isHoldable", "flingPower", "klass"]
+}

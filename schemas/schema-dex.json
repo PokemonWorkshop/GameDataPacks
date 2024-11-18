@@ -1,0 +1,59 @@
+{
+  "title": "Dex",
+  "description": "A Pokédex",
+  "type": "object",
+  "properties": {
+    "klass": {
+      "description": "Klass identifier for Studio to recognise this file as a dex",
+      "type": "string",
+      "const": "Dex"
+    },
+    "dbSymbol": {
+      "description": "dbSymbol of this dex",
+      "type": "string"
+    },
+    "id": {
+      "description": "Unique ID designating this dex",
+      "type": "integer"
+    },
+    "startId": {
+      "description": "Number that will be attributed to the first Pokémon of this dex",
+      "type": "integer"
+    },
+    "csv": {
+      "description": "CSV related information",
+      "type": "object",
+      "properties": {
+          "csvFileId": {
+            "description": "ID of the CSV file",
+            "type": "integer"
+          },
+          "csvTextIndex": {
+            "description": "Line ID of the CSV file corresponding to this dex",
+            "type": "integer"
+          }
+        },
+        "required": ["csvFileId", "csvTextIndex"]
+    },
+    "creatures": {
+      "description": "List of Pokémon that constitute this dex",
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "properties": {
+          "dbSymbol": {
+            "description": "dbSymbol of the Pokémon",
+            "type": "string"
+          },
+          "form": {
+            "description": "Form ID of the Pokémon",
+            "type": "integer"
+          }
+        },
+        "required": ["dbSymbol", "form"]
+      }
+    }
+  },
+  "required": ["klass", "dbSymbol", "id", "startId"]
+}

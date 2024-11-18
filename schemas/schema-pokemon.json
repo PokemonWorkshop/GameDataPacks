@@ -1,0 +1,453 @@
+{
+  "title": "Pokémon",
+  "description": "A Pokémon",
+  "type": "object",
+  "properties": {
+    "klass": {
+      "description": "Klass identifier for Studio to recognise this file as a Pokémon",
+      "type": "string",
+      "const": "Specie"
+    },
+    "dbSymbol": {
+      "description": "dbSymbol of this Pokémon",
+      "type": "string"
+    },
+    "id": {
+      "description": "ID of this Pokémon as defined in official games, also used to find this Pokémon's name and description in the corresponding CSV file",
+      "type": "integer"
+    },
+    "forms": {
+      "description": "List of forms of this Pokémon",
+      "type": "array",
+      "uniqueItems": true,
+      "minItems" : 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "form": {
+            "description": "unique ID of the form",
+            "type": "integer"
+          },
+          "height": {
+            "description": "Height of this Pokémon form",
+            "type": "number"
+          },
+          "weight": {
+            "description": "Weight of this Pokémon form",
+            "type": "number"
+          },
+          "type1": {
+            "description": "First type of this Pokémon form",
+            "type": "string",
+            "enum": [
+              "normal",
+              "fire",
+              "fighting",
+              "water",
+              "flying",
+              "grass",
+              "poison",
+              "electric",
+              "ground",
+              "psychic",
+              "rock",
+              "ice",
+              "bug",
+              "dragon",
+              "ghost",
+              "dark",
+              "steel",
+              "fairy"
+            ]
+          },
+          "type2": {
+            "description": "Second type of this Pokémon form",
+            "type": "string",
+            "enum": [
+              "normal",
+              "fire",
+              "fighting",
+              "water",
+              "flying",
+              "grass",
+              "poison",
+              "electric",
+              "ground",
+              "psychic",
+              "rock",
+              "ice",
+              "bug",
+              "dragon",
+              "ghost",
+              "dark",
+              "steel",
+              "fairy",
+              "__undef__"
+            ]
+          },
+          "baseHp": {
+            "description": "HP stat of the form",
+            "type": "integer"
+          },
+          "baseAtk": {
+            "description": "Attack stat of the form",
+            "type": "integer"
+          },
+          "baseDfe": {
+            "description": "Defense stat of the form",
+            "type": "integer"
+          },
+          "baseSpd": {
+            "description": "Speed stat of the form",
+            "type": "integer"
+          },
+          "baseAts": {
+            "description": "Special Attack stat of the form",
+            "type": "integer"
+          },
+          "baseDfs": {
+            "description": "Special Defense stat of the form",
+            "type": "integer"
+          },
+          "evHp": {
+            "description": "HP EVs given by the form",
+            "type": "integer"
+          },
+          "evAtk": {
+            "description": "Attack EVs given by the form",
+            "type": "integer"
+          },
+          "evDfe": {
+            "description": "Defense EVs given by the form",
+            "type": "integer"
+          },
+          "evSpd": {
+            "description": "Speed EVs given by the form",
+            "type": "integer"
+          },
+          "evAts": {
+            "description": "Special Attack EVs given by the form",
+            "type": "integer"
+          },
+          "evDfs": {
+            "description": "Special Defense EVs given by the form",
+            "type": "integer"
+          },
+          "evolutions": {
+            "description": "List of evolution methods of the form",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "dbSymbol": {
+                  "description": "The dbSymbol of the Pokémon this Pokémon evolves into",
+                  "type": "string"
+                },
+                "form": {
+                  "description": "The form ID of the Pokémon this Pokémon evolves into",
+                  "type": "integer"
+                },
+                "condition": {
+                  "description": "A list of conditions to allow this evolution to occur",
+                  "type": "array",
+                  "items": {
+                    "anyOf": [
+                      {
+                        "type": "object",
+                        "properties": {
+                          "type": {
+                            "description": "The type of this condition",
+                            "type": "string",
+                            "enum": [
+                              "minLevel",
+                              "minLoyalty",
+                              "dayNight"
+                            ]
+                          },
+                          "value": {
+                            "description": "Value linked to this condition",
+                            "type": "integer"
+                          }
+                        },
+                        "required": ["type", "value"]
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "type": {
+                            "description": "The type of this condition",
+                            "type": "string",
+                            "const": "maps"
+                          },
+                          "value": {
+                            "description": "List of maps allowing this condition",
+                            "type": "array",
+                            "items": {
+                              "type": "integer"
+                            }
+                          }
+                        },
+                        "required": ["type", "value"]
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "type": {
+                            "description": "The type of this condition",
+                            "type": "string",
+                            "const": "trade"
+                          },
+                          "value": {
+                            "description": "Value linked to this condition",
+                            "type": "boolean"
+                          }
+                        },
+                        "required": ["type", "value"]
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "type": {
+                            "description": "The type of this condition",
+                            "type": "string",
+                            "enum": [
+                              "stone",
+                              "itemHold",
+                              "func"
+                            ]
+                          },
+                          "value": {
+                            "description": "The function or item name linked to this condition",
+                            "type": "string"
+                          }
+                        },
+                        "required": ["type", "value"]
+                      }
+                    ]
+                  },
+                  "minItems": 1
+                }
+              }
+            }
+          },
+          "experienceType": {
+            "description": "ID of the experience curve of this form",
+            "type": "integer"
+          },
+          "baseExperience": {
+            "description": "Base amount of experience given by this form",
+            "type": "integer"
+          },
+          "baseLoyalty": {
+            "description": "Base loyalty amount of this form",
+            "type": "integer"
+          },
+          "catchRate": {
+            "description": "Catch rate of this form",
+            "type": "integer"
+          },
+          "femaleRate": {
+            "description": "Female rate of this form",
+            "type": "number"
+          },
+          "breedGroups": {
+            "description": "Breed groups of this form",
+            "type": "array",
+            "items": {
+              "type": "integer"
+            },
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "hatchSteps": {
+            "description": "How many steps the player must take to hatch an egg of this form",
+            "type": "integer"
+          },
+          "babyDbSymbol": {
+            "description": "dbSymbol of the Pokémon that will hatch from an egg produced by this form",
+            "type": "string"
+          },
+          "babyForm": {
+            "description": "form ID of the Pokémon that will hatch from an egg produced by this form",
+            "type": "integer"
+          },
+          "itemHeld": {
+            "description": "Items held by this form",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "dbSymbol": {
+                  "description": "dbSymbol of the item, or 'none'",
+                  "type": "string"
+                  
+                },
+                "chance": {
+                  "description": "Chance to hold this item",
+                  "type": "number"
+                }
+              }
+            },
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "abilities": {
+            "description": "Abilities this form can have",
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 3,
+            "maxItems": 3
+          },
+          "frontOffsetY": {
+            "description": "Vertical offset to apply to front sprites of this form",
+            "type": "integer"
+          },
+          "resources": {
+            "description": "Resources files' names of this form, without the extension except for the cry",
+            "type": "object",
+            "properties": {
+              "icon": {
+                "description": "Icon sprite file name of this form",
+                "type": "string"
+              },
+              "iconShiny": {
+                "description": "Shiny icon sprite file name of this form",
+                "type": "string"
+              },
+              "front": {
+                "description": "Front sprite file name of this form",
+                "type": "string"
+              },
+              "frontShiny": {
+                "description": "Shiny front sprite file name of this form",
+                "type": "string"
+              },
+              "back": {
+                "description": "Back sprite file name of this form",
+                "type": "string"
+              },
+              "backShiny": {
+                "description": "Shiny back sprite file name of this form",
+                "type": "string"
+              },
+              "character": {
+                "description": "Character sprite file name of this form",
+                "type": "string"
+              },
+              "characterShiny": {
+                "description": "Shiny character sprite file name of this form",
+                "type": "string"
+              },
+              "footprint": {
+                "description": "Footprint sprite file name of this form",
+                "type": "string"
+              },
+              "cry": {
+                "description": "Cry file name of this form",
+                "type": "string"
+              },
+              "hasFemale": {
+                "description": "Must this form use different sprites for females",
+                "type": "boolean"
+              }
+            },
+            "required": ["icon", "iconShiny", "front", "frontShiny", "back", "backShiny", "footprint", "character", "characterShiny", "cry", "hasFemale"]
+          },
+          "formTextId": {
+            "description": "IDs used to find this form's name and description in the corresponding CSV file",
+            "type": "object",
+            "properties": {
+              "name": {
+                "description": "ID of this form's name",
+                "type": "integer"
+                
+              },
+              "description": {
+                "description": "ID of this form's description",
+                "type": "integer"
+              }
+            }
+          },
+          "moveSet": {
+            "description": "List of moves this form can learn",
+            "type": "array",
+            "items": {
+              "anyOf": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "klass": {
+                      "description": "Learning method of this move",
+                      "type": "string",
+                      "const": "LevelLearnableMove"
+                    },
+                    "move": {
+                      "description": "dbSymbol of this move",
+                      "type": "string"
+                    },
+                    "level": {
+                      "description": "Level at which this move is learnt",
+                      "type": "integer"
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "klass": {
+                      "description": "Learning method of this move",
+                      "type": "string",
+                      "enum": ["TutorLearnableMove", "TechLearnableMove", "BreedLearnableMove", "EvolutionLearnableMove"]
+                    },
+                    "move": {
+                      "description": "dbSymbol of this move",
+                      "type": "string"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "required": [
+          "form",
+          "height",
+          "weight",
+          "type1",
+          "type2",
+          "baseHp",
+          "baseAtk",
+          "baseDfe",
+          "baseSpd",
+          "baseAts",
+          "baseDfs",
+          "evHp",
+          "evAtk",
+          "evDfe",
+          "evSpd",
+          "evAts",
+          "evDfs",
+          "evolutions",
+          "experienceType",
+          "baseExperience",
+          "baseLoyalty",
+          "catchRate",
+          "femaleRate",
+          "breedGroups",
+          "hatchSteps",
+          "babyDbSymbol",
+          "babyForm",
+          "itemHeld",
+          "abilities",
+          "frontOffsetY",
+          "resources",
+          "moveSet",
+          "formTextId"
+        ]
+      }
+    }
+  },
+  "required": ["klass", "dbSymbol", "id", "forms"]
+}
