@@ -69,14 +69,25 @@ This structure replicates exactly a Pokémon Studio project's structure so that 
 
 ## How to contribute
 
+### Setting up
+First thing you should do is to get yourself a copy of this repository on your computer if you did not already, depending on the permissions you have, there are two options:
+- If you have the necessary permissions (e.g. you have been given collaborator rights) you can directly clone the repository
+- If you don't have the necessary permissions, you can fork the repository, it will essentially "copy" it for yourself but with rights to create branches, make commits etc...
+
+Once you have a local copy of the repository, you will have to setup a Pokémon Studio project to ease your work, because working directly on the JSON files is possible, but definitely harder.
+- Create a new Pokémon Studio project and name it as you want
+- Go in your project's folder that was created and open the `Data/Studio` folder
+- Delete the `abilities`, `dex`, `items`, `moves`, `pokemon` and `types` folders
+- Go back to the root folder of your project and copy the `Data` folder of the generation you are working on (see next part) directly into it
+- You can now work on this generation files 
+
 ### Adding information to the datapacks
 If you want to contribute by adding missing information to the datapack you must go look at the [GitHub project](https://github.com/orgs/PokemonWorkshop/projects/2) and see which tasks need to be done. Once you decided which task you would like to do, you can ask a contributor in the [psdk-database](https://discord.com/channels/143824995867557888/701413380728029194) channel on discord to assign it to you.
 
 When that's done, here are the steps you should follow:
-- Clone or fork (depends on the permissions you have) the repository on your computer if you did not already.
 - Checkout the `gen-packs` branch, this is the default branch where all changes are gathered.
 - Create a new branch and name it accordingly to your task.
-- Do the task.
+- Do the task using the project you created (see previous part).
 - Create a Pull request to the `gen-packs` branch of this repository (don't forget to link the task to your request).
 
 Once the pull request is created, other contributors will verify it, eventually comment and ask to correct anything they think is an error, and finally merge the work when everything is ok.
