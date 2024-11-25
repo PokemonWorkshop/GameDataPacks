@@ -71,7 +71,7 @@ This structure replicates exactly a Pokémon Studio project's structure so that 
 ### Setting up
 First, download a copy of this repository on your computer if you have not already. Depending on the permissions you have, there are two options:
 - If you have the necessary permissions (e.g. you have been given collaborator rights) you can directly clone the repository
-- If you don't have the necessary permissions, you can fork the repository, it will create a sepataye "copy" for your own use, where you will have the rights to create branches, make commits, etc.
+- If you don't have the necessary permissions, you can fork the repository, it will create a separate "copy" for your own use, where you will have the rights to create branches, make commits, etc.
 
 Once you have a local copy of the repository on your computer, you will have to set up a new Pokémon Studio project. While working directly on the JSON files is possible, it is much harder.
 - Create a new Pokémon Studio project
