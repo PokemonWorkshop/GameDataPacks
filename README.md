@@ -15,7 +15,7 @@ A repository to store all game Data Packs for use with Pokémon Studio
 If you plan on using, modifying or doing anything related to Pokémon Studio. You must read and comply to the [license](https://github.com/PokemonWorkshop/PokemonStudio/blob/develop/LICENSE.md).
 
 ## Structure of the repository
-This repository is divided in 9 folders, each of them corresponds to Pokémon generation and is subdivided in as many folder as there are game version in this generations.
+This repository is divided in 9 folders, each of them corresponds to Pokémon generation and is subdivided in as many folder as there are game version in this generation.
 
 Each version folder is structured as follows:
 
