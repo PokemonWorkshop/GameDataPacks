@@ -22,7 +22,7 @@
   "isEffectChance": false,
   "isGravity": false,
   "isHeal": false,
-  "isKingRockUtility": false,
+  "isKingRockUtility": true,
   "isMagicCoatAffected": false,
   "isMental": false,
   "isMirrorMove": true,
@@ -33,16 +33,20 @@
   "isRecharge": false,
   "isSnatchable": false,
   "isSoundAttack": false,
+  "isSlicingAttack": false,
   "isUnfreeze": false,
+  "isWind": false,
   "battleEngineAimedTarget": "adjacent_pokemon",
   "battleStageMod": [
+    {
+      "battleStage": "ATS_STAGE",
+      "modificator": -1
+    },
     {
       "battleStage": "DFS_STAGE",
       "modificator": -1
     }
   ],
   "moveStatus": [],
-  "effectChance": 10,
-  "isSlicingAttack": false,
-  "isWind": false
+  "effectChance": 33
 }
