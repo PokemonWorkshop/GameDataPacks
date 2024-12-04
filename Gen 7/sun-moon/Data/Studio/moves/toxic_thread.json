@@ -35,8 +35,18 @@
   "isSoundAttack": false,
   "isUnfreeze": false,
   "battleEngineAimedTarget": "adjacent_pokemon",
-  "battleStageMod": [],
-  "moveStatus": [],
+  "battleStageMod": [
+    {
+      "battleStage": "SPD_STAGE",
+      "modificator": -1
+    }
+  ],
+  "moveStatus": [
+    {
+      "status": "POISONED",
+      "luckRate": 100
+    }
+  ],
   "effectChance": 0,
   "isSlicingAttack": false,
   "isWind": false
