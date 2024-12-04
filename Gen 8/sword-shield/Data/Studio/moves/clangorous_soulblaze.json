@@ -6,12 +6,12 @@
   "battleEngineMethod": "s_basic",
   "type": "dragon",
   "power": 185,
-  "accuracy": 100,
+  "accuracy": 0,
   "pp": 1,
   "category": "special",
   "movecriticalRate": 1,
   "priority": 0,
-  "isAuthentic": false,
+  "isAuthentic": true,
   "isBallistics": false,
   "isBite": false,
   "isBlocable": false,
@@ -28,16 +28,37 @@
   "isMirrorMove": false,
   "isNonSkyBattle": false,
   "isPowder": false,
-  "isPulse": true,
+  "isPulse": false,
   "isPunch": false,
   "isRecharge": false,
   "isSnatchable": false,
   "isSoundAttack": true,
   "isUnfreeze": false,
-  "battleEngineAimedTarget": "adjacent_pokemon",
-  "battleStageMod": [],
+  "battleEngineAimedTarget": "adjacent_all_foe",
+  "battleStageMod": [
+    {
+      "battleStage": "ATK_STAGE",
+      "modificator": 1
+    },
+    {
+      "battleStage": "DFE_STAGE",
+      "modificator": 1
+    },
+    {
+      "battleStage": "SPD_STAGE",
+      "modificator": 1
+    },
+    {
+      "battleStage": "ATS_STAGE",
+      "modificator": 1
+    },
+    {
+      "battleStage": "DFS_STAGE",
+      "modificator": 1
+    }
+  ],
   "moveStatus": [],
-  "effectChance": 0,
+  "effectChance": 100,
   "isSlicingAttack": false,
   "isWind": false
 }
