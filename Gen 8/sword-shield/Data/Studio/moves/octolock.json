@@ -3,7 +3,7 @@
   "id": 753,
   "dbSymbol": "octolock",
   "mapUse": 0,
-  "battleEngineMethod": "s_cantflee",
+  "battleEngineMethod": "s_octolock",
   "type": "fighting",
   "power": 0,
   "accuracy": 100,
@@ -34,19 +34,10 @@
   "isSnatchable": false,
   "isSoundAttack": false,
   "isUnfreeze": false,
-  "battleEngineAimedTarget": "any_other_pokemon",
-  "battleStageMod": [
-    {
-      "battleStage": "DFE_STAGE",
-      "modificator": -1
-    },
-    {
-      "battleStage": "DFS_STAGE",
-      "modificator": -1
-    }
-  ],
+  "battleEngineAimedTarget": "adjacent_pokemon",
+  "battleStageMod": [],
   "moveStatus": [],
-  "effectChance": 100,
+  "effectChance": 0,
   "isSlicingAttack": false,
   "isWind": false
 }
