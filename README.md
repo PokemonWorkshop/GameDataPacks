@@ -99,19 +99,57 @@ If you want to contribute by reviewing you can:
 
 ## Graphic resources credits
 
-TODO
-
 <details>
 <summary>Click to expand</summary>
 
-  ### Items
-  <details>
-  <summary>Collapse example</summary>
-  </details>
+## Original resource pack links
+- [Eevee Expo](https://eeveeexpo.com/resources/1101/)
+- [Pokecommunity (Mirror)](https://www.pokecommunity.com/threads/generation-9-resource-pack-v21-1.527398/)
+  
+## Pokemon Battler Sprites:
+- Gen 1-5 Pokemon Sprites - veekun
+- Gen 6 Pokemon Sprites - All Contributors To Smogon X/Y Sprite Project
+- Gen 7 Pokemon Sprites - All Contributors To Smogon Sun/Moon Sprite Project
+- Gen 8 Pokemon Sprites - All Contributors To Smogon Sword/Shield Sprite Project
+- PLA Pokemon Sprites - Smogon Sprite Project
+Blaquaza, KingOfThe-X-Roads, KattenK, Travis, G.E.Z., SpheX, Hematite, SelenaArmorclaw
+- Gen 9 Pokemon Sprites - KingOfThe-X-Roads, Mak, Caruban, jinxed, leParagon, Sopita_Yorita, Azria, Mashirosakura,
+JordanosArt, Abnayami, OldSoulja, Katten, Divaruta 666, Clara, Skyflyer, AshnixsLaw, ace_stryfe
 
-  ### Pokémon sprites
-  <details>
-  <summary>Collapse example</summary>
-  </details>
+## Pokemon Icon Sprites:
+- Gen 1-6 Pokemon Icon Sprites - Alaguesia, harveydentmd
+- Gen 7 Pokemon Icon Sprites - Marin, MapleBranchWing, Contributors to the DS Styled Gen 7+ Repository
+- Gen 8 Icon Sprites - Larry Turbo, Leparagon
+- Shiny Icon Sprites - StarrWolf, Pokemon Shattered Light Team
+- PLA Pokemon Icon Sprites - LuigiTKO
+- Gen 9 Icon Sprites - ezerart, JordanosArt
+
+## Pokemon Gen 9 Overworld sprites:
+- Gen 1-5 Pokemon Overworlds - MissingLukey, help-14, Kymoyonian, cSc-A7X, 2and2makes5, Pokegirl4ever, Fernandojl, Silver-Skies, TyranitarDark, Getsuei-H, Kid1513, Milomilotic11, Kyt666, kdiamo11, Chocosrawlooid, Syledude, Gallanty, Gizamimi-Pichu, 2and2makes5, Zyon17,LarryTurbo, spritesstealer, LarryTurbo
+- Gen 6 Pokemon Overworlds - princess-pheonix, LunarDusk, Wolfang62, TintjeMadelintje101, piphybuilder88
+- Gen 7 Pokemon Overworlds - Larry Turbo, princess-pheonix
+- Gen 8 Pokemon Overworlds - SageDeoxys, Wolfang62, LarryTurbo, tammyclaydon
+- PLA Pokemon Overworlds - Boonzeet, DarkusShadow, princess-phoenix, Ezeart, WolfPP
+- Gen 9 Pokemon Overworlds - Azria, DarkusShadow, EduarPokeN, Carmanekko, StarWolff, Caruban
+
+## Pokemon Cries:
+- Gen 1-6 Pokemon Cries - Rhyden
+- Gen 7 Pokemon Cries - Marin, Rhyden
+- Gen 8 Pokemon Cries - Zeak6464
+- PLA Pokemon Cries - Morningdew
+- Gen 9 Pokemon Cries -
+Edited from Lightblade Absol's Gen 9 Cries compilation video
+Edited from HeroLinik's Pokemon Scarlet and Violet - Walking Wake and Iron Leaves Cries video
+Edited from HeroLinik's Pokemon Scarlet and Violet - All Teal Mask Cries video
+
+## Item sprites:
+- Gen 9 item sprites - lichenprincess, Caruban, jinxed
+- PLA item sprites - AztecCroc, 3DJackArt, Caruban, lichenprincess
+
+## Compilation of Resources:
+- Gen 9 Pack - Caruban
+- Gen 8/9 Resized Sprites - http404error
+- Gen 8 Pack - Golisopod User, UberDunsparce
+- Resource renaming and sprites alignement for Studio - Aelysya
 
 </details>
