@@ -1,0 +1,262 @@
+{
+  "klass": "Specie",
+  "id": 543,
+  "dbSymbol": "venipede",
+  "forms": [
+    {
+      "form": 0,
+      "height": 0.4,
+      "weight": 5.3,
+      "type1": "bug",
+      "type2": "poison",
+      "baseHp": 30,
+      "baseAtk": 45,
+      "baseDfe": 59,
+      "baseSpd": 57,
+      "baseAts": 30,
+      "baseDfs": 39,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 1,
+      "evSpd": 0,
+      "evAts": 0,
+      "evDfs": 0,
+      "evolutions": [
+        {
+          "dbSymbol": "whirlipede",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "minLevel",
+              "value": 22
+            }
+          ]
+        }
+      ],
+      "experienceType": 3,
+      "baseExperience": 52,
+      "baseLoyalty": 50,
+      "catchRate": 255,
+      "femaleRate": 50,
+      "breedGroups": [
+        3,
+        3
+      ],
+      "hatchSteps": 2560,
+      "babyDbSymbol": "venipede",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "poison_point",
+        "swarm",
+        "speed_boost"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "0543",
+        "iconShiny": "0543s",
+        "front": "0543",
+        "frontShiny": "0543s",
+        "back": "0543",
+        "backShiny": "0543s",
+        "footprint": "0543",
+        "character": "0543",
+        "characterShiny": "0543s",
+        "cry": "0543.ogg",
+        "hasFemale": false
+      },
+      "moveSet": [
+        {
+          "move": "poison_sting",
+          "klass": "LevelLearnableMove",
+          "level": 1
+        },
+        {
+          "move": "defense_curl",
+          "klass": "LevelLearnableMove",
+          "level": 1
+        },
+        {
+          "move": "rollout",
+          "klass": "LevelLearnableMove",
+          "level": 4
+        },
+        {
+          "move": "protect",
+          "klass": "LevelLearnableMove",
+          "level": 8
+        },
+        {
+          "move": "poison_tail",
+          "klass": "LevelLearnableMove",
+          "level": 12
+        },
+        {
+          "move": "screech",
+          "klass": "LevelLearnableMove",
+          "level": 16
+        },
+        {
+          "move": "bug_bite",
+          "klass": "LevelLearnableMove",
+          "level": 20
+        },
+        {
+          "move": "venoshock",
+          "klass": "LevelLearnableMove",
+          "level": 24
+        },
+        {
+          "move": "take_down",
+          "klass": "LevelLearnableMove",
+          "level": 28
+        },
+        {
+          "move": "agility",
+          "klass": "LevelLearnableMove",
+          "level": 32
+        },
+        {
+          "move": "toxic",
+          "klass": "LevelLearnableMove",
+          "level": 36
+        },
+        {
+          "move": "venom_drench",
+          "klass": "LevelLearnableMove",
+          "level": 40
+        },
+        {
+          "move": "double_edge",
+          "klass": "LevelLearnableMove",
+          "level": 44
+        },
+        {
+          "move": "pin_missile",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "bite",
+          "klass": "BreedLearnableMove"
+        },
+        {
+          "move": "solar_beam",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "agility",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "screech",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "rest",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "substitute",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "snore",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "protect",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "sludge_bomb",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "spikes",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "endure",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "fury_cutter",
+          "klass": "BreedLearnableMove"
+        },
+        {
+          "move": "attract",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "sleep_talk",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "sunny_day",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "facade",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "iron_defense",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "gyro_ball",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "payback",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "toxic_spikes",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "poison_jab",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "venoshock",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "round",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "hex",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "venom_drench",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "steel_roller",
+          "klass": "TutorLearnableMove"
+        },
+        {
+          "move": "skitter_smack",
+          "klass": "TutorLearnableMove"
+        }
+      ],
+      "formTextId": {
+        "name": 709,
+        "description": 0
+      }
+    }
+  ]
+}

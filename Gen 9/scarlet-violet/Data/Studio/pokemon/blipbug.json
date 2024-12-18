@@ -1,0 +1,106 @@
+{
+  "klass": "Specie",
+  "id": 824,
+  "dbSymbol": "blipbug",
+  "forms": [
+    {
+      "form": 0,
+      "height": 0.4,
+      "weight": 8,
+      "type1": "bug",
+      "type2": "__undef__",
+      "baseHp": 25,
+      "baseAtk": 20,
+      "baseDfe": 20,
+      "baseSpd": 45,
+      "baseAts": 25,
+      "baseDfs": 45,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 0,
+      "evDfs": 1,
+      "evolutions": [
+        {
+          "dbSymbol": "dottler",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "minLevel",
+              "value": 10
+            }
+          ]
+        }
+      ],
+      "experienceType": 1,
+      "baseExperience": 36,
+      "baseLoyalty": 50,
+      "catchRate": 255,
+      "femaleRate": 50,
+      "breedGroups": [
+        3,
+        3
+      ],
+      "hatchSteps": 1920,
+      "babyDbSymbol": "blipbug",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "swarm",
+        "compound_eyes",
+        "telepathy"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "0824",
+        "iconShiny": "0824s",
+        "front": "0824",
+        "frontShiny": "0824s",
+        "back": "0824",
+        "backShiny": "0824s",
+        "footprint": "0824",
+        "character": "0824",
+        "characterShiny": "0824s",
+        "cry": "0824.ogg",
+        "hasFemale": false
+      },
+      "moveSet": [
+        {
+          "move": "struggle_bug",
+          "klass": "LevelLearnableMove",
+          "level": 1
+        },
+        {
+          "move": "supersonic",
+          "klass": "BreedLearnableMove"
+        },
+        {
+          "move": "recover",
+          "klass": "BreedLearnableMove"
+        },
+        {
+          "move": "sticky_web",
+          "klass": "BreedLearnableMove"
+        },
+        {
+          "move": "infestation",
+          "klass": "BreedLearnableMove"
+        }
+      ],
+      "formTextId": {
+        "name": 1112,
+        "description": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "klass": "Specie",
+  "id": 840,
+  "dbSymbol": "applin",
+  "forms": [
+    {
+      "form": 0,
+      "formTextId": {
+        "name": 1128,
+        "description": 0
+      },
+      "height": 0.2,
+      "weight": 0.5,
+      "type1": "grass",
+      "type2": "dragon",
+      "baseHp": 40,
+      "baseAtk": 40,
+      "baseDfe": 80,
+      "baseSpd": 20,
+      "baseAts": 40,
+      "baseDfs": 40,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 1,
+      "evSpd": 0,
+      "evAts": 0,
+      "evDfs": 0,
+      "evolutions": [
+        {
+          "dbSymbol": "flapple",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "stone",
+              "value": "tart_apple"
+            }
+          ]
+        },
+        {
+          "dbSymbol": "appletun",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "stone",
+              "value": "sweet_apple"
+            }
+          ]
+        },
+        {
+          "dbSymbol": "dipplin",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "stone",
+              "value": "syrupy_apple"
+            }
+          ]
+        }
+      ],
+      "experienceType": 4,
+      "baseExperience": 52,
+      "baseLoyalty": 50,
+      "catchRate": 255,
+      "femaleRate": 50,
+      "breedGroups": [
+        7,
+        14
+      ],
+      "hatchSteps": 2560,
+      "babyDbSymbol": "applin",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "ripen",
+        "gluttony",
+        "bulletproof"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "0840",
+        "iconShiny": "0840s",
+        "front": "0840",
+        "frontShiny": "0840s",
+        "back": "0840",
+        "backShiny": "0840s",
+        "footprint": "0840",
+        "character": "0840",
+        "characterShiny": "0840s",
+        "cry": "0840.ogg",
+        "hasFemale": false
+      },
+      "moveSet": [
+        {
+          "move": "withdraw",
+          "klass": "LevelLearnableMove",
+          "level": 1
+        },
+        {
+          "move": "astonish",
+          "klass": "LevelLearnableMove",
+          "level": 1
+        },
+        {
+          "move": "defense_curl",
+          "klass": "BreedLearnableMove"
+        },
+        {
+          "move": "rollout",
+          "klass": "BreedLearnableMove"
+        },
+        {
+          "move": "recycle",
+          "klass": "BreedLearnableMove"
+        },
+        {
+          "move": "sucker_punch",
+          "klass": "BreedLearnableMove"
+        },
+        {
+          "move": "tera_blast",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "pounce",
+          "klass": "TechLearnableMove"
+        }
+      ]
+    }
+  ]
+}

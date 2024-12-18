@@ -1,0 +1,167 @@
+{
+  "klass": "Specie",
+  "id": 872,
+  "dbSymbol": "snom",
+  "forms": [
+    {
+      "form": 0,
+      "formTextId": {
+        "name": 1165,
+        "description": 0
+      },
+      "height": 0.3,
+      "weight": 3.8,
+      "type1": "ice",
+      "type2": "bug",
+      "baseHp": 30,
+      "baseAtk": 25,
+      "baseDfe": 35,
+      "baseSpd": 20,
+      "baseAts": 45,
+      "baseDfs": 30,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 1,
+      "evDfs": 0,
+      "evolutions": [
+        {
+          "dbSymbol": "frosmoth",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "minLoyalty",
+              "value": 160
+            },
+            {
+              "type": "dayNight",
+              "value": 0
+            }
+          ]
+        }
+      ],
+      "experienceType": 1,
+      "baseExperience": 37,
+      "baseLoyalty": 50,
+      "catchRate": 190,
+      "femaleRate": 50,
+      "breedGroups": [
+        3,
+        3
+      ],
+      "hatchSteps": 2560,
+      "babyDbSymbol": "snom",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "shield_dust",
+        "shield_dust",
+        "ice_scales"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "0872",
+        "iconShiny": "0872s",
+        "front": "0872",
+        "frontShiny": "0872s",
+        "back": "0872",
+        "backShiny": "0872s",
+        "footprint": "0872",
+        "character": "0872",
+        "characterShiny": "0872s",
+        "cry": "0872.ogg",
+        "hasFemale": false
+      },
+      "moveSet": [
+        {
+          "move": "powder_snow",
+          "klass": "LevelLearnableMove",
+          "level": 1
+        },
+        {
+          "move": "struggle_bug",
+          "klass": "LevelLearnableMove",
+          "level": 1
+        },
+        {
+          "move": "rest",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "substitute",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "protect",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "icy_wind",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "sleep_talk",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "mirror_coat",
+          "klass": "BreedLearnableMove"
+        },
+        {
+          "move": "facade",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "icicle_spear",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "bug_buzz",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "bug_bite",
+          "klass": "BreedLearnableMove"
+        },
+        {
+          "move": "bug_bite",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "struggle_bug",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "fairy_wind",
+          "klass": "BreedLearnableMove"
+        },
+        {
+          "move": "lunge",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "skitter_smack",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "tera_blast",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "pounce",
+          "klass": "TechLearnableMove"
+        }
+      ]
+    }
+  ]
+}

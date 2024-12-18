@@ -1,0 +1,185 @@
+{
+  "klass": "Specie",
+  "id": 848,
+  "dbSymbol": "toxel",
+  "forms": [
+    {
+      "form": 0,
+      "formTextId": {
+        "name": 1138,
+        "description": 0
+      },
+      "height": 0.4,
+      "weight": 11,
+      "type1": "electric",
+      "type2": "poison",
+      "baseHp": 40,
+      "baseAtk": 38,
+      "baseDfe": 35,
+      "baseSpd": 40,
+      "baseAts": 54,
+      "baseDfs": 35,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 1,
+      "evDfs": 0,
+      "evolutions": [
+        {
+          "dbSymbol": "toxtricity",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "func",
+              "value": "elv_toxtricity_amped"
+            },
+            {
+              "type": "minLevel",
+              "value": 30
+            }
+          ]
+        },
+        {
+          "dbSymbol": "toxtricity",
+          "form": 1,
+          "conditions": [
+            {
+              "type": "func",
+              "value": "elv_toxtricity_low_key"
+            },
+            {
+              "type": "minLevel",
+              "value": 30
+            }
+          ]
+        }
+      ],
+      "experienceType": 3,
+      "baseExperience": 48,
+      "baseLoyalty": 50,
+      "catchRate": 75,
+      "femaleRate": 50,
+      "breedGroups": [
+        15,
+        15
+      ],
+      "hatchSteps": 3200,
+      "babyDbSymbol": "toxel",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "rattled",
+        "static",
+        "klutz"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "0848",
+        "iconShiny": "0848s",
+        "front": "0848",
+        "frontShiny": "0848s",
+        "back": "0848",
+        "backShiny": "0848s",
+        "footprint": "0848",
+        "character": "0848",
+        "characterShiny": "0848s",
+        "cry": "0848.ogg",
+        "hasFemale": false
+      },
+      "moveSet": [
+        {
+          "move": "growl",
+          "klass": "LevelLearnableMove",
+          "level": 1
+        },
+        {
+          "move": "acid",
+          "klass": "LevelLearnableMove",
+          "level": 1
+        },
+        {
+          "move": "flail",
+          "klass": "LevelLearnableMove",
+          "level": 1
+        },
+        {
+          "move": "belch",
+          "klass": "LevelLearnableMove",
+          "level": 1
+        },
+        {
+          "move": "nuzzle",
+          "klass": "LevelLearnableMove",
+          "level": 1
+        },
+        {
+          "move": "tearful_look",
+          "klass": "LevelLearnableMove",
+          "level": 1
+        },
+        {
+          "move": "rest",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "substitute",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "protect",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "endure",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "charm",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "sleep_talk",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "encore",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "facade",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "endeavor",
+          "klass": "BreedLearnableMove"
+        },
+        {
+          "move": "endeavor",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "metal_sound",
+          "klass": "BreedLearnableMove"
+        },
+        {
+          "move": "metal_sound",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "tera_blast",
+          "klass": "TechLearnableMove"
+        }
+      ]
+    }
+  ]
+}
