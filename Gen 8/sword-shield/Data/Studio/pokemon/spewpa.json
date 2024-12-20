@@ -35,14 +35,14 @@
       ],
       "experienceType": 1,
       "baseExperience": 75,
-      "baseLoyalty": 70,
+      "baseLoyalty": 50,
       "catchRate": 120,
       "femaleRate": 50,
       "breedGroups": [
         3,
         3
       ],
-      "hatchSteps": 3840,
+      "hatchSteps": 1920,
       "babyDbSymbol": "scatterbug",
       "babyForm": 0,
       "itemHeld": [
@@ -61,53 +61,53 @@
         "friend_guard"
       ],
       "frontOffsetY": 0,
-      "moveSet": [
-        {
-          "klass": "LevelLearnableMove",
-          "move": "harden",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "protect",
-          "level": 1
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "bug_bite"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "electroweb"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "iron_defense"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "protect"
-        },
-        {
-          "klass": "EvolutionLearnableMove",
-          "move": "protect"
-        }
-      ],
       "resources": {
-        "icon": "665",
-        "iconShiny": "",
-        "front": "665",
-        "frontShiny": "665",
-        "back": "665",
-        "backShiny": "665",
-        "footprint": "",
-        "character": "665_0",
-        "characterShiny": "665s_0",
-        "cry": "665cry.ogg",
+        "icon": "0665",
+        "iconShiny": "0665s",
+        "front": "0665",
+        "frontShiny": "0665s",
+        "back": "0665",
+        "backShiny": "0665s",
+        "footprint": "0665",
+        "character": "0665",
+        "characterShiny": "0665s",
+        "cry": "0665.ogg",
         "hasFemale": false
       },
+      "moveSet": [
+        {
+          "move": "harden",
+          "klass": "LevelLearnableMove",
+          "level": 1
+        },
+        {
+          "move": "protect",
+          "klass": "LevelLearnableMove",
+          "level": 1
+        },
+        {
+          "move": "protect",
+          "klass": "EvolutionLearnableMove"
+        },
+        {
+          "move": "protect",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "iron_defense",
+          "klass": "TutorLearnableMove"
+        },
+        {
+          "move": "bug_bite",
+          "klass": "TutorLearnableMove"
+        },
+        {
+          "move": "electroweb",
+          "klass": "TutorLearnableMove"
+        }
+      ],
       "formTextId": {
-        "name": 866,
+        "name": 842,
         "description": 0
       }
     }

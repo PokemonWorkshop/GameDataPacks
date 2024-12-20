@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 1143,
+        "description": 0
+      },
       "height": 0.3,
       "weight": 3.8,
       "type1": "ice",
@@ -28,7 +32,7 @@
           "conditions": [
             {
               "type": "minLoyalty",
-              "value": 220
+              "value": 160
             },
             {
               "type": "dayNight",
@@ -46,7 +50,7 @@
         3,
         3
       ],
-      "hatchSteps": 5120,
+      "hatchSteps": 2560,
       "babyDbSymbol": "snom",
       "babyForm": 0,
       "itemHeld": [
@@ -66,98 +70,94 @@
       ],
       "frontOffsetY": 0,
       "resources": {
-        "icon": "872",
-        "iconShiny": "",
-        "front": "872",
-        "frontShiny": "872",
-        "back": "872",
-        "backShiny": "872",
-        "footprint": "",
-        "character": "872_0",
-        "characterShiny": "872s_0",
-        "cry": "872cry.ogg",
+        "icon": "0872",
+        "iconShiny": "0872s",
+        "front": "0872",
+        "frontShiny": "0872s",
+        "back": "0872",
+        "backShiny": "0872s",
+        "footprint": "0872",
+        "character": "0872",
+        "characterShiny": "0872s",
+        "cry": "0872.ogg",
         "hasFemale": false
       },
       "moveSet": [
         {
-          "klass": "LevelLearnableMove",
           "move": "powder_snow",
-          "level": 1
-        },
-        {
           "klass": "LevelLearnableMove",
-          "move": "struggle_bug",
           "level": 1
         },
         {
-          "klass": "TutorLearnableMove",
-          "move": "skitter_smack"
+          "move": "struggle_bug",
+          "klass": "LevelLearnableMove",
+          "level": 1
         },
         {
-          "klass": "BreedLearnableMove",
-          "move": "fairy_wind"
+          "move": "rest",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "BreedLearnableMove",
-          "move": "mirror_coat"
+          "move": "substitute",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "BreedLearnableMove",
-          "move": "bug_bite"
+          "move": "snore",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "rest"
+          "move": "protect",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "snore"
+          "move": "icy_wind",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "protect"
+          "move": "endure",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "icy_wind"
+          "move": "attract",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "attract"
+          "move": "sleep_talk",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "facade"
+          "move": "mirror_coat",
+          "klass": "BreedLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "icicle_spear"
+          "move": "facade",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "round"
+          "move": "icicle_spear",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "substitute"
+          "move": "bug_buzz",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "endure"
+          "move": "bug_bite",
+          "klass": "BreedLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "sleep_talk"
+          "move": "round",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "bug_buzz"
+          "move": "fairy_wind",
+          "klass": "BreedLearnableMove"
+        },
+        {
+          "move": "skitter_smack",
+          "klass": "TutorLearnableMove"
         }
-      ],
-      "formTextId": {
-        "name": 1429,
-        "description": 0
-      }
+      ]
     }
   ]
 }

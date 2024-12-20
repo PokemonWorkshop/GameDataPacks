@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 1116,
+        "description": 0
+      },
       "height": 0.4,
       "weight": 11,
       "type1": "electric",
@@ -29,6 +33,10 @@
             {
               "type": "func",
               "value": "elv_toxtricity_amped"
+            },
+            {
+              "type": "minLevel",
+              "value": 30
             }
           ]
         },
@@ -39,6 +47,10 @@
             {
               "type": "func",
               "value": "elv_toxtricity_low_key"
+            },
+            {
+              "type": "minLevel",
+              "value": 30
             }
           ]
         }
@@ -52,7 +64,7 @@
         15,
         15
       ],
-      "hatchSteps": 6400,
+      "hatchSteps": 3200,
       "babyDbSymbol": "toxel",
       "babyForm": 0,
       "itemHeld": [
@@ -72,106 +84,102 @@
       ],
       "frontOffsetY": 0,
       "resources": {
-        "icon": "848",
-        "iconShiny": "",
-        "front": "848",
-        "frontShiny": "848",
-        "back": "848",
-        "backShiny": "848",
-        "footprint": "",
-        "character": "848_0",
-        "characterShiny": "848s_0",
-        "cry": "848cry.ogg",
+        "icon": "0848",
+        "iconShiny": "0848s",
+        "front": "0848",
+        "frontShiny": "0848s",
+        "back": "0848",
+        "backShiny": "0848s",
+        "footprint": "0848",
+        "character": "0848",
+        "characterShiny": "0848s",
+        "cry": "0848.ogg",
         "hasFemale": false
       },
       "moveSet": [
         {
-          "klass": "LevelLearnableMove",
-          "move": "belch",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "tearful_look",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "nuzzle",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "growl",
+          "klass": "LevelLearnableMove",
           "level": 1
         },
         {
-          "klass": "LevelLearnableMove",
-          "move": "flail",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "acid",
+          "klass": "LevelLearnableMove",
           "level": 1
         },
         {
-          "klass": "BreedLearnableMove",
-          "move": "endeavor"
+          "move": "flail",
+          "klass": "LevelLearnableMove",
+          "level": 1
         },
         {
-          "klass": "BreedLearnableMove",
-          "move": "metal_sound"
+          "move": "belch",
+          "klass": "LevelLearnableMove",
+          "level": 1
         },
         {
-          "klass": "BreedLearnableMove",
-          "move": "power_up_punch"
+          "move": "nuzzle",
+          "klass": "LevelLearnableMove",
+          "level": 1
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "rest"
+          "move": "tearful_look",
+          "klass": "LevelLearnableMove",
+          "level": 1
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "snore"
+          "move": "rest",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "protect"
+          "move": "substitute",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "attract"
+          "move": "snore",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "facade"
+          "move": "protect",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "round"
+          "move": "endure",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "substitute"
+          "move": "attract",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "endure"
+          "move": "sleep_talk",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "sleep_talk"
+          "move": "encore",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "encore"
+          "move": "facade",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "endeavor",
+          "klass": "BreedLearnableMove"
+        },
+        {
+          "move": "metal_sound",
+          "klass": "BreedLearnableMove"
+        },
+        {
+          "move": "round",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "power_up_punch",
+          "klass": "BreedLearnableMove"
         }
-      ],
-      "formTextId": {
-        "name": 1461,
-        "description": 0
-      }
+      ]
     }
   ]
 }

@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 1106,
+        "description": 0
+      },
       "height": 0.2,
       "weight": 0.5,
       "type1": "grass",
@@ -52,7 +56,7 @@
         7,
         14
       ],
-      "hatchSteps": 5120,
+      "hatchSteps": 2560,
       "babyDbSymbol": "applin",
       "babyForm": 0,
       "itemHeld": [
@@ -72,62 +76,58 @@
       ],
       "frontOffsetY": 0,
       "resources": {
-        "icon": "840",
-        "iconShiny": "",
-        "front": "840",
-        "frontShiny": "840",
-        "back": "840",
-        "backShiny": "840",
-        "footprint": "",
-        "character": "840_0",
-        "characterShiny": "840s_0",
-        "cry": "840cry.ogg",
+        "icon": "0840",
+        "iconShiny": "0840s",
+        "front": "0840",
+        "frontShiny": "0840s",
+        "back": "0840",
+        "backShiny": "0840s",
+        "footprint": "0840",
+        "character": "0840",
+        "characterShiny": "0840s",
+        "cry": "0840.ogg",
         "hasFemale": false
       },
       "moveSet": [
         {
-          "klass": "LevelLearnableMove",
           "move": "withdraw",
-          "level": 1
-        },
-        {
           "klass": "LevelLearnableMove",
-          "move": "astonish",
           "level": 1
         },
         {
-          "klass": "TutorLearnableMove",
-          "move": "draco_meteor"
+          "move": "astonish",
+          "klass": "LevelLearnableMove",
+          "level": 1
         },
         {
-          "klass": "TutorLearnableMove",
-          "move": "grassy_glide"
+          "move": "defense_curl",
+          "klass": "BreedLearnableMove"
         },
         {
-          "klass": "BreedLearnableMove",
-          "move": "defense_curl"
+          "move": "rollout",
+          "klass": "BreedLearnableMove"
         },
         {
-          "klass": "BreedLearnableMove",
-          "move": "recycle"
+          "move": "attract",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "BreedLearnableMove",
-          "move": "rollout"
+          "move": "recycle",
+          "klass": "BreedLearnableMove"
         },
         {
-          "klass": "BreedLearnableMove",
-          "move": "sucker_punch"
+          "move": "sucker_punch",
+          "klass": "BreedLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "attract"
+          "move": "draco_meteor",
+          "klass": "TutorLearnableMove"
+        },
+        {
+          "move": "grassy_glide",
+          "klass": "TutorLearnableMove"
         }
-      ],
-      "formTextId": {
-        "name": 1166,
-        "description": 0
-      }
+      ]
     }
   ]
 }

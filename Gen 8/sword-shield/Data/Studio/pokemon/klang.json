@@ -35,206 +35,215 @@
       ],
       "experienceType": 3,
       "baseExperience": 154,
-      "baseLoyalty": 70,
+      "baseLoyalty": 50,
       "catchRate": 60,
       "femaleRate": -1,
       "breedGroups": [
         10,
         10
       ],
-      "hatchSteps": 5120,
+      "hatchSteps": 2560,
       "babyDbSymbol": "klink",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "plus",
         "minus",
         "clear_body"
       ],
-      "frontOffsetY": 19,
+      "frontOffsetY": 0,
       "resources": {
-        "icon": "600",
-        "iconShiny": "",
-        "front": "600",
-        "frontShiny": "600",
-        "back": "600",
-        "backShiny": "600",
-        "footprint": "600",
-        "character": "600_0",
-        "characterShiny": "600s_0",
-        "cry": "600cry.ogg",
+        "icon": "0600",
+        "iconShiny": "0600s",
+        "front": "0600",
+        "frontShiny": "0600s",
+        "back": "0600",
+        "backShiny": "0600s",
+        "footprint": "0600",
+        "character": "0600",
+        "characterShiny": "0600s",
+        "cry": "0600.ogg",
         "hasFemale": false
       },
       "moveSet": [
         {
+          "move": "vice_grip",
           "klass": "LevelLearnableMove",
-          "move": "vise_grip",
           "level": 1
         },
         {
-          "klass": "LevelLearnableMove",
-          "move": "thunder_shock",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "bind",
+          "klass": "LevelLearnableMove",
           "level": 1
         },
         {
+          "move": "thunder_shock",
           "klass": "LevelLearnableMove",
+          "level": 1
+        },
+        {
           "move": "charge",
+          "klass": "LevelLearnableMove",
           "level": 1
         },
         {
-          "klass": "LevelLearnableMove",
           "move": "charge_beam",
+          "klass": "LevelLearnableMove",
           "level": 12
         },
         {
-          "klass": "LevelLearnableMove",
           "move": "metal_sound",
+          "klass": "LevelLearnableMove",
           "level": 16
         },
         {
-          "klass": "LevelLearnableMove",
           "move": "autotomize",
+          "klass": "LevelLearnableMove",
           "level": 20
         },
         {
-          "klass": "LevelLearnableMove",
           "move": "discharge",
+          "klass": "LevelLearnableMove",
           "level": 24
         },
         {
-          "klass": "LevelLearnableMove",
           "move": "screech",
+          "klass": "LevelLearnableMove",
           "level": 28
         },
         {
-          "klass": "LevelLearnableMove",
           "move": "gear_grind",
+          "klass": "LevelLearnableMove",
           "level": 32
         },
         {
-          "klass": "LevelLearnableMove",
           "move": "lock_on",
+          "klass": "LevelLearnableMove",
           "level": 36
         },
         {
-          "klass": "LevelLearnableMove",
           "move": "shift_gear",
+          "klass": "LevelLearnableMove",
           "level": 42
         },
         {
-          "klass": "LevelLearnableMove",
           "move": "zap_cannon",
+          "klass": "LevelLearnableMove",
           "level": 48
         },
         {
-          "klass": "LevelLearnableMove",
           "move": "hyper_beam",
+          "klass": "LevelLearnableMove",
           "level": 54
         },
         {
-          "klass": "TutorLearnableMove",
-          "move": "rising_voltage"
+          "move": "hyper_beam",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TutorLearnableMove",
-          "move": "steel_roller"
+          "move": "thunderbolt",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TutorLearnableMove",
-          "move": "steel_beam"
+          "move": "thunder_wave",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "hyper_beam"
+          "move": "screech",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "thunder_wave"
+          "move": "rest",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "screech"
+          "move": "substitute",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "rest"
+          "move": "snore",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "snore"
+          "move": "protect",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "protect"
+          "move": "sandstorm",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "sandstorm"
+          "move": "endure",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "facade"
+          "move": "sleep_talk",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "assurance"
+          "move": "uproar",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "round"
+          "move": "facade",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "volt_switch"
+          "move": "iron_defense",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "thunderbolt"
+          "move": "assurance",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "substitute"
+          "move": "power_gem",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "endure"
+          "move": "flash_cannon",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "sleep_talk"
+          "move": "round",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "uproar"
+          "move": "ally_switch",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "iron_defense"
+          "move": "volt_switch",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "power_gem"
+          "move": "wild_charge",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "flash_cannon"
+          "move": "steel_beam",
+          "klass": "TutorLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "wild_charge"
+          "move": "steel_roller",
+          "klass": "TutorLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "ally_switch"
+          "move": "rising_voltage",
+          "klass": "TutorLearnableMove"
         }
       ],
       "formTextId": {
-        "name": 451,
+        "name": 764,
         "description": 0
       }
     }

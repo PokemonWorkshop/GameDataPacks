@@ -35,14 +35,14 @@
       ],
       "experienceType": 1,
       "baseExperience": 72,
-      "baseLoyalty": 70,
+      "baseLoyalty": 50,
       "catchRate": 120,
       "femaleRate": 50,
       "breedGroups": [
         3,
         3
       ],
-      "hatchSteps": 3840,
+      "hatchSteps": 1920,
       "babyDbSymbol": "caterpie",
       "babyForm": 0,
       "itemHeld": [
@@ -60,41 +60,41 @@
         "shed_skin",
         "shed_skin"
       ],
-      "frontOffsetY": 29,
+      "frontOffsetY": 0,
       "resources": {
-        "icon": "011",
-        "iconShiny": "",
-        "front": "011",
-        "frontShiny": "011",
-        "back": "011",
-        "backShiny": "011",
-        "footprint": "011",
-        "character": "011_0",
-        "characterShiny": "011s_0",
-        "cry": "011cry.ogg",
+        "icon": "0011",
+        "iconShiny": "0011s",
+        "front": "0011",
+        "frontShiny": "0011s",
+        "back": "0011",
+        "backShiny": "0011s",
+        "footprint": "0011",
+        "character": "0011",
+        "characterShiny": "0011s",
+        "cry": "0011.ogg",
         "hasFemale": false
       },
       "moveSet": [
         {
-          "klass": "LevelLearnableMove",
           "move": "harden",
+          "klass": "LevelLearnableMove",
           "level": 1
         },
         {
-          "klass": "EvolutionLearnableMove",
-          "move": "harden"
+          "move": "harden",
+          "klass": "EvolutionLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "electroweb"
+          "move": "iron_defense",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "iron_defense"
+          "move": "electroweb",
+          "klass": "TechLearnableMove"
         }
       ],
       "formTextId": {
-        "name": 562,
+        "name": 14,
         "description": 0
       }
     }

@@ -21,18 +21,7 @@
       "evSpd": 0,
       "evAts": 0,
       "evDfs": 0,
-      "evolutions": [
-        {
-          "form": 0,
-          "conditions": [
-            {
-              "type": "func",
-              "value": "void"
-            }
-          ],
-          "dbSymbol": "melmetal"
-        }
-      ],
+      "evolutions": [],
       "experienceType": 2,
       "baseExperience": 135,
       "baseLoyalty": 0,
@@ -42,8 +31,8 @@
         15,
         15
       ],
-      "hatchSteps": 30720,
-      "babyDbSymbol": "__undef__",
+      "hatchSteps": 15360,
+      "babyDbSymbol": "meltan",
       "babyForm": 0,
       "itemHeld": [
         {
@@ -60,115 +49,115 @@
         "magnet_pull",
         "magnet_pull"
       ],
-      "frontOffsetY": 28,
+      "frontOffsetY": 0,
       "resources": {
-        "icon": "808",
-        "iconShiny": "",
-        "front": "808",
-        "frontShiny": "808",
-        "back": "808",
-        "backShiny": "808",
-        "footprint": "",
-        "character": "808_0",
-        "characterShiny": "808s_0",
-        "cry": "808cry.ogg",
+        "icon": "0808",
+        "iconShiny": "0808s",
+        "front": "0808",
+        "frontShiny": "0808s",
+        "back": "0808",
+        "backShiny": "0808s",
+        "footprint": "0808",
+        "character": "0808",
+        "characterShiny": "0808s",
+        "cry": "0808.ogg",
         "hasFemale": false
       },
       "moveSet": [
         {
-          "klass": "LevelLearnableMove",
-          "move": "harden",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "thunder_shock",
+          "klass": "LevelLearnableMove",
           "level": 1
         },
         {
+          "move": "harden",
           "klass": "LevelLearnableMove",
+          "level": 1
+        },
+        {
           "move": "tail_whip",
+          "klass": "LevelLearnableMove",
           "level": 8
         },
         {
-          "klass": "LevelLearnableMove",
           "move": "headbutt",
+          "klass": "LevelLearnableMove",
           "level": 16
         },
         {
-          "klass": "LevelLearnableMove",
           "move": "thunder_wave",
+          "klass": "LevelLearnableMove",
           "level": 24
         },
         {
-          "klass": "LevelLearnableMove",
           "move": "acid_armor",
+          "klass": "LevelLearnableMove",
           "level": 32
         },
         {
-          "klass": "LevelLearnableMove",
           "move": "flash_cannon",
+          "klass": "LevelLearnableMove",
           "level": 40
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "protect"
+          "move": "thunderbolt",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "thunderbolt"
+          "move": "thunder_wave",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "facade"
+          "move": "rest",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "rest"
+          "move": "substitute",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "round"
+          "move": "snore",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "thunder_wave"
+          "move": "protect",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "gyro_ball"
+          "move": "endure",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "substitute"
+          "move": "sleep_talk",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "flash_cannon"
+          "move": "facade",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TutorLearnableMove",
-          "move": "steel_beam"
+          "move": "iron_defense",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "snore"
+          "move": "gyro_ball",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "endure"
+          "move": "flash_cannon",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "sleep_talk"
+          "move": "round",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "iron_defense"
+          "move": "steel_beam",
+          "klass": "TutorLearnableMove"
         }
       ],
       "formTextId": {
-        "name": 553,
+        "name": 1074,
         "description": 0
       }
     }

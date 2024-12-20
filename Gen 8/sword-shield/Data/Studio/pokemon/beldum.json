@@ -42,54 +42,63 @@
         10,
         10
       ],
-      "hatchSteps": 10240,
+      "hatchSteps": 5120,
       "babyDbSymbol": "beldum",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "clear_body",
         "clear_body",
         "light_metal"
       ],
-      "frontOffsetY": 27,
+      "frontOffsetY": 0,
       "resources": {
-        "icon": "374",
-        "iconShiny": "",
-        "front": "374",
-        "frontShiny": "374",
-        "back": "374",
-        "backShiny": "374",
-        "footprint": "374",
-        "character": "374_0",
-        "characterShiny": "374s_0",
-        "cry": "374cry.ogg",
+        "icon": "0374",
+        "iconShiny": "0374s",
+        "front": "0374",
+        "frontShiny": "0374s",
+        "back": "0374",
+        "backShiny": "0374s",
+        "footprint": "0374",
+        "character": "0374",
+        "characterShiny": "0374s",
+        "cry": "0374.ogg",
         "hasFemale": false
       },
       "moveSet": [
         {
-          "klass": "LevelLearnableMove",
           "move": "tackle",
+          "klass": "LevelLearnableMove",
           "level": 1
         },
         {
-          "klass": "TutorLearnableMove",
-          "move": "steel_beam"
+          "move": "iron_defense",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "iron_defense"
+          "move": "zen_headbutt",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "zen_headbutt"
+          "move": "iron_head",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "iron_head"
+          "move": "steel_beam",
+          "klass": "TutorLearnableMove"
         }
       ],
       "formTextId": {
-        "name": 76,
+        "name": 480,
         "description": 0
       }
     }
