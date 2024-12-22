@@ -31,36 +31,49 @@
         13,
         13
       ],
-      "hatchSteps": 5120,
+      "hatchSteps": 5160,
       "babyDbSymbol": "ditto",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "limber",
         "limber",
         "imposter"
       ],
-      "frontOffsetY": 33,
+      "frontOffsetY": 0,
       "resources": {
-        "icon": "132",
-        "iconShiny": "",
-        "front": "132",
-        "frontShiny": "132",
-        "back": "132",
-        "backShiny": "132",
-        "footprint": "132",
-        "character": "132_0",
-        "characterShiny": "132s_0",
-        "cry": "132cry.ogg",
+        "icon": "0132",
+        "iconShiny": "0132s",
+        "front": "0132",
+        "frontShiny": "0132s",
+        "back": "0132",
+        "backShiny": "0132s",
+        "footprint": "0132",
+        "character": "0132",
+        "characterShiny": "0132s",
+        "cry": "0132.ogg",
         "hasFemale": false
       },
       "moveSet": [
         {
+          "move": "transform",
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "transform"
+          "level": 1
         }
-      ]
+      ],
+      "formTextId": {
+        "name": 147,
+        "description": 0
+      }
     }
   ]
 }

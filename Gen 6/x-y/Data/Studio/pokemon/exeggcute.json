@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 114,
+        "description": 0
+      },
       "height": 0.4,
       "weight": 2.5,
       "type1": "grass",
@@ -23,14 +27,14 @@
       "evDfs": 0,
       "evolutions": [
         {
+          "dbSymbol": "exeggutor",
+          "form": 0,
           "conditions": [
             {
               "type": "stone",
               "value": "leaf_stone"
             }
-          ],
-          "dbSymbol": "exeggutor",
-          "form": 0
+          ]
         }
       ],
       "experienceType": 2,
@@ -42,7 +46,7 @@
         7,
         7
       ],
-      "hatchSteps": 5120,
+      "hatchSteps": 5160,
       "babyDbSymbol": "exeggcute",
       "babyForm": 0,
       "itemHeld": [
@@ -60,993 +64,279 @@
         "chlorophyll",
         "harvest"
       ],
-      "frontOffsetY": 30,
-      "resources": {
-        "icon": "102",
-        "iconShiny": "",
-        "front": "102",
-        "frontShiny": "102",
-        "back": "102",
-        "backShiny": "102",
-        "footprint": "102",
-        "character": "102_0",
-        "characterShiny": "102s_0",
-        "cry": "102cry.ogg",
-        "hasFemale": false
-      },
-      "moveSet": [
-        {
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "barrage"
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "uproar"
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "hypnosis"
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "level": 7,
-          "move": "reflect"
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "level": 11,
-          "move": "leech_seed"
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "level": 17,
-          "move": "bullet_seed"
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "level": 19,
-          "move": "stun_spore"
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "level": 21,
-          "move": "poison_powder"
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "level": 23,
-          "move": "sleep_powder"
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "level": 27,
-          "move": "confusion"
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "level": 33,
-          "move": "worry_seed"
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "level": 37,
-          "move": "natural_gift"
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "level": 43,
-          "move": "solar_beam"
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "level": 47,
-          "move": "extrasensory"
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "level": 50,
-          "move": "bestow"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "snore"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "giga_drain"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "synthesis"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "uproar"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "skill_swap"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "block"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "gravity"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "worry_seed"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "seed_bomb"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "swords_dance"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "strength"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "solar_beam"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "toxic"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "psychic"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "double_team"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "light_screen"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "reflect"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "dream_eater"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "flash"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "explosion"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "rest"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "substitute"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "thief"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "protect"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "sludge_bomb"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "swagger"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "attract"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "sleep_talk"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "return"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "frustration"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "hidden_power"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "sunny_day"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "psych_up"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "facade"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "nature_power"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "secret_power"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "energy_ball"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "trick_room"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "grass_knot"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "round"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "confide"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "infestation"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "curse"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "giga_drain"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "synthesis"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "moonlight"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "ancient_power"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "nature_power"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "ingrain"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "skill_swap"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "block"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "natural_gift"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "lucky_chant"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "power_swap"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "leaf_storm"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "grassy_terrain"
-        }
-      ]
-    },
-    {
-      "form": 1,
-      "height": 0.4,
-      "weight": 2.5,
-      "type1": "grass",
-      "type2": "psychic",
-      "baseHp": 60,
-      "baseAtk": 40,
-      "baseDfe": 80,
-      "baseSpd": 40,
-      "baseAts": 60,
-      "baseDfs": 45,
-      "evHp": 0,
-      "evAtk": 0,
-      "evDfe": 1,
-      "evSpd": 0,
-      "evAts": 0,
-      "evDfs": 0,
-      "evolutions": [
-        {
-          "conditions": [
-            {
-              "type": "stone",
-              "value": "leaf_stone"
-            }
-          ],
-          "dbSymbol": "exeggutor",
-          "form": 1
-        }
-      ],
-      "experienceType": 2,
-      "baseExperience": 98,
-      "baseLoyalty": 70,
-      "catchRate": 90,
-      "femaleRate": 50,
-      "breedGroups": [
-        7,
-        7
-      ],
-      "hatchSteps": 5120,
-      "babyDbSymbol": "exeggcute",
-      "babyForm": 1,
-      "itemHeld": [
-        {
-          "dbSymbol": "none",
-          "chance": 0
-        },
-        {
-          "dbSymbol": "none",
-          "chance": 0
-        }
-      ],
-      "abilities": [
-        "chlorophyll",
-        "chlorophyll",
-        "harvest"
-      ],
       "frontOffsetY": 0,
       "resources": {
-        "icon": "102",
-        "iconShiny": "",
-        "front": "102",
-        "frontShiny": "102",
-        "back": "102",
-        "backShiny": "102",
-        "footprint": "102",
-        "character": "",
-        "characterShiny": "",
-        "cry": "102cry.ogg",
+        "icon": "0102",
+        "iconShiny": "0102s",
+        "front": "0102",
+        "frontShiny": "0102s",
+        "back": "0102",
+        "backShiny": "0102s",
+        "footprint": "0102",
+        "character": "0102",
+        "characterShiny": "0102s",
+        "cry": "0102.ogg",
         "hasFemale": false
       },
       "moveSet": [
         {
+          "move": "hypnosis",
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "uproar"
+          "level": 1
         },
         {
+          "move": "barrage",
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "hypnosis"
+          "level": 1
         },
         {
+          "move": "uproar",
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "barrage"
+          "level": 1
         },
         {
+          "move": "reflect",
           "klass": "LevelLearnableMove",
-          "level": 7,
-          "move": "reflect"
+          "level": 7
         },
         {
+          "move": "leech_seed",
           "klass": "LevelLearnableMove",
-          "level": 11,
-          "move": "leech_seed"
+          "level": 11
         },
         {
+          "move": "bullet_seed",
           "klass": "LevelLearnableMove",
-          "level": 17,
-          "move": "bullet_seed"
+          "level": 17
         },
         {
+          "move": "stun_spore",
           "klass": "LevelLearnableMove",
-          "level": 19,
-          "move": "stun_spore"
+          "level": 19
         },
         {
+          "move": "poison_powder",
           "klass": "LevelLearnableMove",
-          "level": 21,
-          "move": "poison_powder"
+          "level": 21
         },
         {
+          "move": "sleep_powder",
           "klass": "LevelLearnableMove",
-          "level": 23,
-          "move": "sleep_powder"
+          "level": 23
         },
         {
+          "move": "confusion",
           "klass": "LevelLearnableMove",
-          "level": 27,
-          "move": "confusion"
+          "level": 27
         },
         {
+          "move": "worry_seed",
           "klass": "LevelLearnableMove",
-          "level": 33,
-          "move": "worry_seed"
+          "level": 33
         },
         {
+          "move": "natural_gift",
           "klass": "LevelLearnableMove",
-          "level": 37,
-          "move": "natural_gift"
+          "level": 37
         },
         {
+          "move": "solar_beam",
           "klass": "LevelLearnableMove",
-          "level": 43,
-          "move": "solar_beam"
+          "level": 43
         },
         {
+          "move": "extrasensory",
           "klass": "LevelLearnableMove",
-          "level": 47,
-          "move": "extrasensory"
+          "level": 47
         },
         {
+          "move": "bestow",
           "klass": "LevelLearnableMove",
-          "level": 50,
-          "move": "bestow"
+          "level": 50
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "toxic"
+          "move": "swords_dance",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "hidden_power"
+          "move": "strength",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "sunny_day"
+          "move": "solar_beam",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "light_screen"
+          "move": "toxic",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "protect"
+          "move": "psychic",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "frustration"
+          "move": "double_team",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "solar_beam"
+          "move": "light_screen",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "return"
+          "move": "reflect",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "psychic"
+          "move": "dream_eater",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "double_team"
+          "move": "flash",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "reflect"
+          "move": "explosion",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "sludge_bomb"
+          "move": "rest",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "facade"
+          "move": "substitute",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "rest"
+          "move": "thief",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "attract"
+          "move": "curse",
+          "klass": "BreedLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "thief"
+          "move": "protect",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "round"
+          "move": "sludge_bomb",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "energy_ball"
+          "move": "giga_drain",
+          "klass": "BreedLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "explosion"
+          "move": "swagger",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "flash"
+          "move": "attract",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "swords_dance"
+          "move": "sleep_talk",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "psych_up"
+          "move": "return",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "infestation"
+          "move": "frustration",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "dream_eater"
+          "move": "synthesis",
+          "klass": "BreedLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "grass_knot"
+          "move": "moonlight",
+          "klass": "BreedLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "swagger"
+          "move": "hidden_power",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "sleep_talk"
+          "move": "sunny_day",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "substitute"
+          "move": "psych_up",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "trick_room"
+          "move": "ancient_power",
+          "klass": "BreedLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "secret_power"
+          "move": "facade",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "nature_power"
+          "move": "nature_power",
+          "klass": "BreedLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "confide"
+          "move": "nature_power",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "strength"
+          "move": "ingrain",
+          "klass": "BreedLearnableMove"
         },
         {
-          "klass": "BreedLearnableMove",
-          "move": "lucky_chant"
+          "move": "skill_swap",
+          "klass": "BreedLearnableMove"
         },
         {
-          "klass": "BreedLearnableMove",
-          "move": "block"
+          "move": "block",
+          "klass": "BreedLearnableMove"
         },
         {
-          "klass": "BreedLearnableMove",
-          "move": "grassy_terrain"
+          "move": "natural_gift",
+          "klass": "BreedLearnableMove"
         },
         {
-          "klass": "BreedLearnableMove",
-          "move": "natural_gift"
+          "move": "lucky_chant",
+          "klass": "BreedLearnableMove"
         },
         {
-          "klass": "BreedLearnableMove",
-          "move": "skill_swap"
+          "move": "power_swap",
+          "klass": "BreedLearnableMove"
         },
         {
-          "klass": "BreedLearnableMove",
-          "move": "nature_power"
+          "move": "energy_ball",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "BreedLearnableMove",
-          "move": "giga_drain"
+          "move": "trick_room",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "BreedLearnableMove",
-          "move": "curse"
+          "move": "leaf_storm",
+          "klass": "BreedLearnableMove"
         },
         {
-          "klass": "BreedLearnableMove",
-          "move": "power_swap"
+          "move": "grass_knot",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "BreedLearnableMove",
-          "move": "ancient_power"
+          "move": "round",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "BreedLearnableMove",
-          "move": "ingrain"
+          "move": "grassy_terrain",
+          "klass": "BreedLearnableMove"
         },
         {
-          "klass": "BreedLearnableMove",
-          "move": "moonlight"
+          "move": "confide",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "BreedLearnableMove",
-          "move": "synthesis"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "leaf_storm"
-        }
-      ]
-    },
-    {
-      "form": 2,
-      "height": 0.4,
-      "weight": 2.5,
-      "type1": "grass",
-      "type2": "psychic",
-      "baseHp": 60,
-      "baseAtk": 40,
-      "baseDfe": 80,
-      "baseSpd": 40,
-      "baseAts": 60,
-      "baseDfs": 45,
-      "evHp": 0,
-      "evAtk": 0,
-      "evDfe": 1,
-      "evSpd": 0,
-      "evAts": 0,
-      "evDfs": 0,
-      "evolutions": [
-        {
-          "conditions": [
-            {
-              "type": "stone",
-              "value": "leaf_stone"
-            }
-          ],
-          "dbSymbol": "exeggutor",
-          "form": 2
-        }
-      ],
-      "experienceType": 2,
-      "baseExperience": 98,
-      "baseLoyalty": 70,
-      "catchRate": 90,
-      "femaleRate": 50,
-      "breedGroups": [
-        7,
-        7
-      ],
-      "hatchSteps": 5120,
-      "babyDbSymbol": "exeggcute",
-      "babyForm": 2,
-      "itemHeld": [
-        {
-          "dbSymbol": "none",
-          "chance": 0
-        },
-        {
-          "dbSymbol": "none",
-          "chance": 0
-        }
-      ],
-      "abilities": [
-        "chlorophyll",
-        "chlorophyll",
-        "harvest"
-      ],
-      "frontOffsetY": 0,
-      "resources": {
-        "icon": "102",
-        "iconShiny": "",
-        "front": "102",
-        "frontShiny": "102",
-        "back": "102",
-        "backShiny": "102",
-        "footprint": "102",
-        "character": "",
-        "characterShiny": "",
-        "cry": "102cry.ogg",
-        "hasFemale": false
-      },
-      "moveSet": [
-        {
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "uproar"
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "hypnosis"
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "barrage"
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "level": 7,
-          "move": "reflect"
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "level": 11,
-          "move": "leech_seed"
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "level": 17,
-          "move": "bullet_seed"
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "level": 19,
-          "move": "stun_spore"
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "level": 21,
-          "move": "poison_powder"
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "level": 23,
-          "move": "sleep_powder"
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "level": 27,
-          "move": "confusion"
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "level": 33,
-          "move": "worry_seed"
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "level": 37,
-          "move": "natural_gift"
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "level": 43,
-          "move": "solar_beam"
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "level": 47,
-          "move": "extrasensory"
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "level": 50,
-          "move": "bestow"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "toxic"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "hidden_power"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "sunny_day"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "light_screen"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "protect"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "frustration"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "solar_beam"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "return"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "psychic"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "double_team"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "reflect"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "sludge_bomb"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "facade"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "rest"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "attract"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "thief"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "round"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "energy_ball"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "explosion"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "flash"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "swords_dance"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "psych_up"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "infestation"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "dream_eater"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "grass_knot"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "swagger"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "sleep_talk"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "substitute"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "trick_room"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "secret_power"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "nature_power"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "confide"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "strength"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "lucky_chant"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "block"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "grassy_terrain"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "natural_gift"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "skill_swap"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "nature_power"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "giga_drain"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "curse"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "power_swap"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "ancient_power"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "ingrain"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "moonlight"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "synthesis"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "leaf_storm"
+          "move": "infestation",
+          "klass": "TechLearnableMove"
         }
       ]
     }

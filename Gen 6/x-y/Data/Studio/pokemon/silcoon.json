@@ -23,14 +23,14 @@
       "evDfs": 0,
       "evolutions": [
         {
+          "dbSymbol": "beautifly",
+          "form": 0,
           "conditions": [
             {
               "type": "minLevel",
               "value": 10
             }
-          ],
-          "dbSymbol": "beautifly",
-          "form": 0
+          ]
         }
       ],
       "experienceType": 1,
@@ -42,53 +42,54 @@
         3,
         3
       ],
-      "hatchSteps": 3840,
+      "hatchSteps": 3870,
       "babyDbSymbol": "wurmple",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "shed_skin",
         "shed_skin",
         "shed_skin"
       ],
-      "frontOffsetY": 26,
+      "frontOffsetY": 0,
       "resources": {
-        "icon": "266",
-        "iconShiny": "",
-        "front": "266",
-        "frontShiny": "266",
-        "back": "266",
-        "backShiny": "266",
-        "footprint": "266",
-        "character": "266_0",
-        "characterShiny": "266s_0",
-        "cry": "266cry.ogg",
+        "icon": "0266",
+        "iconShiny": "0266s",
+        "front": "0266",
+        "frontShiny": "0266s",
+        "back": "0266",
+        "backShiny": "0266s",
+        "footprint": "0266",
+        "character": "0266",
+        "characterShiny": "0266s",
+        "cry": "0266.ogg",
         "hasFemale": false
       },
       "moveSet": [
         {
+          "move": "harden",
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "harden"
+          "level": 1
         },
         {
+          "move": "harden",
           "klass": "LevelLearnableMove",
-          "level": 7,
-          "move": "harden"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "iron_defense"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "bug_bite"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "electroweb"
+          "level": 7
         }
-      ]
+      ],
+      "formTextId": {
+        "name": 317,
+        "description": 0
+      }
     }
   ]
 }

@@ -23,14 +23,14 @@
       "evDfs": 0,
       "evolutions": [
         {
+          "dbSymbol": "beedrill",
+          "form": 0,
           "conditions": [
             {
               "type": "minLevel",
               "value": 10
             }
-          ],
-          "dbSymbol": "beedrill",
-          "form": 0
+          ]
         }
       ],
       "experienceType": 1,
@@ -42,7 +42,7 @@
         3,
         3
       ],
-      "hatchSteps": 3840,
+      "hatchSteps": 3870,
       "babyDbSymbol": "weedle",
       "babyForm": 0,
       "itemHeld": [
@@ -60,44 +60,48 @@
         "shed_skin",
         "shed_skin"
       ],
-      "frontOffsetY": 28,
+      "frontOffsetY": 0,
       "resources": {
-        "icon": "014",
-        "iconShiny": "",
-        "front": "014",
-        "frontShiny": "014",
-        "back": "014",
-        "backShiny": "014",
-        "footprint": "014",
-        "character": "014_0",
-        "characterShiny": "014s_0",
-        "cry": "014cry.ogg",
+        "icon": "0014",
+        "iconShiny": "0014s",
+        "front": "0014",
+        "frontShiny": "0014s",
+        "back": "0014",
+        "backShiny": "0014s",
+        "footprint": "0014",
+        "character": "0014",
+        "characterShiny": "0014s",
+        "cry": "0014.ogg",
         "hasFemale": false
       },
       "moveSet": [
         {
+          "move": "harden",
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "harden"
+          "level": 1
         },
         {
+          "move": "harden",
           "klass": "LevelLearnableMove",
-          "level": 7,
-          "move": "harden"
+          "level": 7
         },
         {
-          "klass": "TutorLearnableMove",
-          "move": "iron_defense"
+          "move": "iron_defense",
+          "klass": "TutorLearnableMove"
         },
         {
-          "klass": "TutorLearnableMove",
-          "move": "bug_bite"
+          "move": "bug_bite",
+          "klass": "TutorLearnableMove"
         },
         {
-          "klass": "TutorLearnableMove",
-          "move": "electroweb"
+          "move": "electroweb",
+          "klass": "TutorLearnableMove"
         }
-      ]
+      ],
+      "formTextId": {
+        "name": 17,
+        "description": 0
+      }
     }
   ]
 }
