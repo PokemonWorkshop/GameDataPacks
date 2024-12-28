@@ -1,9 +1,14 @@
 {
+  "klass": "Specie",
   "id": 106,
   "dbSymbol": "hitmonlee",
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 112,
+        "description": 0
+      },
       "height": 1.5,
       "weight": 49.8,
       "type1": "fighting",
@@ -12,8 +17,8 @@
       "baseAtk": 120,
       "baseDfe": 53,
       "baseSpd": 87,
-      "baseAts": 17,
-      "baseDfs": 18,
+      "baseAts": 35,
+      "baseDfs": 35,
       "evHp": 0,
       "evAtk": 2,
       "evDfe": 0,
@@ -22,7 +27,7 @@
       "evDfs": 0,
       "evolutions": [],
       "experienceType": 1,
-      "baseExperience": 139,
+      "baseExperience": 159,
       "baseLoyalty": 70,
       "catchRate": 45,
       "femaleRate": 0,
@@ -31,7 +36,7 @@
         8
       ],
       "hatchSteps": 6400,
-      "babyDbSymbol": "bulbasaur",
+      "babyDbSymbol": "hitmonlee",
       "babyForm": 0,
       "itemHeld": [
         {
@@ -45,124 +50,136 @@
       ],
       "abilities": [
         "limber",
-        "reckless",
-        "unburden"
+        "limber",
+        "limber"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "0106",
+        "iconShiny": "0106s",
+        "front": "0106",
+        "frontShiny": "0106s",
+        "back": "0106",
+        "backShiny": "0106s",
+        "footprint": "0106",
+        "character": "0106",
+        "characterShiny": "0106s",
+        "cry": "0106.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
+          "move": "double_kick",
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "double_kick"
+          "level": 1
         },
         {
+          "move": "meditate",
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "meditate"
+          "level": 1
         },
         {
+          "move": "rolling_kick",
           "klass": "LevelLearnableMove",
-          "level": 33,
-          "move": "rolling_kick"
+          "level": 33
         },
         {
+          "move": "jump_kick",
           "klass": "LevelLearnableMove",
-          "level": 38,
-          "move": "jump_kick"
+          "level": 38
         },
         {
+          "move": "focus_energy",
           "klass": "LevelLearnableMove",
-          "level": 43,
-          "move": "focus_energy"
+          "level": 43
         },
         {
+          "move": "high_jump_kick",
           "klass": "LevelLearnableMove",
-          "level": 48,
-          "move": "high_jump_kick"
+          "level": 48
         },
         {
+          "move": "mega_kick",
           "klass": "LevelLearnableMove",
-          "level": 53,
-          "move": "mega_kick"
+          "level": 53
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "mega_punch"
+          "move": "mega_punch",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "mega_kick"
+          "move": "mega_kick",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "toxic"
+          "move": "body_slam",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "body_slam"
+          "move": "take_down",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "take_down"
+          "move": "double_edge",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "double_edge"
+          "move": "submission",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "submission"
+          "move": "counter",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "counter"
+          "move": "seismic_toss",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "seismic_toss"
+          "move": "strength",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "rage"
+          "move": "toxic",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "mimic"
+          "move": "rage",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "double_team"
+          "move": "mimic",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "bide"
+          "move": "double_team",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "metronome"
+          "move": "bide",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "swift"
+          "move": "metronome",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "skull_bash"
+          "move": "swift",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "rest"
+          "move": "skull_bash",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "substitute"
+          "move": "rest",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "strength"
+          "move": "substitute",
+          "klass": "TechLearnableMove"
         }
       ]
     }
-  ],
-  "klass": "Specie"
+  ]
 }

@@ -1,9 +1,14 @@
 {
+  "klass": "Specie",
   "id": 71,
   "dbSymbol": "victreebel",
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 77,
+        "description": 0
+      },
       "height": 1.7,
       "weight": 15.5,
       "type1": "grass",
@@ -12,8 +17,8 @@
       "baseAtk": 105,
       "baseDfe": 65,
       "baseSpd": 70,
-      "baseAts": 50,
-      "baseDfs": 50,
+      "baseAts": 100,
+      "baseDfs": 100,
       "evHp": 0,
       "evAtk": 3,
       "evDfe": 0,
@@ -22,7 +27,7 @@
       "evDfs": 0,
       "evolutions": [],
       "experienceType": 3,
-      "baseExperience": 191,
+      "baseExperience": 221,
       "baseLoyalty": 70,
       "catchRate": 45,
       "femaleRate": 50,
@@ -46,91 +51,123 @@
       "abilities": [
         "chlorophyll",
         "chlorophyll",
-        "gluttony"
+        "chlorophyll"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "0071",
+        "iconShiny": "0071s",
+        "front": "0071",
+        "frontShiny": "0071s",
+        "back": "0071",
+        "backShiny": "0071s",
+        "footprint": "0071",
+        "character": "0071",
+        "characterShiny": "0071s",
+        "cry": "0071.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
+          "move": "acid",
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "sleep_powder"
+          "level": 1
         },
         {
+          "move": "razor_leaf",
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "wrap"
+          "level": 1
         },
         {
+          "move": "stun_spore",
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "poison_powder"
+          "level": 1
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "swords_dance"
+          "move": "sleep_powder",
+          "klass": "LevelLearnableMove",
+          "level": 1
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "toxic"
+          "move": "wrap",
+          "klass": "LevelLearnableMove",
+          "level": 13
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "body_slam"
+          "move": "poison_powder",
+          "klass": "LevelLearnableMove",
+          "level": 15
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "take_down"
+          "move": "sleep_powder",
+          "klass": "LevelLearnableMove",
+          "level": 18
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "double_edge"
+          "move": "swords_dance",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "hyper_beam"
+          "move": "cut",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "rage"
+          "move": "body_slam",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "mega_drain"
+          "move": "take_down",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "solar_beam"
+          "move": "double_edge",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "mimic"
+          "move": "hyper_beam",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "double_team"
+          "move": "mega_drain",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "reflect"
+          "move": "solar_beam",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "bide"
+          "move": "toxic",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "rest"
+          "move": "rage",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "substitute"
+          "move": "mimic",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "cut"
+          "move": "double_team",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "reflect",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "bide",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "rest",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "substitute",
+          "klass": "TechLearnableMove"
         }
       ]
     }
-  ],
-  "klass": "Specie"
+  ]
 }

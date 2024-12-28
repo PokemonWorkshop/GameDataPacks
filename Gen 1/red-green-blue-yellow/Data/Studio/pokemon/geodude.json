@@ -1,19 +1,24 @@
 {
+  "klass": "Specie",
   "id": 74,
   "dbSymbol": "geodude",
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 80,
+        "description": 0
+      },
       "height": 0.4,
-      "weight": 20.0,
+      "weight": 20,
       "type1": "rock",
       "type2": "ground",
       "baseHp": 40,
       "baseAtk": 80,
       "baseDfe": 100,
       "baseSpd": 20,
-      "baseAts": 15,
-      "baseDfs": 15,
+      "baseAts": 30,
+      "baseDfs": 30,
       "evHp": 0,
       "evAtk": 0,
       "evDfe": 1,
@@ -22,18 +27,18 @@
       "evDfs": 0,
       "evolutions": [
         {
+          "dbSymbol": "graveler",
+          "form": 0,
           "conditions": [
             {
               "type": "minLevel",
               "value": 25
             }
-          ],
-          "dbSymbol": "graveler",
-          "form": 0
+          ]
         }
       ],
       "experienceType": 3,
-      "baseExperience": 73,
+      "baseExperience": 60,
       "baseLoyalty": 70,
       "catchRate": 255,
       "femaleRate": 50,
@@ -57,139 +62,151 @@
       "abilities": [
         "sturdy",
         "rock_head",
-        "sand_veil"
+        "sturdy"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "0074",
+        "iconShiny": "0074s",
+        "front": "0074",
+        "frontShiny": "0074s",
+        "back": "0074",
+        "backShiny": "0074s",
+        "footprint": "0074",
+        "character": "0074",
+        "characterShiny": "0074s",
+        "cry": "0074.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
+          "move": "tackle",
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "tackle"
+          "level": 1
         },
         {
+          "move": "defense_curl",
           "klass": "LevelLearnableMove",
-          "level": 11,
-          "move": "defense_curl"
+          "level": 11
         },
         {
+          "move": "rock_throw",
           "klass": "LevelLearnableMove",
-          "level": 16,
-          "move": "rock_throw"
+          "level": 16
         },
         {
+          "move": "self_destruct",
           "klass": "LevelLearnableMove",
-          "level": 21,
-          "move": "self-destruct"
+          "level": 21
         },
         {
+          "move": "harden",
           "klass": "LevelLearnableMove",
-          "level": 26,
-          "move": "harden"
+          "level": 26
         },
         {
+          "move": "earthquake",
           "klass": "LevelLearnableMove",
-          "level": 31,
-          "move": "earthquake"
+          "level": 31
         },
         {
+          "move": "explosion",
           "klass": "LevelLearnableMove",
-          "level": 36,
-          "move": "explosion"
+          "level": 36
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "mega_punch"
+          "move": "mega_punch",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "toxic"
+          "move": "body_slam",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "body_slam"
+          "move": "take_down",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "take_down"
+          "move": "double_edge",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "double_edge"
+          "move": "submission",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "submission"
+          "move": "counter",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "counter"
+          "move": "seismic_toss",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "seismic_toss"
+          "move": "strength",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "rage"
+          "move": "earthquake",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "earthquake"
+          "move": "fissure",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "fissure"
+          "move": "dig",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "dig"
+          "move": "toxic",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "mimic"
+          "move": "rage",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "double_team"
+          "move": "mimic",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "bide"
+          "move": "double_team",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "metronome"
+          "move": "bide",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "self-destruct"
+          "move": "metronome",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "fire_blast"
+          "move": "self_destruct",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "rest"
+          "move": "fire_blast",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "explosion"
+          "move": "explosion",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "rock_slide"
+          "move": "rest",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "substitute"
+          "move": "rock_slide",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "strength"
+          "move": "substitute",
+          "klass": "TechLearnableMove"
         }
       ]
     }
-  ],
-  "klass": "Specie"
+  ]
 }

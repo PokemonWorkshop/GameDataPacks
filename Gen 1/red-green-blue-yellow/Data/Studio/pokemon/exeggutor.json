@@ -1,19 +1,24 @@
 {
+  "klass": "Specie",
   "id": 103,
   "dbSymbol": "exeggutor",
   "forms": [
     {
       "form": 0,
-      "height": 2.0,
-      "weight": 120.0,
+      "formTextId": {
+        "name": 109,
+        "description": 0
+      },
+      "height": 2,
+      "weight": 120,
       "type1": "grass",
       "type2": "psychic",
       "baseHp": 95,
       "baseAtk": 95,
       "baseDfe": 85,
       "baseSpd": 55,
-      "baseAts": 63,
-      "baseDfs": 62,
+      "baseAts": 125,
+      "baseDfs": 125,
       "evHp": 0,
       "evAtk": 0,
       "evDfe": 0,
@@ -22,7 +27,7 @@
       "evDfs": 0,
       "evolutions": [],
       "experienceType": 2,
-      "baseExperience": 212,
+      "baseExperience": 186,
       "baseLoyalty": 70,
       "catchRate": 45,
       "femaleRate": 50,
@@ -46,107 +51,119 @@
       "abilities": [
         "chlorophyll",
         "chlorophyll",
-        "harvest"
+        "chlorophyll"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "0103",
+        "iconShiny": "0103s",
+        "front": "0103",
+        "frontShiny": "0103s",
+        "back": "0103",
+        "backShiny": "0103s",
+        "footprint": "0103",
+        "character": "0103",
+        "characterShiny": "0103s",
+        "cry": "0103.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
+          "move": "hypnosis",
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "barrage"
+          "level": 1
         },
         {
+          "move": "barrage",
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "hypnosis"
+          "level": 1
         },
         {
+          "move": "stomp",
           "klass": "LevelLearnableMove",
-          "level": 28,
-          "move": "stomp"
+          "level": 28
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "toxic"
+          "move": "take_down",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "take_down"
+          "move": "double_edge",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "double_edge"
+          "move": "hyper_beam",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "hyper_beam"
+          "move": "strength",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "rage"
+          "move": "mega_drain",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "mega_drain"
+          "move": "solar_beam",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "solar_beam"
+          "move": "toxic",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "psychic"
+          "move": "psychic",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "teleport"
+          "move": "rage",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "mimic"
+          "move": "teleport",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "double_team"
+          "move": "mimic",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "reflect"
+          "move": "double_team",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "bide"
+          "move": "reflect",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "self-destruct"
+          "move": "bide",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "egg_bomb"
+          "move": "self_destruct",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "rest"
+          "move": "egg_bomb",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "psywave"
+          "move": "psywave",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "explosion"
+          "move": "explosion",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "substitute"
+          "move": "rest",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "strength"
+          "move": "substitute",
+          "klass": "TechLearnableMove"
         }
       ]
     }
-  ],
-  "klass": "Specie"
+  ]
 }

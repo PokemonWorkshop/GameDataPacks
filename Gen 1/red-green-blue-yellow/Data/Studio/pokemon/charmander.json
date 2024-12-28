@@ -1,9 +1,14 @@
 {
+  "klass": "Specie",
   "id": 4,
   "dbSymbol": "charmander",
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 3,
+        "description": 0
+      },
       "height": 0.6,
       "weight": 8.5,
       "type1": "fire",
@@ -12,8 +17,8 @@
       "baseAtk": 52,
       "baseDfe": 43,
       "baseSpd": 65,
-      "baseAts": 25,
-      "baseDfs": 25,
+      "baseAts": 50,
+      "baseDfs": 50,
       "evHp": 0,
       "evAtk": 0,
       "evDfe": 0,
@@ -22,21 +27,21 @@
       "evDfs": 0,
       "evolutions": [
         {
+          "dbSymbol": "charmeleon",
+          "form": 0,
           "conditions": [
             {
               "type": "minLevel",
               "value": 16
             }
-          ],
-          "dbSymbol": "charmeleon",
-          "form": 0
+          ]
         }
       ],
       "experienceType": 3,
-      "baseExperience": 65,
+      "baseExperience": 62,
       "baseLoyalty": 70,
       "catchRate": 45,
-      "femaleRate": 12,
+      "femaleRate": 12.5,
       "breedGroups": [
         1,
         14
@@ -57,148 +62,160 @@
       "abilities": [
         "blaze",
         "blaze",
-        "solar_power"
+        "blaze"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "0004",
+        "iconShiny": "0004s",
+        "front": "0004",
+        "frontShiny": "0004s",
+        "back": "0004",
+        "backShiny": "0004s",
+        "footprint": "0004",
+        "character": "0004",
+        "characterShiny": "0004s",
+        "cry": "0004.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
+          "move": "scratch",
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "scratch"
+          "level": 1
         },
         {
+          "move": "growl",
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "growl"
+          "level": 1
         },
         {
+          "move": "ember",
           "klass": "LevelLearnableMove",
-          "level": 9,
-          "move": "ember"
+          "level": 9
         },
         {
+          "move": "leer",
           "klass": "LevelLearnableMove",
-          "level": 15,
-          "move": "leer"
+          "level": 15
         },
         {
+          "move": "rage",
           "klass": "LevelLearnableMove",
-          "level": 22,
-          "move": "rage"
+          "level": 22
         },
         {
+          "move": "slash",
           "klass": "LevelLearnableMove",
-          "level": 30,
-          "move": "slash"
+          "level": 30
         },
         {
+          "move": "flamethrower",
           "klass": "LevelLearnableMove",
-          "level": 38,
-          "move": "flamethrower"
+          "level": 38
         },
         {
+          "move": "fire_spin",
           "klass": "LevelLearnableMove",
-          "level": 46,
-          "move": "fire_spin"
+          "level": 46
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "mega_punch"
+          "move": "mega_punch",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "swords_dance"
+          "move": "swords_dance",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "mega_kick"
+          "move": "cut",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "toxic"
+          "move": "mega_kick",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "body_slam"
+          "move": "body_slam",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "take_down"
+          "move": "take_down",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "double_edge"
+          "move": "double_edge",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "submission"
+          "move": "submission",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "counter"
+          "move": "counter",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "seismic_toss"
+          "move": "seismic_toss",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "rage"
+          "move": "strength",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "dragon_rage"
+          "move": "dragon_rage",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "dig"
+          "move": "dig",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "mimic"
+          "move": "toxic",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "double_team"
+          "move": "rage",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "reflect"
+          "move": "mimic",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "bide"
+          "move": "double_team",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "fire_blast"
+          "move": "reflect",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "swift"
+          "move": "bide",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "skull_bash"
+          "move": "fire_blast",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "rest"
+          "move": "swift",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "substitute"
+          "move": "skull_bash",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "cut"
+          "move": "rest",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "strength"
+          "move": "substitute",
+          "klass": "TechLearnableMove"
         }
       ]
     }
-  ],
-  "klass": "Specie"
+  ]
 }

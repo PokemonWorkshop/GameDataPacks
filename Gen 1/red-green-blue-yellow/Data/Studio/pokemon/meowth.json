@@ -1,9 +1,14 @@
 {
+  "klass": "Specie",
   "id": 52,
   "dbSymbol": "meowth",
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 58,
+        "description": 0
+      },
       "height": 0.4,
       "weight": 4.2,
       "type1": "normal",
@@ -12,8 +17,8 @@
       "baseAtk": 45,
       "baseDfe": 35,
       "baseSpd": 90,
-      "baseAts": 20,
-      "baseDfs": 20,
+      "baseAts": 40,
+      "baseDfs": 40,
       "evHp": 0,
       "evAtk": 0,
       "evDfe": 0,
@@ -22,18 +27,18 @@
       "evDfs": 0,
       "evolutions": [
         {
+          "dbSymbol": "persian",
+          "form": 0,
           "conditions": [
             {
               "type": "minLevel",
               "value": 28
             }
-          ],
-          "dbSymbol": "persian",
-          "form": 0
+          ]
         }
       ],
       "experienceType": 1,
-      "baseExperience": 69,
+      "baseExperience": 58,
       "baseLoyalty": 70,
       "catchRate": 255,
       "femaleRate": 50,
@@ -56,116 +61,128 @@
       ],
       "abilities": [
         "pickup",
-        "technician",
-        "unnerve"
+        "pickup",
+        "pickup"
       ],
-      "frontOffsetY": 0,
+      "frontOffsetY": 23,
+      "resources": {
+        "icon": "0052",
+        "iconShiny": "0052s",
+        "front": "0052",
+        "frontShiny": "0052s",
+        "back": "0052",
+        "backShiny": "0052s",
+        "footprint": "0052",
+        "character": "0052",
+        "characterShiny": "0052s",
+        "cry": "0052.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
+          "move": "scratch",
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "scratch"
+          "level": 1
         },
         {
+          "move": "growl",
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "growl"
+          "level": 1
         },
         {
+          "move": "bite",
           "klass": "LevelLearnableMove",
-          "level": 12,
-          "move": "bite"
+          "level": 12
         },
         {
+          "move": "pay_day",
           "klass": "LevelLearnableMove",
-          "level": 17,
-          "move": "pay_day"
+          "level": 17
         },
         {
+          "move": "screech",
           "klass": "LevelLearnableMove",
-          "level": 24,
-          "move": "screech"
+          "level": 24
         },
         {
+          "move": "fury_swipes",
           "klass": "LevelLearnableMove",
-          "level": 33,
-          "move": "fury_swipes"
+          "level": 33
         },
         {
+          "move": "slash",
           "klass": "LevelLearnableMove",
-          "level": 44,
-          "move": "slash"
+          "level": 44
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "toxic"
+          "move": "pay_day",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "body_slam"
+          "move": "body_slam",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "take_down"
+          "move": "take_down",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "double_edge"
+          "move": "double_edge",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "bubble_beam"
+          "move": "water_gun",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "water_gun"
+          "move": "bubble_beam",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "pay_day"
+          "move": "thunderbolt",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "rage"
+          "move": "thunder",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "thunderbolt"
+          "move": "toxic",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "thunder"
+          "move": "rage",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "mimic"
+          "move": "mimic",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "double_team"
+          "move": "double_team",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "bide"
+          "move": "bide",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "swift"
+          "move": "swift",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "skull_bash"
+          "move": "skull_bash",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "rest"
+          "move": "rest",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "substitute"
+          "move": "substitute",
+          "klass": "TechLearnableMove"
         }
       ]
     }
-  ],
-  "klass": "Specie"
+  ]
 }

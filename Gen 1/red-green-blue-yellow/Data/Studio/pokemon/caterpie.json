@@ -13,8 +13,8 @@
       "baseAtk": 30,
       "baseDfe": 35,
       "baseSpd": 45,
-      "baseAts": 10,
-      "baseDfs": 10,
+      "baseAts": 20,
+      "baseDfs": 20,
       "evHp": 1,
       "evAtk": 0,
       "evDfe": 0,
@@ -34,7 +34,7 @@
         }
       ],
       "experienceType": 1,
-      "baseExperience": 53,
+      "baseExperience": 39,
       "baseLoyalty": 70,
       "catchRate": 255,
       "femaleRate": 50,
@@ -58,33 +58,37 @@
       "abilities": [
         "shield_dust",
         "shield_dust",
-        "run_away"
+        "shield_dust"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "0010",
+        "iconShiny": "0010s",
+        "front": "0010",
+        "frontShiny": "0010s",
+        "back": "0010",
+        "backShiny": "0010s",
+        "footprint": "0010",
+        "character": "0010",
+        "characterShiny": "0010s",
+        "cry": "0010.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
-          "klass": "LevelLearnableMove",
           "move": "tackle",
+          "klass": "LevelLearnableMove",
           "level": 1
         },
         {
-          "klass": "LevelLearnableMove",
           "move": "string_shot",
+          "klass": "LevelLearnableMove",
           "level": 1
         }
       ],
-      "resources": {
-        "icon": "010",
-        "iconShiny": "",
-        "front": "010",
-        "frontShiny": "010",
-        "back": "010",
-        "backShiny": "010",
-        "footprint": "010",
-        "character": "010_0",
-        "characterShiny": "010s_0",
-        "cry": "010cry.ogg",
-        "hasFemale": false
+      "formTextId": {
+        "name": 9,
+        "description": 0
       }
     }
   ]

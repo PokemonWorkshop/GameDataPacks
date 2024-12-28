@@ -1,9 +1,14 @@
 {
+  "klass": "Specie",
   "id": 137,
   "dbSymbol": "porygon",
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 143,
+        "description": 0
+      },
       "height": 0.8,
       "weight": 36.5,
       "type1": "normal",
@@ -12,32 +17,17 @@
       "baseAtk": 60,
       "baseDfe": 70,
       "baseSpd": 40,
-      "baseAts": 38,
-      "baseDfs": 37,
+      "baseAts": 75,
+      "baseDfs": 75,
       "evHp": 0,
       "evAtk": 0,
       "evDfe": 0,
       "evSpd": 0,
       "evAts": 1,
       "evDfs": 0,
-      "evolutions": [
-        {
-          "conditions": [
-            {
-              "type": "trade",
-              "value": true
-            },
-            {
-              "type": "itemHold",
-              "value": "up-grade"
-            }
-          ],
-          "form": 0,
-          "dbSymbol": "egg"
-        }
-      ],
+      "evolutions": [],
       "experienceType": 1,
-      "baseExperience": 130,
+      "baseExperience": 79,
       "baseLoyalty": 70,
       "catchRate": 45,
       "femaleRate": -1,
@@ -60,140 +50,152 @@
       ],
       "abilities": [
         "trace",
-        "download",
-        "analytic"
+        "trace",
+        "trace"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "0137",
+        "iconShiny": "0137s",
+        "front": "0137",
+        "frontShiny": "0137s",
+        "back": "0137",
+        "backShiny": "0137s",
+        "footprint": "0137",
+        "character": "0137",
+        "characterShiny": "0137s",
+        "cry": "0137.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
+          "move": "tackle",
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "conversion"
+          "level": 1
         },
         {
+          "move": "sharpen",
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "sharpen"
+          "level": 1
         },
         {
+          "move": "conversion",
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "tackle"
+          "level": 1
         },
         {
+          "move": "psybeam",
           "klass": "LevelLearnableMove",
-          "level": 23,
-          "move": "psybeam"
+          "level": 23
         },
         {
+          "move": "recover",
           "klass": "LevelLearnableMove",
-          "level": 28,
-          "move": "recover"
+          "level": 28
         },
         {
+          "move": "agility",
           "klass": "LevelLearnableMove",
-          "level": 35,
-          "move": "agility"
+          "level": 35
         },
         {
+          "move": "tri_attack",
           "klass": "LevelLearnableMove",
-          "level": 42,
-          "move": "tri_attack"
+          "level": 42
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "toxic"
+          "move": "take_down",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "take_down"
+          "move": "double_edge",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "double_edge"
+          "move": "ice_beam",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "ice_beam"
+          "move": "blizzard",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "blizzard"
+          "move": "hyper_beam",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "hyper_beam"
+          "move": "thunderbolt",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "rage"
+          "move": "thunder_wave",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "thunderbolt"
+          "move": "thunder",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "thunder"
+          "move": "toxic",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "psychic"
+          "move": "psychic",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "teleport"
+          "move": "rage",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "mimic"
+          "move": "teleport",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "double_team"
+          "move": "mimic",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "reflect"
+          "move": "double_team",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "bide"
+          "move": "reflect",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "swift"
+          "move": "bide",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "skull_bash"
+          "move": "swift",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "rest"
+          "move": "skull_bash",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "thunder_wave"
+          "move": "flash",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "psywave"
+          "move": "psywave",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "tri_attack"
+          "move": "rest",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "substitute"
+          "move": "tri_attack",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "flash"
+          "move": "substitute",
+          "klass": "TechLearnableMove"
         }
       ]
     }
-  ],
-  "klass": "Specie"
+  ]
 }

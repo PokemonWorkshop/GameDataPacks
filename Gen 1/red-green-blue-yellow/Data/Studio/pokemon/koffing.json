@@ -1,19 +1,24 @@
 {
+  "klass": "Specie",
   "id": 109,
   "dbSymbol": "koffing",
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 115,
+        "description": 0
+      },
       "height": 0.6,
-      "weight": 1.0,
+      "weight": 1,
       "type1": "poison",
       "type2": "__undef__",
       "baseHp": 40,
       "baseAtk": 65,
       "baseDfe": 95,
       "baseSpd": 35,
-      "baseAts": 30,
-      "baseDfs": 30,
+      "baseAts": 60,
+      "baseDfs": 60,
       "evHp": 0,
       "evAtk": 0,
       "evDfe": 1,
@@ -22,18 +27,18 @@
       "evDfs": 0,
       "evolutions": [
         {
+          "dbSymbol": "weezing",
+          "form": 0,
           "conditions": [
             {
               "type": "minLevel",
               "value": 35
             }
-          ],
-          "dbSymbol": "weezing",
-          "form": 0
+          ]
         }
       ],
       "experienceType": 1,
-      "baseExperience": 114,
+      "baseExperience": 68,
       "baseLoyalty": 70,
       "catchRate": 190,
       "femaleRate": 50,
@@ -60,92 +65,104 @@
         "levitate"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "0109",
+        "iconShiny": "0109s",
+        "front": "0109",
+        "frontShiny": "0109s",
+        "back": "0109",
+        "backShiny": "0109s",
+        "footprint": "0109",
+        "character": "0109",
+        "characterShiny": "0109s",
+        "cry": "0109.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
+          "move": "tackle",
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "tackle"
+          "level": 1
         },
         {
+          "move": "smog",
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "smog"
+          "level": 1
         },
         {
+          "move": "sludge",
           "klass": "LevelLearnableMove",
-          "level": 32,
-          "move": "sludge"
+          "level": 32
         },
         {
+          "move": "smokescreen",
           "klass": "LevelLearnableMove",
-          "level": 37,
-          "move": "smokescreen"
+          "level": 37
         },
         {
+          "move": "self_destruct",
           "klass": "LevelLearnableMove",
-          "level": 40,
-          "move": "self-destruct"
+          "level": 40
         },
         {
+          "move": "haze",
           "klass": "LevelLearnableMove",
-          "level": 45,
-          "move": "haze"
+          "level": 45
         },
         {
+          "move": "explosion",
           "klass": "LevelLearnableMove",
-          "level": 53,
-          "move": "explosion"
+          "level": 48
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "toxic"
+          "move": "thunderbolt",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "rage"
+          "move": "thunder",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "thunderbolt"
+          "move": "toxic",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "thunder"
+          "move": "rage",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "mimic"
+          "move": "mimic",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "double_team"
+          "move": "double_team",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "bide"
+          "move": "bide",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "self-destruct"
+          "move": "self_destruct",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "fire_blast"
+          "move": "fire_blast",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "rest"
+          "move": "explosion",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "explosion"
+          "move": "rest",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "substitute"
+          "move": "substitute",
+          "klass": "TechLearnableMove"
         }
       ]
     }
-  ],
-  "klass": "Specie"
+  ]
 }

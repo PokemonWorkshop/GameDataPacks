@@ -13,8 +13,8 @@
       "baseAtk": 25,
       "baseDfe": 50,
       "baseSpd": 35,
-      "baseAts": 12,
-      "baseDfs": 13,
+      "baseAts": 25,
+      "baseDfs": 25,
       "evHp": 0,
       "evAtk": 0,
       "evDfe": 2,
@@ -34,7 +34,7 @@
         }
       ],
       "experienceType": 1,
-      "baseExperience": 71,
+      "baseExperience": 72,
       "baseLoyalty": 70,
       "catchRate": 120,
       "femaleRate": 50,
@@ -61,30 +61,29 @@
         "shed_skin"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "0014",
+        "iconShiny": "0014s",
+        "front": "0014",
+        "frontShiny": "0014s",
+        "back": "0014",
+        "backShiny": "0014s",
+        "footprint": "0014",
+        "character": "0014",
+        "characterShiny": "0014s",
+        "cry": "0014.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
-          "klass": "LevelLearnableMove",
           "move": "harden",
+          "klass": "LevelLearnableMove",
           "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "harden",
-          "level": 7
         }
       ],
-      "resources": {
-        "icon": "014",
-        "iconShiny": "",
-        "front": "014",
-        "frontShiny": "014",
-        "back": "014",
-        "backShiny": "014",
-        "footprint": "014",
-        "character": "014_0",
-        "characterShiny": "014s_0",
-        "cry": "014cry.ogg",
-        "hasFemale": false
+      "formTextId": {
+        "name": 13,
+        "description": 0
       }
     }
   ]

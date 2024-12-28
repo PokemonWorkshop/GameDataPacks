@@ -1,19 +1,20 @@
 {
+  "klass": "Specie",
   "id": 32,
   "dbSymbol": "nidoranm",
   "forms": [
     {
       "form": 0,
       "height": 0.5,
-      "weight": 9.0,
+      "weight": 9,
       "type1": "poison",
       "type2": "__undef__",
       "baseHp": 46,
       "baseAtk": 57,
       "baseDfe": 40,
       "baseSpd": 50,
-      "baseAts": 20,
-      "baseDfs": 20,
+      "baseAts": 40,
+      "baseDfs": 40,
       "evHp": 0,
       "evAtk": 1,
       "evDfe": 0,
@@ -22,18 +23,18 @@
       "evDfs": 0,
       "evolutions": [
         {
+          "dbSymbol": "nidorino",
+          "form": 0,
           "conditions": [
             {
               "type": "minLevel",
               "value": 16
             }
-          ],
-          "dbSymbol": "nidorino",
-          "form": 0
+          ]
         }
       ],
       "experienceType": 3,
-      "baseExperience": 60,
+      "baseExperience": 55,
       "baseLoyalty": 70,
       "catchRate": 235,
       "femaleRate": 0,
@@ -56,117 +57,133 @@
       ],
       "abilities": [
         "poison_point",
-        "rivalry",
-        "hustle"
+        "poison_point",
+        "poison_point"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "0032",
+        "iconShiny": "0032s",
+        "front": "0032",
+        "frontShiny": "0032s",
+        "back": "0032",
+        "backShiny": "0032s",
+        "footprint": "0032",
+        "character": "0032",
+        "characterShiny": "0032s",
+        "cry": "0032.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
+          "move": "tackle",
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "leer"
+          "level": 1
         },
         {
+          "move": "leer",
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "tackle"
+          "level": 1
         },
         {
+          "move": "horn_attack",
           "klass": "LevelLearnableMove",
-          "level": 8,
-          "move": "horn_attack"
+          "level": 8
         },
         {
+          "move": "poison_sting",
           "klass": "LevelLearnableMove",
-          "level": 12,
-          "move": "double_kick"
+          "level": 14
         },
         {
+          "move": "focus_energy",
           "klass": "LevelLearnableMove",
-          "level": 17,
-          "move": "poison_sting"
+          "level": 21
         },
         {
+          "move": "fury_attack",
           "klass": "LevelLearnableMove",
-          "level": 23,
-          "move": "focus_energy"
+          "level": 29
         },
         {
+          "move": "horn_drill",
           "klass": "LevelLearnableMove",
-          "level": 30,
-          "move": "fury_attack"
+          "level": 36
         },
         {
+          "move": "double_kick",
           "klass": "LevelLearnableMove",
-          "level": 38,
-          "move": "horn_drill"
+          "level": 43
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "toxic"
+          "move": "horn_drill",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "horn_drill"
+          "move": "body_slam",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "body_slam"
+          "move": "take_down",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "take_down"
+          "move": "double_edge",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "double_edge"
+          "move": "blizzard",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "blizzard"
+          "move": "thunderbolt",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "rage"
+          "move": "thunder",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "thunderbolt"
+          "move": "toxic",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "thunder"
+          "move": "rage",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "mimic"
+          "move": "mimic",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "double_team"
+          "move": "double_team",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "reflect"
+          "move": "reflect",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "bide"
+          "move": "bide",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "skull_bash"
+          "move": "skull_bash",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "rest"
+          "move": "rest",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "substitute"
+          "move": "substitute",
+          "klass": "TechLearnableMove"
         }
-      ]
+      ],
+      "formTextId": {
+        "name": 38,
+        "description": 0
+      }
     }
-  ],
-  "klass": "Specie"
+  ]
 }

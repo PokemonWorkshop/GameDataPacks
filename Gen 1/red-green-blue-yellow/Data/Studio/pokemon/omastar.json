@@ -1,19 +1,24 @@
 {
+  "klass": "Specie",
   "id": 139,
   "dbSymbol": "omastar",
   "forms": [
     {
       "form": 0,
-      "height": 1.0,
-      "weight": 35.0,
+      "formTextId": {
+        "name": 145,
+        "description": 0
+      },
+      "height": 1,
+      "weight": 35,
       "type1": "rock",
       "type2": "water",
       "baseHp": 70,
       "baseAtk": 60,
       "baseDfe": 125,
       "baseSpd": 55,
-      "baseAts": 58,
-      "baseDfs": 57,
+      "baseAts": 115,
+      "baseDfs": 115,
       "evHp": 0,
       "evAtk": 0,
       "evDfe": 2,
@@ -22,10 +27,10 @@
       "evDfs": 0,
       "evolutions": [],
       "experienceType": 1,
-      "baseExperience": 199,
+      "baseExperience": 173,
       "baseLoyalty": 70,
       "catchRate": 45,
-      "femaleRate": 12,
+      "femaleRate": 12.5,
       "breedGroups": [
         2,
         9
@@ -46,126 +51,143 @@
       "abilities": [
         "swift_swim",
         "shell_armor",
-        "weak_armor"
+        "swift_swim"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "0139",
+        "iconShiny": "0139s",
+        "front": "0139",
+        "frontShiny": "0139s",
+        "back": "0139",
+        "backShiny": "0139s",
+        "footprint": "0139",
+        "character": "0139",
+        "characterShiny": "0139s",
+        "cry": "0139.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
+          "move": "horn_attack",
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "withdraw"
+          "level": 1
         },
         {
+          "move": "water_gun",
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "water_gun"
+          "level": 1
         },
         {
+          "move": "withdraw",
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "leer"
+          "level": 1
         },
         {
+          "move": "horn_attack",
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "horn_attack"
+          "level": 34
         },
         {
+          "move": "leer",
           "klass": "LevelLearnableMove",
-          "level": 44,
-          "move": "spike_cannon"
+          "level": 39
         },
         {
+          "move": "spike_cannon",
           "klass": "LevelLearnableMove",
-          "level": 49,
-          "move": "hydro_pump"
+          "level": 44
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "toxic"
+          "move": "hydro_pump",
+          "klass": "LevelLearnableMove",
+          "level": 49
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "horn_drill"
+          "move": "horn_drill",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "body_slam"
+          "move": "body_slam",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "take_down"
+          "move": "take_down",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "double_edge"
+          "move": "double_edge",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "bubble_beam"
+          "move": "water_gun",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "water_gun"
+          "move": "surf",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "ice_beam"
+          "move": "ice_beam",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "blizzard"
+          "move": "blizzard",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "hyper_beam"
+          "move": "bubble_beam",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "submission"
+          "move": "hyper_beam",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "seismic_toss"
+          "move": "submission",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "rage"
+          "move": "seismic_toss",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "mimic"
+          "move": "toxic",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "double_team"
+          "move": "rage",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "reflect"
+          "move": "mimic",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "bide"
+          "move": "double_team",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "skull_bash"
+          "move": "reflect",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "rest"
+          "move": "bide",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "substitute"
+          "move": "skull_bash",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "surf"
+          "move": "rest",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "substitute",
+          "klass": "TechLearnableMove"
         }
       ]
     }
-  ],
-  "klass": "Specie"
+  ]
 }

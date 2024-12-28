@@ -1,9 +1,14 @@
 {
+  "klass": "Specie",
   "id": 16,
   "dbSymbol": "pidgey",
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 15,
+        "description": 0
+      },
       "height": 0.3,
       "weight": 1.8,
       "type1": "normal",
@@ -12,8 +17,8 @@
       "baseAtk": 45,
       "baseDfe": 40,
       "baseSpd": 56,
-      "baseAts": 17,
-      "baseDfs": 18,
+      "baseAts": 35,
+      "baseDfs": 35,
       "evHp": 0,
       "evAtk": 0,
       "evDfe": 0,
@@ -22,18 +27,18 @@
       "evDfs": 0,
       "evolutions": [
         {
+          "dbSymbol": "pidgeotto",
+          "form": 0,
           "conditions": [
             {
               "type": "minLevel",
               "value": 18
             }
-          ],
-          "dbSymbol": "pidgeotto",
-          "form": 0
+          ]
         }
       ],
       "experienceType": 3,
-      "baseExperience": 55,
+      "baseExperience": 50,
       "baseLoyalty": 70,
       "catchRate": 255,
       "femaleRate": 50,
@@ -56,108 +61,120 @@
       ],
       "abilities": [
         "keen_eye",
-        "tangled_feet",
-        "big_pecks"
+        "keen_eye",
+        "keen_eye"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "0016",
+        "iconShiny": "0016s",
+        "front": "0016",
+        "frontShiny": "0016s",
+        "back": "0016",
+        "backShiny": "0016s",
+        "footprint": "0016",
+        "character": "0016",
+        "characterShiny": "0016s",
+        "cry": "0016.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
+          "move": "gust",
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "gust"
+          "level": 1
         },
         {
+          "move": "sand_attack",
           "klass": "LevelLearnableMove",
-          "level": 5,
-          "move": "sand_attack"
+          "level": 5
         },
         {
+          "move": "quick_attack",
           "klass": "LevelLearnableMove",
-          "level": 12,
-          "move": "quick_attack"
+          "level": 12
         },
         {
+          "move": "whirlwind",
           "klass": "LevelLearnableMove",
-          "level": 19,
-          "move": "whirlwind"
+          "level": 19
         },
         {
+          "move": "wing_attack",
           "klass": "LevelLearnableMove",
-          "level": 28,
-          "move": "wing_attack"
+          "level": 28
         },
         {
+          "move": "agility",
           "klass": "LevelLearnableMove",
-          "level": 36,
-          "move": "agility"
+          "level": 36
         },
         {
+          "move": "mirror_move",
           "klass": "LevelLearnableMove",
-          "level": 44,
-          "move": "mirror_move"
+          "level": 44
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "razor_wind"
+          "move": "razor_wind",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "whirlwind"
+          "move": "whirlwind",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "toxic"
+          "move": "fly",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "take_down"
+          "move": "take_down",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "double_edge"
+          "move": "double_edge",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "rage"
+          "move": "toxic",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "mimic"
+          "move": "rage",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "double_team"
+          "move": "mimic",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "reflect"
+          "move": "double_team",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "bide"
+          "move": "reflect",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "swift"
+          "move": "bide",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "sky_attack"
+          "move": "swift",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "rest"
+          "move": "sky_attack",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "substitute"
+          "move": "rest",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "fly"
+          "move": "substitute",
+          "klass": "TechLearnableMove"
         }
       ]
     }
-  ],
-  "klass": "Specie"
+  ]
 }

@@ -1,19 +1,24 @@
 {
+  "klass": "Specie",
   "id": 88,
   "dbSymbol": "grimer",
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 94,
+        "description": 0
+      },
       "height": 0.9,
-      "weight": 30.0,
+      "weight": 30,
       "type1": "poison",
       "type2": "__undef__",
       "baseHp": 80,
       "baseAtk": 80,
       "baseDfe": 50,
       "baseSpd": 25,
-      "baseAts": 20,
-      "baseDfs": 20,
+      "baseAts": 40,
+      "baseDfs": 40,
       "evHp": 1,
       "evAtk": 0,
       "evDfe": 0,
@@ -22,18 +27,18 @@
       "evDfs": 0,
       "evolutions": [
         {
+          "dbSymbol": "muk",
+          "form": 0,
           "conditions": [
             {
               "type": "minLevel",
               "value": 38
             }
-          ],
-          "dbSymbol": "muk",
-          "form": 0
+          ]
         }
       ],
       "experienceType": 1,
-      "baseExperience": 90,
+      "baseExperience": 65,
       "baseLoyalty": 70,
       "catchRate": 190,
       "femaleRate": 50,
@@ -57,108 +62,120 @@
       "abilities": [
         "stench",
         "sticky_hold",
-        "poison_touch"
+        "stench"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "0088",
+        "iconShiny": "0088s",
+        "front": "0088",
+        "frontShiny": "0088s",
+        "back": "0088",
+        "backShiny": "0088s",
+        "footprint": "0088",
+        "character": "0088",
+        "characterShiny": "0088s",
+        "cry": "0088.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
+          "move": "pound",
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "pound"
+          "level": 1
         },
         {
+          "move": "disable",
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "disable"
+          "level": 1
         },
         {
+          "move": "poison_gas",
           "klass": "LevelLearnableMove",
-          "level": 30,
-          "move": "poison_gas"
+          "level": 30
         },
         {
+          "move": "minimize",
           "klass": "LevelLearnableMove",
-          "level": 33,
-          "move": "minimize"
+          "level": 33
         },
         {
+          "move": "sludge",
           "klass": "LevelLearnableMove",
-          "level": 37,
-          "move": "sludge"
+          "level": 37
         },
         {
+          "move": "harden",
           "klass": "LevelLearnableMove",
-          "level": 42,
-          "move": "harden"
+          "level": 42
         },
         {
+          "move": "screech",
           "klass": "LevelLearnableMove",
-          "level": 48,
-          "move": "screech"
+          "level": 48
         },
         {
+          "move": "acid_armor",
           "klass": "LevelLearnableMove",
-          "level": 55,
-          "move": "acid_armor"
+          "level": 55
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "toxic"
+          "move": "body_slam",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "body_slam"
+          "move": "mega_drain",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "rage"
+          "move": "thunderbolt",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "mega_drain"
+          "move": "thunder",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "thunderbolt"
+          "move": "toxic",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "thunder"
+          "move": "rage",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "mimic"
+          "move": "mimic",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "double_team"
+          "move": "double_team",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "bide"
+          "move": "bide",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "self-destruct"
+          "move": "self_destruct",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "fire_blast"
+          "move": "fire_blast",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "rest"
+          "move": "explosion",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "explosion"
+          "move": "rest",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "substitute"
+          "move": "substitute",
+          "klass": "TechLearnableMove"
         }
       ]
     }
-  ],
-  "klass": "Specie"
+  ]
 }

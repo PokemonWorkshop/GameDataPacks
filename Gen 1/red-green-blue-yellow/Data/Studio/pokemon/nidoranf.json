@@ -1,19 +1,20 @@
 {
+  "klass": "Specie",
   "id": 29,
   "dbSymbol": "nidoranf",
   "forms": [
     {
       "form": 0,
       "height": 0.4,
-      "weight": 7.0,
+      "weight": 7,
       "type1": "poison",
       "type2": "__undef__",
       "baseHp": 55,
       "baseAtk": 47,
       "baseDfe": 52,
       "baseSpd": 41,
-      "baseAts": 20,
-      "baseDfs": 20,
+      "baseAts": 40,
+      "baseDfs": 40,
       "evHp": 1,
       "evAtk": 0,
       "evDfe": 0,
@@ -22,18 +23,18 @@
       "evDfs": 0,
       "evolutions": [
         {
+          "dbSymbol": "nidorina",
+          "form": 0,
           "conditions": [
             {
               "type": "minLevel",
               "value": 16
             }
-          ],
-          "dbSymbol": "nidorina",
-          "form": 0
+          ]
         }
       ],
       "experienceType": 3,
-      "baseExperience": 59,
+      "baseExperience": 55,
       "baseLoyalty": 70,
       "catchRate": 235,
       "femaleRate": 100,
@@ -56,113 +57,137 @@
       ],
       "abilities": [
         "poison_point",
-        "rivalry",
-        "hustle"
+        "poison_point",
+        "poison_point"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "0029",
+        "iconF": "0029",
+        "iconShiny": "0029s",
+        "iconShinyF": "0029s",
+        "front": "0029",
+        "frontF": "0029",
+        "frontShiny": "0029s",
+        "frontShinyF": "0029s",
+        "back": "0029",
+        "backF": "0029",
+        "backShiny": "0029s",
+        "backShinyF": "0029s",
+        "footprint": "0029",
+        "character": "0029",
+        "characterF": "0029",
+        "characterShiny": "0029s",
+        "characterShinyF": "0029s",
+        "cry": "0029.ogg",
+        "hasFemale": true
+      },
       "moveSet": [
         {
+          "move": "tackle",
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "growl"
+          "level": 1
         },
         {
+          "move": "growl",
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "tackle"
+          "level": 1
         },
         {
+          "move": "scratch",
           "klass": "LevelLearnableMove",
-          "level": 8,
-          "move": "scratch"
+          "level": 8
         },
         {
+          "move": "poison_sting",
           "klass": "LevelLearnableMove",
-          "level": 12,
-          "move": "double_kick"
+          "level": 14
         },
         {
+          "move": "tail_whip",
           "klass": "LevelLearnableMove",
-          "level": 17,
-          "move": "poison_sting"
+          "level": 21
         },
         {
+          "move": "bite",
           "klass": "LevelLearnableMove",
-          "level": 21,
-          "move": "tail_whip"
+          "level": 29
         },
         {
+          "move": "fury_swipes",
           "klass": "LevelLearnableMove",
-          "level": 30,
-          "move": "bite"
+          "level": 36
         },
         {
+          "move": "double_kick",
           "klass": "LevelLearnableMove",
-          "level": 38,
-          "move": "fury_swipes"
+          "level": 43
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "toxic"
+          "move": "body_slam",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "body_slam"
+          "move": "take_down",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "take_down"
+          "move": "double_edge",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "double_edge"
+          "move": "blizzard",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "blizzard"
+          "move": "thunderbolt",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "rage"
+          "move": "thunder",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "thunderbolt"
+          "move": "toxic",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "thunder"
+          "move": "rage",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "mimic"
+          "move": "mimic",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "double_team"
+          "move": "double_team",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "reflect"
+          "move": "reflect",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "bide"
+          "move": "bide",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "skull_bash"
+          "move": "skull_bash",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "rest"
+          "move": "rest",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "substitute"
+          "move": "substitute",
+          "klass": "TechLearnableMove"
         }
-      ]
+      ],
+      "formTextId": {
+        "name": 35,
+        "description": 0
+      }
     }
-  ],
-  "klass": "Specie"
+  ]
 }

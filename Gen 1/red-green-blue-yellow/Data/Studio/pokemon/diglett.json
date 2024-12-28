@@ -1,9 +1,14 @@
 {
+  "klass": "Specie",
   "id": 50,
   "dbSymbol": "diglett",
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 56,
+        "description": 0
+      },
       "height": 0.2,
       "weight": 0.8,
       "type1": "ground",
@@ -12,8 +17,8 @@
       "baseAtk": 55,
       "baseDfe": 25,
       "baseSpd": 95,
-      "baseAts": 22,
-      "baseDfs": 23,
+      "baseAts": 45,
+      "baseDfs": 45,
       "evHp": 0,
       "evAtk": 0,
       "evDfe": 0,
@@ -22,18 +27,18 @@
       "evDfs": 0,
       "evolutions": [
         {
+          "dbSymbol": "dugtrio",
+          "form": 0,
           "conditions": [
             {
               "type": "minLevel",
               "value": 26
             }
-          ],
-          "dbSymbol": "dugtrio",
-          "form": 0
+          ]
         }
       ],
       "experienceType": 1,
-      "baseExperience": 81,
+      "baseExperience": 53,
       "baseLoyalty": 70,
       "catchRate": 255,
       "femaleRate": 50,
@@ -57,102 +62,110 @@
       "abilities": [
         "sand_veil",
         "arena_trap",
-        "sand_force"
+        "sand_veil"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "0050",
+        "iconShiny": "0050s",
+        "front": "0050",
+        "frontShiny": "0050s",
+        "back": "0050",
+        "backShiny": "0050s",
+        "footprint": "0050",
+        "character": "0050",
+        "characterShiny": "0050s",
+        "cry": "0050.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
+          "move": "scratch",
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "scratch"
+          "level": 1
         },
         {
+          "move": "growl",
           "klass": "LevelLearnableMove",
-          "level": 5,
-          "move": "growl"
+          "level": 15
         },
         {
+          "move": "dig",
           "klass": "LevelLearnableMove",
-          "level": 19,
-          "move": "dig"
+          "level": 19
         },
         {
+          "move": "sand_attack",
           "klass": "LevelLearnableMove",
-          "level": 24,
-          "move": "sand_attack"
+          "level": 24
         },
         {
+          "move": "slash",
           "klass": "LevelLearnableMove",
-          "level": 31,
-          "move": "slash"
+          "level": 31
         },
         {
+          "move": "earthquake",
           "klass": "LevelLearnableMove",
-          "level": 40,
-          "move": "earthquake"
+          "level": 40
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "toxic"
+          "move": "body_slam",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "body_slam"
+          "move": "take_down",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "take_down"
+          "move": "double_edge",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "double_edge"
+          "move": "earthquake",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "rage"
+          "move": "fissure",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "earthquake"
+          "move": "dig",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "fissure"
+          "move": "toxic",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "dig"
+          "move": "rage",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "mimic"
+          "move": "mimic",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "double_team"
+          "move": "double_team",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "bide"
+          "move": "bide",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "rest"
+          "move": "rest",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "rock_slide"
+          "move": "rock_slide",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "substitute"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "cut"
+          "move": "substitute",
+          "klass": "TechLearnableMove"
         }
       ]
     }
-  ],
-  "klass": "Specie"
+  ]
 }

@@ -1,9 +1,14 @@
 {
+  "klass": "Specie",
   "id": 72,
   "dbSymbol": "tentacool",
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 78,
+        "description": 0
+      },
       "height": 0.9,
       "weight": 45.5,
       "type1": "water",
@@ -12,8 +17,8 @@
       "baseAtk": 40,
       "baseDfe": 35,
       "baseSpd": 70,
-      "baseAts": 50,
-      "baseDfs": 50,
+      "baseAts": 100,
+      "baseDfs": 100,
       "evHp": 0,
       "evAtk": 0,
       "evDfe": 0,
@@ -22,18 +27,18 @@
       "evDfs": 1,
       "evolutions": [
         {
+          "dbSymbol": "tentacruel",
+          "form": 0,
           "conditions": [
             {
               "type": "minLevel",
               "value": 30
             }
-          ],
-          "dbSymbol": "tentacruel",
-          "form": 0
+          ]
         }
       ],
       "experienceType": 2,
-      "baseExperience": 105,
+      "baseExperience": 67,
       "baseLoyalty": 70,
       "catchRate": 190,
       "femaleRate": 50,
@@ -57,133 +62,145 @@
       "abilities": [
         "clear_body",
         "liquid_ooze",
-        "rain_dish"
+        "clear_body"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "0072",
+        "iconShiny": "0072s",
+        "front": "0072",
+        "frontShiny": "0072s",
+        "back": "0072",
+        "backShiny": "0072s",
+        "footprint": "0072",
+        "character": "0072",
+        "characterShiny": "0072s",
+        "cry": "0072.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
+          "move": "acid",
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "acid"
+          "level": 1
         },
         {
+          "move": "supersonic",
           "klass": "LevelLearnableMove",
-          "level": 7,
-          "move": "supersonic"
+          "level": 7
         },
         {
+          "move": "wrap",
           "klass": "LevelLearnableMove",
-          "level": 13,
-          "move": "wrap"
+          "level": 13
         },
         {
+          "move": "poison_sting",
           "klass": "LevelLearnableMove",
-          "level": 18,
-          "move": "poison_sting"
+          "level": 18
         },
         {
+          "move": "water_gun",
           "klass": "LevelLearnableMove",
-          "level": 22,
-          "move": "water_gun"
+          "level": 22
         },
         {
+          "move": "constrict",
           "klass": "LevelLearnableMove",
-          "level": 27,
-          "move": "constrict"
+          "level": 27
         },
         {
+          "move": "barrier",
           "klass": "LevelLearnableMove",
-          "level": 33,
-          "move": "barrier"
+          "level": 33
         },
         {
+          "move": "screech",
           "klass": "LevelLearnableMove",
-          "level": 40,
-          "move": "screech"
+          "level": 40
         },
         {
+          "move": "hydro_pump",
           "klass": "LevelLearnableMove",
-          "level": 48,
-          "move": "hydro_pump"
+          "level": 48
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "swords_dance"
+          "move": "swords_dance",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "toxic"
+          "move": "cut",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "take_down"
+          "move": "take_down",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "double_edge"
+          "move": "double_edge",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "bubble_beam"
+          "move": "water_gun",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "water_gun"
+          "move": "surf",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "ice_beam"
+          "move": "ice_beam",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "blizzard"
+          "move": "blizzard",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "rage"
+          "move": "bubble_beam",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "mega_drain"
+          "move": "mega_drain",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "mimic"
+          "move": "toxic",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "double_team"
+          "move": "rage",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "reflect"
+          "move": "mimic",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "bide"
+          "move": "double_team",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "skull_bash"
+          "move": "reflect",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "rest"
+          "move": "bide",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "substitute"
+          "move": "skull_bash",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "cut"
+          "move": "rest",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "surf"
+          "move": "substitute",
+          "klass": "TechLearnableMove"
         }
       ]
     }
-  ],
-  "klass": "Specie"
+  ]
 }

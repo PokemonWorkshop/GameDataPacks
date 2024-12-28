@@ -1,19 +1,24 @@
 {
+  "klass": "Specie",
   "id": 27,
   "dbSymbol": "sandshrew",
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 33,
+        "description": 0
+      },
       "height": 0.6,
-      "weight": 12.0,
+      "weight": 12,
       "type1": "ground",
       "type2": "__undef__",
       "baseHp": 50,
       "baseAtk": 75,
       "baseDfe": 85,
       "baseSpd": 40,
-      "baseAts": 15,
-      "baseDfs": 15,
+      "baseAts": 30,
+      "baseDfs": 30,
       "evHp": 0,
       "evAtk": 0,
       "evDfe": 1,
@@ -22,18 +27,18 @@
       "evDfs": 0,
       "evolutions": [
         {
+          "dbSymbol": "sandslash",
+          "form": 0,
           "conditions": [
             {
               "type": "minLevel",
               "value": 22
             }
-          ],
-          "dbSymbol": "sandslash",
-          "form": 0
+          ]
         }
       ],
       "experienceType": 1,
-      "baseExperience": 93,
+      "baseExperience": 60,
       "baseLoyalty": 70,
       "catchRate": 255,
       "femaleRate": 50,
@@ -57,126 +62,138 @@
       "abilities": [
         "sand_veil",
         "sand_veil",
-        "sand_rush"
+        "sand_veil"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "0027",
+        "iconShiny": "0027s",
+        "front": "0027",
+        "frontShiny": "0027s",
+        "back": "0027",
+        "backShiny": "0027s",
+        "footprint": "0027",
+        "character": "0027",
+        "characterShiny": "0027s",
+        "cry": "0027.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
+          "move": "scratch",
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "scratch"
+          "level": 1
         },
         {
+          "move": "sand_attack",
           "klass": "LevelLearnableMove",
-          "level": 10,
-          "move": "sand_attack"
+          "level": 10
         },
         {
+          "move": "slash",
           "klass": "LevelLearnableMove",
-          "level": 17,
-          "move": "slash"
+          "level": 17
         },
         {
+          "move": "poison_sting",
           "klass": "LevelLearnableMove",
-          "level": 24,
-          "move": "poison_sting"
+          "level": 24
         },
         {
+          "move": "swift",
           "klass": "LevelLearnableMove",
-          "level": 31,
-          "move": "swift"
+          "level": 31
         },
         {
+          "move": "fury_swipes",
           "klass": "LevelLearnableMove",
-          "level": 38,
-          "move": "fury_swipes"
+          "level": 38
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "swords_dance"
+          "move": "swords_dance",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "toxic"
+          "move": "cut",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "body_slam"
+          "move": "body_slam",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "take_down"
+          "move": "take_down",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "double_edge"
+          "move": "double_edge",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "submission"
+          "move": "submission",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "seismic_toss"
+          "move": "seismic_toss",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "rage"
+          "move": "strength",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "earthquake"
+          "move": "earthquake",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "fissure"
+          "move": "fissure",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "dig"
+          "move": "dig",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "mimic"
+          "move": "toxic",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "double_team"
+          "move": "rage",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "bide"
+          "move": "mimic",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "swift"
+          "move": "double_team",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "skull_bash"
+          "move": "bide",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "rest"
+          "move": "swift",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "rock_slide"
+          "move": "skull_bash",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "substitute"
+          "move": "rest",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "cut"
+          "move": "rock_slide",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "strength"
+          "move": "substitute",
+          "klass": "TechLearnableMove"
         }
       ]
     }
-  ],
-  "klass": "Specie"
+  ]
 }

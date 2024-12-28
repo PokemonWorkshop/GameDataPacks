@@ -1,9 +1,14 @@
 {
+  "klass": "Specie",
   "id": 93,
   "dbSymbol": "haunter",
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 99,
+        "description": 0
+      },
       "height": 1.6,
       "weight": 0.1,
       "type1": "ghost",
@@ -12,8 +17,8 @@
       "baseAtk": 50,
       "baseDfe": 45,
       "baseSpd": 95,
-      "baseAts": 58,
-      "baseDfs": 57,
+      "baseAts": 115,
+      "baseDfs": 115,
       "evHp": 0,
       "evAtk": 0,
       "evDfe": 0,
@@ -22,18 +27,18 @@
       "evDfs": 0,
       "evolutions": [
         {
+          "dbSymbol": "gengar",
+          "form": 0,
           "conditions": [
             {
               "type": "trade",
               "value": true
             }
-          ],
-          "form": 0,
-          "dbSymbol": "gengar"
+          ]
         }
       ],
       "experienceType": 3,
-      "baseExperience": 126,
+      "baseExperience": 142,
       "baseLoyalty": 70,
       "catchRate": 90,
       "femaleRate": 50,
@@ -60,94 +65,106 @@
         "levitate"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "0093",
+        "iconShiny": "0093s",
+        "front": "0093",
+        "frontShiny": "0093s",
+        "back": "0093",
+        "backShiny": "0093s",
+        "footprint": "0093",
+        "character": "0093",
+        "characterShiny": "0093s",
+        "cry": "0093.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
+          "move": "night_shade",
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "night_shade"
+          "level": 1
         },
         {
+          "move": "confuse_ray",
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "lick"
+          "level": 1
         },
         {
+          "move": "lick",
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "confuse_ray"
+          "level": 1
         },
         {
+          "move": "hypnosis",
           "klass": "LevelLearnableMove",
-          "level": 29,
-          "move": "hypnosis"
+          "level": 29
         },
         {
+          "move": "dream_eater",
           "klass": "LevelLearnableMove",
-          "level": 38,
-          "move": "dream_eater"
+          "level": 38
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "toxic"
+          "move": "mega_drain",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "rage"
+          "move": "thunderbolt",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "mega_drain"
+          "move": "thunder",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "thunderbolt"
+          "move": "toxic",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "thunder"
+          "move": "psychic",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "psychic"
+          "move": "rage",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "mimic"
+          "move": "mimic",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "double_team"
+          "move": "double_team",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "bide"
+          "move": "bide",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "self-destruct"
+          "move": "self_destruct",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "dream_eater"
+          "move": "dream_eater",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "rest"
+          "move": "psywave",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "psywave"
+          "move": "explosion",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "explosion"
+          "move": "rest",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "substitute"
+          "move": "substitute",
+          "klass": "TechLearnableMove"
         }
       ]
     }
-  ],
-  "klass": "Specie"
+  ]
 }
