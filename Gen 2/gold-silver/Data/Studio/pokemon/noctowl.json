@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 170,
+        "description": 0
+      },
       "height": 1.6,
       "weight": 40.8,
       "type1": "normal",
@@ -23,7 +27,7 @@
       "evDfs": 0,
       "evolutions": [],
       "experienceType": 1,
-      "baseExperience": 162,
+      "baseExperience": 158,
       "baseLoyalty": 70,
       "catchRate": 90,
       "femaleRate": 50,
@@ -34,169 +38,188 @@
       "hatchSteps": 3840,
       "babyDbSymbol": "hoothoot",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "insomnia",
         "keen_eye",
-        "tinted_lens"
+        "insomnia"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "0164",
+        "iconShiny": "0164s",
+        "front": "0164",
+        "frontShiny": "0164s",
+        "back": "0164",
+        "backShiny": "0164s",
+        "footprint": "0164",
+        "character": "0164",
+        "characterShiny": "0164s",
+        "cry": "0164.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
-          "klass": "LevelLearnableMove",
           "move": "tackle",
+          "klass": "LevelLearnableMove",
           "level": 1
         },
         {
-          "klass": "LevelLearnableMove",
           "move": "growl",
+          "klass": "LevelLearnableMove",
           "level": 1
         },
         {
+          "move": "peck",
           "klass": "LevelLearnableMove",
+          "level": 1
+        },
+        {
           "move": "foresight",
+          "klass": "LevelLearnableMove",
+          "level": 1
+        },
+        {
+          "move": "foresight",
+          "klass": "LevelLearnableMove",
           "level": 6
         },
         {
-          "klass": "LevelLearnableMove",
           "move": "peck",
+          "klass": "LevelLearnableMove",
           "level": 11
         },
         {
-          "klass": "LevelLearnableMove",
           "move": "hypnosis",
+          "klass": "LevelLearnableMove",
           "level": 16
         },
         {
-          "klass": "LevelLearnableMove",
           "move": "reflect",
+          "klass": "LevelLearnableMove",
           "level": 25
         },
         {
-          "klass": "LevelLearnableMove",
           "move": "take_down",
+          "klass": "LevelLearnableMove",
           "level": 33
         },
         {
-          "klass": "LevelLearnableMove",
           "move": "confusion",
+          "klass": "LevelLearnableMove",
           "level": 41
         },
         {
-          "klass": "LevelLearnableMove",
           "move": "dream_eater",
+          "klass": "LevelLearnableMove",
           "level": 57
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "hyper_beam"
+          "move": "fly",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "fly"
+          "move": "hyper_beam",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "flash"
+          "move": "toxic",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "curse"
+          "move": "double_team",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "toxic"
+          "move": "swift",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "hidden_power"
+          "move": "dream_eater",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "sunny_day"
+          "move": "flash",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "snore"
+          "move": "rest",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "protect"
+          "move": "thief",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "endure"
+          "move": "nightmare",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "frustration"
+          "move": "snore",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "return"
+          "move": "curse",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "mud_slap"
+          "move": "protect",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "double_team"
+          "move": "mud_slap",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "swagger"
+          "move": "detect",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "sleep_talk"
+          "move": "endure",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "swift"
+          "move": "swagger",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "dream_eater"
+          "move": "steel_wing",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "detect"
+          "move": "attract",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "rest"
+          "move": "sleep_talk",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "attract"
+          "move": "return",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "thief"
+          "move": "frustration",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "steel_wing"
+          "move": "hidden_power",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "nightmare"
+          "move": "sunny_day",
+          "klass": "TechLearnableMove"
         }
-      ],
-      "resources": {
-        "icon": "164",
-        "iconShiny": "",
-        "front": "164",
-        "frontShiny": "164",
-        "back": "164",
-        "backShiny": "164",
-        "footprint": "164",
-        "character": "164_0",
-        "characterShiny": "164s_0",
-        "cry": "164cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

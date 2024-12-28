@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 91,
+        "description": 0
+      },
       "height": 1.8,
       "weight": 85.2,
       "type1": "normal",
@@ -23,7 +27,7 @@
       "evDfs": 0,
       "evolutions": [],
       "experienceType": 1,
-      "baseExperience": 158,
+      "baseExperience": 165,
       "baseLoyalty": 70,
       "catchRate": 45,
       "femaleRate": 50,
@@ -47,148 +51,162 @@
       "abilities": [
         "early_bird",
         "run_away",
-        "tangled_feet"
+        "early_bird"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "0085",
+        "iconF": "0085",
+        "iconShiny": "0085s",
+        "iconShinyF": "0085s",
+        "front": "0085",
+        "frontF": "0085f",
+        "frontShiny": "0085s",
+        "frontShinyF": "0085sf",
+        "back": "0085",
+        "backF": "0085f",
+        "backShiny": "0085s",
+        "backShinyF": "0085sf",
+        "footprint": "0085",
+        "character": "0085",
+        "characterF": "0085",
+        "characterShiny": "0085s",
+        "characterShinyF": "0085s",
+        "cry": "0085.ogg",
+        "hasFemale": true
+      },
       "moveSet": [
         {
-          "klass": "LevelLearnableMove",
-          "move": "peck",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "growl",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "rage",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "pursuit",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "fury_attack",
+          "klass": "LevelLearnableMove",
           "level": 1
         },
         {
+          "move": "growl",
           "klass": "LevelLearnableMove",
+          "level": 1
+        },
+        {
+          "move": "peck",
+          "klass": "LevelLearnableMove",
+          "level": 1
+        },
+        {
+          "move": "pursuit",
+          "klass": "LevelLearnableMove",
+          "level": 1
+        },
+        {
+          "move": "pursuit",
+          "klass": "LevelLearnableMove",
+          "level": 9
+        },
+        {
+          "move": "fury_attack",
+          "klass": "LevelLearnableMove",
+          "level": 13
+        },
+        {
           "move": "tri_attack",
-          "level": 1
+          "klass": "LevelLearnableMove",
+          "level": 21
         },
         {
+          "move": "rage",
           "klass": "LevelLearnableMove",
+          "level": 25
+        },
+        {
           "move": "drill_peck",
+          "klass": "LevelLearnableMove",
           "level": 38
         },
         {
-          "klass": "LevelLearnableMove",
           "move": "agility",
+          "klass": "LevelLearnableMove",
           "level": 47
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "hyper_beam"
+          "move": "fly",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "fly"
+          "move": "hyper_beam",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "curse"
+          "move": "toxic",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "toxic"
+          "move": "double_team",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "hidden_power"
+          "move": "swift",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "sunny_day"
+          "move": "rest",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "snore"
+          "move": "thief",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "protect"
+          "move": "snore",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "endure"
+          "move": "curse",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "frustration"
+          "move": "protect",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "return"
+          "move": "mud_slap",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "mud_slap"
+          "move": "endure",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "double_team"
+          "move": "swagger",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "swagger"
+          "move": "steel_wing",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "sleep_talk"
+          "move": "attract",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "swift"
+          "move": "sleep_talk",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "rest"
+          "move": "return",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "attract"
+          "move": "frustration",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "thief"
+          "move": "hidden_power",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "steel_wing"
+          "move": "sunny_day",
+          "klass": "TechLearnableMove"
         }
-      ],
-      "resources": {
-        "icon": "085",
-        "iconShiny": "",
-        "front": "085",
-        "frontF": "085f",
-        "frontShiny": "085",
-        "frontShinyF": "085f",
-        "back": "085",
-        "backF": "085f",
-        "backShiny": "085",
-        "backShinyF": "085f",
-        "footprint": "085",
-        "character": "085_0",
-        "characterShiny": "085s_0",
-        "cry": "085cry.ogg",
-        "hasFemale": true
-      }
+      ]
     }
   ]
 }

@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 85,
+        "description": 0
+      },
       "height": 1.2,
       "weight": 36,
       "type1": "water",
@@ -23,16 +27,18 @@
       "evDfs": 0,
       "evolutions": [
         {
+          "dbSymbol": "slowbro",
+          "form": 0,
           "conditions": [
             {
               "type": "minLevel",
               "value": 37
             }
-          ],
-          "dbSymbol": "slowbro",
-          "form": 0
+          ]
         },
         {
+          "dbSymbol": "slowking",
+          "form": 0,
           "conditions": [
             {
               "type": "trade",
@@ -42,13 +48,11 @@
               "type": "itemHold",
               "value": "king_s_rock"
             }
-          ],
-          "form": 0,
-          "dbSymbol": "slowking"
+          ]
         }
       ],
       "experienceType": 1,
-      "baseExperience": 99,
+      "baseExperience": 63,
       "baseLoyalty": 70,
       "catchRate": 190,
       "femaleRate": 50,
@@ -72,225 +76,225 @@
       "abilities": [
         "oblivious",
         "own_tempo",
-        "regenerator"
+        "oblivious"
       ],
-      "frontOffsetY": 0,
+      "frontOffsetY": 26,
+      "resources": {
+        "icon": "0079",
+        "iconShiny": "0079s",
+        "front": "0079",
+        "frontShiny": "0079s",
+        "back": "0079",
+        "backShiny": "0079s",
+        "footprint": "0079",
+        "character": "0079",
+        "characterShiny": "0079s",
+        "cry": "0079.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
+          "move": "tackle",
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "tackle"
+          "level": 1
         },
         {
+          "move": "curse",
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "curse"
+          "level": 1
         },
         {
+          "move": "growl",
           "klass": "LevelLearnableMove",
-          "level": 6,
-          "move": "growl"
+          "level": 6
         },
         {
+          "move": "water_gun",
           "klass": "LevelLearnableMove",
-          "level": 15,
-          "move": "water_gun"
+          "level": 15
         },
         {
+          "move": "confusion",
           "klass": "LevelLearnableMove",
-          "level": 20,
-          "move": "confusion"
+          "level": 20
         },
         {
+          "move": "disable",
           "klass": "LevelLearnableMove",
-          "level": 29,
-          "move": "disable"
+          "level": 29
         },
         {
+          "move": "headbutt",
           "klass": "LevelLearnableMove",
-          "level": 34,
-          "move": "headbutt"
+          "level": 34
         },
         {
+          "move": "amnesia",
           "klass": "LevelLearnableMove",
-          "level": 43,
-          "move": "amnesia"
+          "level": 43
         },
         {
+          "move": "psychic",
           "klass": "LevelLearnableMove",
-          "level": 48,
-          "move": "psychic"
+          "level": 48
         },
         {
-          "klass": "TutorLearnableMove",
-          "move": "flamethrower"
+          "move": "stomp",
+          "klass": "BreedLearnableMove"
         },
         {
-          "klass": "TutorLearnableMove",
-          "move": "ice_beam"
+          "move": "headbutt",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "flash"
+          "move": "flamethrower",
+          "klass": "TutorLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "surf"
+          "move": "surf",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "strength"
+          "move": "ice_beam",
+          "klass": "TutorLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "headbutt"
+          "move": "blizzard",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "curse"
+          "move": "strength",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "toxic"
+          "move": "earthquake",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "zap_cannon"
+          "move": "dig",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "psych_up"
+          "move": "toxic",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "hidden_power"
+          "move": "psychic",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "sunny_day"
+          "move": "double_team",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "snore"
+          "move": "fire_blast",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "blizzard"
+          "move": "swift",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "icy_wind"
+          "move": "dream_eater",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "protect"
+          "move": "flash",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "rain_dance"
+          "move": "rest",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "endure"
+          "move": "nightmare",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "frustration"
+          "move": "snore",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "iron_tail"
+          "move": "curse",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "earthquake"
+          "move": "protect",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "return"
+          "move": "belly_drum",
+          "klass": "BreedLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "dig"
+          "move": "mud_slap",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "psychic"
+          "move": "zap_cannon",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "shadow_ball"
+          "move": "icy_wind",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "mud_slap"
+          "move": "endure",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "double_team"
+          "move": "swagger",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "swagger"
+          "move": "attract",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "sleep_talk"
+          "move": "sleep_talk",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "fire_blast"
+          "move": "return",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "swift"
+          "move": "frustration",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "dream_eater"
+          "move": "safeguard",
+          "klass": "BreedLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "rest"
+          "move": "iron_tail",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "attract"
+          "move": "hidden_power",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "nightmare"
+          "move": "rain_dance",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "BreedLearnableMove",
-          "move": "future_sight"
+          "move": "sunny_day",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "BreedLearnableMove",
-          "move": "belly_drum"
+          "move": "psych_up",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "BreedLearnableMove",
-          "move": "safeguard"
+          "move": "shadow_ball",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "BreedLearnableMove",
-          "move": "stomp"
+          "move": "future_sight",
+          "klass": "BreedLearnableMove"
         }
-      ],
-      "resources": {
-        "icon": "079",
-        "iconShiny": "",
-        "front": "079",
-        "frontShiny": "079",
-        "back": "079",
-        "backShiny": "079",
-        "footprint": "079",
-        "character": "079_0",
-        "characterShiny": "079s_0",
-        "cry": "079cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

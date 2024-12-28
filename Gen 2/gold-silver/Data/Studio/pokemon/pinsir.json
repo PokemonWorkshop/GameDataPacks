@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 133,
+        "description": 0
+      },
       "height": 1.5,
       "weight": 55,
       "type1": "bug",
@@ -23,7 +27,7 @@
       "evDfs": 0,
       "evolutions": [],
       "experienceType": 2,
-      "baseExperience": 200,
+      "baseExperience": 175,
       "baseLoyalty": 70,
       "catchRate": 45,
       "femaleRate": 50,
@@ -46,152 +50,157 @@
       ],
       "abilities": [
         "hyper_cutter",
-        "mold_breaker",
-        "moxie"
+        "hyper_cutter",
+        "hyper_cutter"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "0127",
+        "iconShiny": "0127s",
+        "front": "0127",
+        "frontShiny": "0127s",
+        "back": "0127",
+        "backShiny": "0127s",
+        "footprint": "0127",
+        "character": "0127",
+        "characterShiny": "0127s",
+        "cry": "0127.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
+          "move": "vice_grip",
           "klass": "LevelLearnableMove",
-          "move": "vise_grip",
           "level": 1
         },
         {
+          "move": "focus_energy",
           "klass": "LevelLearnableMove",
-          "move": "harden",
           "level": 7
         },
         {
-          "klass": "LevelLearnableMove",
           "move": "bind",
+          "klass": "LevelLearnableMove",
           "level": 13
         },
         {
-          "klass": "LevelLearnableMove",
           "move": "seismic_toss",
+          "klass": "LevelLearnableMove",
           "level": 19
         },
         {
+          "move": "harden",
           "klass": "LevelLearnableMove",
+          "level": 25
+        },
+        {
           "move": "guillotine",
+          "klass": "LevelLearnableMove",
           "level": 31
         },
         {
-          "klass": "LevelLearnableMove",
           "move": "submission",
+          "klass": "LevelLearnableMove",
           "level": 37
         },
         {
-          "klass": "LevelLearnableMove",
           "move": "swords_dance",
+          "klass": "LevelLearnableMove",
           "level": 43
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "cut"
+          "move": "cut",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "strength"
+          "move": "headbutt",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "headbutt"
+          "move": "fury_attack",
+          "klass": "BreedLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "curse"
+          "move": "hyper_beam",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "toxic"
+          "move": "strength",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "rock_smash"
+          "move": "toxic",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "hidden_power"
+          "move": "double_team",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "sunny_day"
+          "move": "rest",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "snore"
+          "move": "thief",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "hyper_beam"
+          "move": "snore",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "protect"
+          "move": "curse",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "endure"
+          "move": "flail",
+          "klass": "BreedLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "frustration"
+          "move": "protect",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "return"
+          "move": "endure",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "double_team"
+          "move": "swagger",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "swagger"
+          "move": "fury_cutter",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "sleep_talk"
+          "move": "attract",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "rest"
+          "move": "sleep_talk",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "attract"
+          "move": "return",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "thief"
+          "move": "frustration",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "fury_cutter"
+          "move": "hidden_power",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "BreedLearnableMove",
-          "move": "flail"
+          "move": "sunny_day",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "BreedLearnableMove",
-          "move": "fury_attack"
+          "move": "rock_smash",
+          "klass": "TechLearnableMove"
         }
-      ],
-      "resources": {
-        "icon": "127",
-        "iconShiny": "",
-        "front": "127",
-        "frontShiny": "127",
-        "back": "127",
-        "backShiny": "127",
-        "footprint": "127",
-        "character": "127_0",
-        "characterShiny": "127s_0",
-        "cry": "127cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 16,
+        "description": 0
+      },
       "height": 1.1,
       "weight": 30,
       "type1": "normal",
@@ -34,7 +38,7 @@
         }
       ],
       "experienceType": 3,
-      "baseExperience": 113,
+      "baseExperience": 122,
       "baseLoyalty": 70,
       "catchRate": 120,
       "femaleRate": 50,
@@ -57,145 +61,155 @@
       ],
       "abilities": [
         "keen_eye",
-        "tangled_feet",
-        "big_pecks"
+        "keen_eye",
+        "keen_eye"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "0017",
+        "iconShiny": "0017s",
+        "front": "0017",
+        "frontShiny": "0017s",
+        "back": "0017",
+        "backShiny": "0017s",
+        "footprint": "0017",
+        "character": "0017",
+        "characterShiny": "0017s",
+        "cry": "0017.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
-          "klass": "LevelLearnableMove",
-          "move": "tackle",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "sand_attack",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "gust",
+          "klass": "LevelLearnableMove",
           "level": 1
         },
         {
+          "move": "sand_attack",
           "klass": "LevelLearnableMove",
+          "level": 1
+        },
+        {
+          "move": "tackle",
+          "klass": "LevelLearnableMove",
+          "level": 1
+        },
+        {
+          "move": "sand_attack",
+          "klass": "LevelLearnableMove",
+          "level": 5
+        },
+        {
+          "move": "gust",
+          "klass": "LevelLearnableMove",
+          "level": 9
+        },
+        {
           "move": "quick_attack",
+          "klass": "LevelLearnableMove",
           "level": 15
         },
         {
-          "klass": "LevelLearnableMove",
           "move": "whirlwind",
+          "klass": "LevelLearnableMove",
           "level": 23
         },
         {
-          "klass": "LevelLearnableMove",
           "move": "wing_attack",
+          "klass": "LevelLearnableMove",
           "level": 33
         },
         {
-          "klass": "LevelLearnableMove",
           "move": "agility",
+          "klass": "LevelLearnableMove",
           "level": 43
         },
         {
-          "klass": "LevelLearnableMove",
           "move": "mirror_move",
+          "klass": "LevelLearnableMove",
           "level": 55
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "sleep_talk"
+          "move": "fly",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "fly"
+          "move": "toxic",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "curse"
+          "move": "double_team",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "toxic"
+          "move": "swift",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "hidden_power"
+          "move": "rest",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "sunny_day"
+          "move": "thief",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "snore"
+          "move": "snore",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "protect"
+          "move": "curse",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "endure"
+          "move": "protect",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "frustration"
+          "move": "mud_slap",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "return"
+          "move": "detect",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "mud_slap"
+          "move": "endure",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "double_team"
+          "move": "swagger",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "swagger"
+          "move": "steel_wing",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "swift"
+          "move": "attract",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "detect"
+          "move": "sleep_talk",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "rest"
+          "move": "return",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "attract"
+          "move": "frustration",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "thief"
+          "move": "hidden_power",
+          "klass": "TechLearnableMove"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "steel_wing"
+          "move": "sunny_day",
+          "klass": "TechLearnableMove"
         }
-      ],
-      "resources": {
-        "icon": "017",
-        "iconShiny": "",
-        "front": "017",
-        "frontShiny": "017",
-        "back": "017",
-        "backShiny": "017",
-        "footprint": "017",
-        "character": "017_0",
-        "characterShiny": "017s_0",
-        "cry": "017cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }
