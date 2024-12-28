@@ -45,37 +45,50 @@
       "hatchSteps": 3840,
       "babyDbSymbol": "wurmple",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "shed_skin",
         "shed_skin",
         "shed_skin"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "0266",
+        "iconShiny": "0266s",
+        "front": "0266",
+        "frontShiny": "0266s",
+        "back": "0266",
+        "backShiny": "0266s",
+        "footprint": "0266",
+        "character": "0266",
+        "characterShiny": "0266s",
+        "cry": "0266.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
-          "klass": "LevelLearnableMove",
           "move": "harden",
+          "klass": "LevelLearnableMove",
           "level": 1
         },
         {
-          "klass": "LevelLearnableMove",
           "move": "harden",
+          "klass": "LevelLearnableMove",
           "level": 7
         }
       ],
-      "resources": {
-        "icon": "266",
-        "iconShiny": "",
-        "front": "266",
-        "frontShiny": "266",
-        "back": "266",
-        "backShiny": "266",
-        "footprint": "266",
-        "character": "266_0",
-        "characterShiny": "266s_0",
-        "cry": "266cry.ogg",
-        "hasFemale": false
+      "formTextId": {
+        "name": 299,
+        "description": 0
       }
     }
   ]

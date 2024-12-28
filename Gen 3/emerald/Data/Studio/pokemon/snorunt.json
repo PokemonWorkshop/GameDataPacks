@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 397,
+        "description": 0
+      },
       "height": 0.7,
       "weight": 16.8,
       "type1": "ice",
@@ -31,24 +35,10 @@
               "value": 42
             }
           ]
-        },
-        {
-          "dbSymbol": "egg",
-          "form": 0,
-          "conditions": [
-            {
-              "type": "stone",
-              "value": "dawn_stone"
-            },
-            {
-              "type": "gender",
-              "value": 2
-            }
-          ]
         }
       ],
       "experienceType": 1,
-      "baseExperience": 74,
+      "baseExperience": 60,
       "baseLoyalty": 70,
       "catchRate": 190,
       "femaleRate": 50,
@@ -71,10 +61,23 @@
       ],
       "abilities": [
         "inner_focus",
-        "ice_body",
-        "moody"
+        "inner_focus",
+        "inner_focus"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "0361",
+        "iconShiny": "0361s",
+        "front": "0361",
+        "frontShiny": "0361s",
+        "back": "0361",
+        "backShiny": "0361s",
+        "footprint": "0361",
+        "character": "0361",
+        "characterShiny": "0361s",
+        "cry": "0361.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -133,63 +136,11 @@
         },
         {
           "klass": "TutorLearnableMove",
-          "move": "sleep_talk"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "substitute"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "mimic"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "double_edge"
-        },
-        {
-          "klass": "TutorLearnableMove",
           "move": "body_slam"
         },
         {
           "klass": "TutorLearnableMove",
-          "move": "snore"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "endure"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "icy_wind"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "swagger"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "shadow_ball"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "flash"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "water_pulse"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "toxic"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "hail"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "hidden_power"
+          "move": "double_edge"
         },
         {
           "klass": "TechLearnableMove",
@@ -201,23 +152,63 @@
         },
         {
           "klass": "TechLearnableMove",
+          "move": "toxic"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "mimic"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "double_team"
+        },
+        {
+          "klass": "TechLearnableMove",
           "move": "light_screen"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "flash"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "rest"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "substitute"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "snore"
         },
         {
           "klass": "TechLearnableMove",
           "move": "protect"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "rain_dance"
+          "klass": "BreedLearnableMove",
+          "move": "spikes"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "icy_wind"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "endure"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "swagger"
         },
         {
           "klass": "TechLearnableMove",
-          "move": "safeguard"
+          "move": "attract"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "frustration"
+          "klass": "TutorLearnableMove",
+          "move": "sleep_talk"
         },
         {
           "klass": "TechLearnableMove",
@@ -225,7 +216,27 @@
         },
         {
           "klass": "TechLearnableMove",
-          "move": "double_team"
+          "move": "frustration"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "safeguard"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "hidden_power"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "rain_dance"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "shadow_ball"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "hail"
         },
         {
           "klass": "TechLearnableMove",
@@ -236,35 +247,14 @@
           "move": "secret_power"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "rest"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "attract"
-        },
-        {
           "klass": "BreedLearnableMove",
           "move": "block"
         },
         {
-          "klass": "BreedLearnableMove",
-          "move": "spikes"
+          "klass": "TechLearnableMove",
+          "move": "water_pulse"
         }
-      ],
-      "resources": {
-        "icon": "361",
-        "iconShiny": "",
-        "front": "361",
-        "frontShiny": "361",
-        "back": "361",
-        "backShiny": "361",
-        "footprint": "361",
-        "character": "361_0",
-        "characterShiny": "361s_0",
-        "cry": "361cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

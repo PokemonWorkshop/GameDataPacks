@@ -52,7 +52,7 @@
         }
       ],
       "experienceType": 1,
-      "baseExperience": 54,
+      "baseExperience": 56,
       "baseLoyalty": 70,
       "catchRate": 255,
       "femaleRate": 50,
@@ -63,42 +63,55 @@
       "hatchSteps": 3840,
       "babyDbSymbol": "wurmple",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "shield_dust",
         "shield_dust",
-        "run_away"
+        "shield_dust"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "0265",
+        "iconShiny": "0265s",
+        "front": "0265",
+        "frontShiny": "0265s",
+        "back": "0265",
+        "backShiny": "0265s",
+        "footprint": "0265",
+        "character": "0265",
+        "characterShiny": "0265s",
+        "cry": "0265.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
-          "klass": "LevelLearnableMove",
           "move": "tackle",
+          "klass": "LevelLearnableMove",
           "level": 1
         },
         {
-          "klass": "LevelLearnableMove",
           "move": "string_shot",
+          "klass": "LevelLearnableMove",
           "level": 1
         },
         {
-          "klass": "LevelLearnableMove",
           "move": "poison_sting",
+          "klass": "LevelLearnableMove",
           "level": 5
         }
       ],
-      "resources": {
-        "icon": "265",
-        "iconShiny": "",
-        "front": "265",
-        "frontShiny": "265",
-        "back": "265",
-        "backShiny": "265",
-        "footprint": "265",
-        "character": "265_0",
-        "characterShiny": "265s_0",
-        "cry": "265cry.ogg",
-        "hasFemale": false
+      "formTextId": {
+        "name": 298,
+        "description": 0
       }
     }
   ]

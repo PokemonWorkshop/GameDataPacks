@@ -5,7 +5,11 @@
   "forms": [
     {
       "form": 0,
-      "height": 0.8,
+      "formTextId": {
+        "name": 139,
+        "description": 0
+      },
+      "height": 0.3,
       "weight": 6.5,
       "type1": "normal",
       "type2": "__undef__",
@@ -53,20 +57,6 @@
           ]
         },
         {
-          "dbSymbol": "espeon",
-          "form": 0,
-          "conditions": [
-            {
-              "type": "minLoyalty",
-              "value": 220
-            },
-            {
-              "type": "dayNight",
-              "value": 3
-            }
-          ]
-        },
-        {
           "dbSymbol": "umbreon",
           "form": 0,
           "conditions": [
@@ -81,31 +71,7 @@
           ]
         },
         {
-          "dbSymbol": "egg",
-          "form": 0,
-          "conditions": [
-            {
-              "type": "maps",
-              "value": [
-                -1
-              ]
-            }
-          ]
-        },
-        {
-          "dbSymbol": "egg",
-          "form": 0,
-          "conditions": [
-            {
-              "type": "maps",
-              "value": [
-                -1
-              ]
-            }
-          ]
-        },
-        {
-          "dbSymbol": "egg",
+          "dbSymbol": "espeon",
           "form": 0,
           "conditions": [
             {
@@ -113,14 +79,14 @@
               "value": 220
             },
             {
-              "type": "func",
-              "value": "elv_nymphali"
+              "type": "dayNight",
+              "value": 3
             }
           ]
         }
       ],
       "experienceType": 1,
-      "baseExperience": 92,
+      "baseExperience": 65,
       "baseLoyalty": 70,
       "catchRate": 45,
       "femaleRate": 12.5,
@@ -143,10 +109,23 @@
       ],
       "abilities": [
         "run_away",
-        "adaptability",
-        "anticipation"
+        "run_away",
+        "run_away"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "0133",
+        "iconShiny": "0133s",
+        "front": "0133",
+        "frontShiny": "0133s",
+        "back": "0133",
+        "backShiny": "0133s",
+        "footprint": "0133",
+        "character": "0133",
+        "characterShiny": "0133s",
+        "cry": "0133.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -155,12 +134,12 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "helping_hand",
+          "move": "tail_whip",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "tail_whip",
+          "move": "helping_hand",
           "level": 1
         },
         {
@@ -195,7 +174,35 @@
         },
         {
           "klass": "TutorLearnableMove",
-          "move": "sleep_talk"
+          "move": "body_slam"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "double_edge"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "dig"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "toxic"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "mimic"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "double_team"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "swift"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "rest"
         },
         {
           "klass": "TutorLearnableMove",
@@ -203,31 +210,35 @@
         },
         {
           "klass": "TutorLearnableMove",
-          "move": "mimic"
+          "move": "snore"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "curse"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "flail"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "protect"
         },
         {
           "klass": "TutorLearnableMove",
           "move": "mud_slap"
         },
         {
-          "klass": "TutorLearnableMove",
-          "move": "double_edge"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "swift"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "body_slam"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "snore"
+          "klass": "BreedLearnableMove",
+          "move": "endure"
         },
         {
           "klass": "TutorLearnableMove",
           "move": "endure"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "charm"
         },
         {
           "klass": "TutorLearnableMove",
@@ -238,24 +249,12 @@
           "move": "attract"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "toxic"
+          "klass": "TutorLearnableMove",
+          "move": "sleep_talk"
         },
         {
           "klass": "TechLearnableMove",
-          "move": "hidden_power"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "sunny_day"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "protect"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "rain_dance"
+          "move": "return"
         },
         {
           "klass": "TechLearnableMove",
@@ -267,11 +266,15 @@
         },
         {
           "klass": "TechLearnableMove",
-          "move": "return"
+          "move": "hidden_power"
         },
         {
           "klass": "TechLearnableMove",
-          "move": "dig"
+          "move": "rain_dance"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "sunny_day"
         },
         {
           "klass": "TechLearnableMove",
@@ -279,58 +282,21 @@
         },
         {
           "klass": "TechLearnableMove",
-          "move": "double_team"
+          "move": "facade"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "facade"
+          "klass": "BreedLearnableMove",
+          "move": "wish"
         },
         {
           "klass": "TechLearnableMove",
           "move": "secret_power"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "rest"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "curse"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "charm"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "endure"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "flail"
-        },
-        {
           "klass": "BreedLearnableMove",
           "move": "tickle"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "wish"
         }
-      ],
-      "resources": {
-        "icon": "133",
-        "iconShiny": "",
-        "front": "133",
-        "frontShiny": "133",
-        "back": "133",
-        "backShiny": "133",
-        "footprint": "133",
-        "character": "133_0",
-        "characterShiny": "133s_0",
-        "cry": "133cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

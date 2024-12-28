@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 17,
+        "description": 0
+      },
       "height": 1.5,
       "weight": 39.5,
       "type1": "normal",
@@ -23,7 +27,7 @@
       "evDfs": 0,
       "evolutions": [],
       "experienceType": 3,
-      "baseExperience": 172,
+      "baseExperience": 216,
       "baseLoyalty": 70,
       "catchRate": 45,
       "femaleRate": 50,
@@ -46,14 +50,27 @@
       ],
       "abilities": [
         "keen_eye",
-        "tangled_feet",
-        "big_pecks"
+        "keen_eye",
+        "keen_eye"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "0018",
+        "iconShiny": "0018s",
+        "front": "0018",
+        "frontShiny": "0018s",
+        "back": "0018",
+        "backShiny": "0018s",
+        "footprint": "0018",
+        "character": "0018",
+        "characterShiny": "0018s",
+        "cry": "0018.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "tackle",
+          "move": "gust",
           "level": 1
         },
         {
@@ -63,7 +80,7 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "gust",
+          "move": "tackle",
           "level": 1
         },
         {
@@ -112,32 +129,56 @@
           "level": 62
         },
         {
-          "klass": "TutorLearnableMove",
-          "move": "sleep_talk"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "substitute"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "mimic"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "mud_slap"
+          "klass": "TechLearnableMove",
+          "move": "fly"
         },
         {
           "klass": "TutorLearnableMove",
           "move": "double_edge"
         },
         {
+          "klass": "TechLearnableMove",
+          "move": "hyper_beam"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "toxic"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "mimic"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "double_team"
+        },
+        {
           "klass": "TutorLearnableMove",
           "move": "swift"
         },
         {
+          "klass": "TechLearnableMove",
+          "move": "rest"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "substitute"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "thief"
+        },
+        {
           "klass": "TutorLearnableMove",
           "move": "snore"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "protect"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "mud_slap"
         },
         {
           "klass": "TutorLearnableMove",
@@ -149,35 +190,15 @@
         },
         {
           "klass": "TechLearnableMove",
-          "move": "hyper_beam"
+          "move": "steel_wing"
         },
         {
           "klass": "TechLearnableMove",
-          "move": "fly"
+          "move": "attract"
         },
         {
-          "klass": "TechLearnableMove",
-          "move": "toxic"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "hidden_power"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "sunny_day"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "protect"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "rain_dance"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "frustration"
+          "klass": "TutorLearnableMove",
+          "move": "sleep_talk"
         },
         {
           "klass": "TechLearnableMove",
@@ -185,11 +206,19 @@
         },
         {
           "klass": "TechLearnableMove",
-          "move": "double_team"
+          "move": "frustration"
         },
         {
           "klass": "TechLearnableMove",
-          "move": "aerial_ace"
+          "move": "hidden_power"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "rain_dance"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "sunny_day"
         },
         {
           "klass": "TechLearnableMove",
@@ -201,34 +230,9 @@
         },
         {
           "klass": "TechLearnableMove",
-          "move": "rest"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "attract"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "thief"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "steel_wing"
+          "move": "aerial_ace"
         }
-      ],
-      "resources": {
-        "icon": "018",
-        "iconShiny": "",
-        "front": "018",
-        "frontShiny": "018",
-        "back": "018",
-        "backShiny": "018",
-        "footprint": "018",
-        "character": "018_0",
-        "characterShiny": "018s_0",
-        "cry": "018cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }
