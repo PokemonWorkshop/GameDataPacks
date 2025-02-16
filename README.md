@@ -68,7 +68,7 @@ This structure replicates exactly a Pokémon Studio project's structure so that 
 
 If you want to get a pack's data for your project, here are the steps to do it:
 - Download the ZIP file of the repository and extract it on your computer
-- Open the generation and version folder you want to set your project's data to, you shoudl see three folders named `audio`, `Data` and `graphics`
+- Open the generation and version folder you want to set your project's data to, you should see three folders named `audio`, `Data` and `graphics`
 - In another window open your project's folder
 - Drag and drop the three folders from the datapack directly into your project's folder, when prompted about it, answer 'replace all' to override all existing files
 - OPTIONNAL: If want to clean up unused files, you can open the graphics folder and delete old Pokémon sprites that are named on 3 digits (e.g. 001.png), some dex files might not be of use to you either so you can clean up there too
