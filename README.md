@@ -157,6 +157,6 @@ Edited from HeroLinik's Pokemon Scarlet and Violet - All Teal Mask Cries video
 - Gen 9 Pack - Caruban
 - Gen 8/9 Resized Sprites - http404error
 - Gen 8 Pack - Golisopod User, UberDunsparce
-- Resource renaming and sprites alignement for Studio - Aelysya
+- Resource renaming, sprites alignement and sprites resizing for Pokémon Studio - Aelysya
 
 </details>
