@@ -1,5 +1,5 @@
 {
-  "klass": "ConstantHealItem",
+  "klass": "StatusHealItem",
   "id": 504,
   "dbSymbol": "rage_candy_bar",
   "icon": "504",
@@ -12,5 +12,14 @@
   "isHoldable": true,
   "flingPower": 0,
   "loyaltyMalus": 0,
-  "hpCount": 20
+  "statusList": [
+    "POISONED",
+    "PARALYZED",
+    "BURN",
+    "ASLEEP",
+    "FROZEN",
+    "CONFUSED",
+    "FLINCH",
+    "TOXIC"
+  ]
 }
