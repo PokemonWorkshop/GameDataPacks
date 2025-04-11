@@ -20,7 +20,7 @@
       "description": "List of forms of this Pokémon",
       "type": "array",
       "uniqueItems": true,
-      "minItems" : 1,
+      "minItems": 1,
       "items": {
         "type": "object",
         "properties": {
@@ -169,7 +169,10 @@
                             "type": "integer"
                           }
                         },
-                        "required": ["type", "value"]
+                        "required": [
+                          "type",
+                          "value"
+                        ]
                       },
                       {
                         "type": "object",
@@ -187,7 +190,10 @@
                             }
                           }
                         },
-                        "required": ["type", "value"]
+                        "required": [
+                          "type",
+                          "value"
+                        ]
                       },
                       {
                         "type": "object",
@@ -202,7 +208,10 @@
                             "type": "boolean"
                           }
                         },
-                        "required": ["type", "value"]
+                        "required": [
+                          "type",
+                          "value"
+                        ]
                       },
                       {
                         "type": "object",
@@ -221,7 +230,10 @@
                             "type": "string"
                           }
                         },
-                        "required": ["type", "value"]
+                        "required": [
+                          "type",
+                          "value"
+                        ]
                       }
                     ]
                   },
@@ -280,7 +292,6 @@
                 "dbSymbol": {
                   "description": "dbSymbol of the item, or 'none'",
                   "type": "string"
-                  
                 },
                 "chance": {
                   "description": "Chance to hold this item",
@@ -350,9 +361,29 @@
               "hasFemale": {
                 "description": "Must this form use different sprites for females",
                 "type": "boolean"
+              },
+              "egg": {
+                "description": "Egg sprite file name of this form",
+                "type": "string"
+              },
+              "iconEgg": {
+                "description": "Egg icon file name of this form",
+                "type": "string"
               }
             },
-            "required": ["icon", "iconShiny", "front", "frontShiny", "back", "backShiny", "footprint", "character", "characterShiny", "cry", "hasFemale"]
+            "required": [
+              "icon",
+              "iconShiny",
+              "front",
+              "frontShiny",
+              "back",
+              "backShiny",
+              "footprint",
+              "character",
+              "characterShiny",
+              "cry",
+              "hasFemale"
+            ]
           },
           "formTextId": {
             "description": "IDs used to find this form's name and description in the corresponding CSV file",
@@ -361,7 +392,6 @@
               "name": {
                 "description": "ID of this form's name",
                 "type": "integer"
-                
               },
               "description": {
                 "description": "ID of this form's description",
@@ -398,7 +428,12 @@
                     "klass": {
                       "description": "Learning method of this move",
                       "type": "string",
-                      "enum": ["TutorLearnableMove", "TechLearnableMove", "BreedLearnableMove", "EvolutionLearnableMove"]
+                      "enum": [
+                        "TutorLearnableMove",
+                        "TechLearnableMove",
+                        "BreedLearnableMove",
+                        "EvolutionLearnableMove"
+                      ]
                     },
                     "move": {
                       "description": "dbSymbol of this move",
@@ -448,5 +483,10 @@
       }
     }
   },
-  "required": ["klass", "dbSymbol", "id", "forms"]
+  "required": [
+    "klass",
+    "dbSymbol",
+    "id",
+    "forms"
+  ]
 }
