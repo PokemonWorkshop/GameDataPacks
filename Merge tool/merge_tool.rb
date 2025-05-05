@@ -4,7 +4,7 @@ require 'fileutils'
 settings = JSON.parse(File.read('settings.json'))
 source_path = File.join(settings['source_path'].to_s, 'Data', 'Studio', 'pokemon')
 pack_path = File.join("../Gen #{settings['generation_number']}", settings['version'].to_s, 'Data', 'Studio', 'pokemon')
-pokemon_list = settings['pokemon_list'].map(&:downcase)
+pokemon_list = settings['pokemon_list'].map { |name| name.sub(/^:/, '').downcase }
 
 backup_dir = 'backup'
 output_dir = 'output'
