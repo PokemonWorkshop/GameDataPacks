@@ -25,5 +25,6 @@ The program will only affect forms that exist on both your side and the packs' s
 Developer:
 - Aelysya
 
-Tester:
+Testers:
 - Flo
+- Atlas
