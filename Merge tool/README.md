@@ -1,6 +1,6 @@
 # Datapack Merge Tool
 
-This small ruby program allows you to cherry-pick data from a pack and a version of your choice to update your existing files without having to do some potentially dangerous file manipulation. For now it only allows to update the moveset of Pokémon, but later it will come with an interactive part and more options.
+This small ruby program allows you to cherry-pick data from a pack and a version of your choice to update your existing files without having to do some potentially dangerous file manipulation. For now it only allows to update Pokémon, but later it will come with more options.
 
 ## How to set up the tool
 
@@ -14,9 +14,9 @@ It is composed of the following fields:
 ## How to use the tool
 
 You need Ruby installed on your computer to make the program work, if you don't have it you can get it [here](https://rubyinstaller.org/).
-By double-clicking on the `launch.bat` file, you will start the program. Once the process is finished, you can open the folders `backup` and `output`.
+By double-clicking on the `launch.bat` file, you will start the program. Once the process is finished, your project's files will have been updated. Also, two folders will be present in the tool's folder:
 The `output` folder will contain a new set of files that have been updated with the data from the packs, these are the ones you will want to copy in your project. Each time you lauch the tool, this folder will be emptied, don't leave anything you don't want to lose here.
-The `backup` folder will contain your files as they were before you launched the program, this is in case you tested the generated files and for any reason wanted to go back.
+The `backup` folder will contain your files as they were before you launched the program, this is in case you were not satisfied by the new data. The folder is divided into sub-folders named with the timestamp of when you launched the program. It is limited to 10 to avoid creating too much data, make sure not to lose your original files in case you want to go back to them.
 
 The program will only affect forms that exist on both your side and the packs' side. Meaning if a form of a Pokémon is present in one side but not the other, it will be ignored.
 

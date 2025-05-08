@@ -1,3 +1,3 @@
 @echo off
-ruby merge_tool.rb
+ruby updater.rb
 pause
