@@ -24,16 +24,19 @@
       "description": "CSV related information",
       "type": "object",
       "properties": {
-          "csvFileId": {
-            "description": "ID of the CSV file",
-            "type": "integer"
-          },
-          "csvTextIndex": {
-            "description": "Line ID of the CSV file corresponding to this dex",
-            "type": "integer"
-          }
+        "csvFileId": {
+          "description": "ID of the CSV file",
+          "type": "integer"
         },
-        "required": ["csvFileId", "csvTextIndex"]
+        "csvTextIndex": {
+          "description": "Line ID of the CSV file corresponding to this dex",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "csvFileId",
+        "csvTextIndex"
+      ]
     },
     "creatures": {
       "description": "List of Pokémon that constitute this dex",
@@ -51,9 +54,17 @@
             "type": "integer"
           }
         },
-        "required": ["dbSymbol", "form"]
+        "required": [
+          "dbSymbol",
+          "form"
+        ]
       }
     }
   },
-  "required": ["klass", "dbSymbol", "id", "startId"]
+  "required": [
+    "klass",
+    "dbSymbol",
+    "id",
+    "startId"
+  ]
 }
