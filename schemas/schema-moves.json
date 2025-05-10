@@ -43,7 +43,11 @@
     "category": {
       "description": "Category of this move",
       "type": "string",
-      "enum": ["physical", "special", "status"]
+      "enum": [
+        "physical",
+        "special",
+        "status"
+      ]
     },
     "movecriticalRate": {
       "description": "Critical rate of this move",
@@ -178,14 +182,25 @@
           "battleStage": {
             "description": "Stat to be affected",
             "type": "string",
-            "enum": ["ATK_STAGE", "DFE_STAGE", "ATS_STAGE", "DFS_STAGE", "SPD_STAGE", "ACC_STAGE", "EVA_STAGE"]
+            "enum": [
+              "ATK_STAGE",
+              "DFE_STAGE",
+              "ATS_STAGE",
+              "DFS_STAGE",
+              "SPD_STAGE",
+              "ACC_STAGE",
+              "EVA_STAGE"
+            ]
           },
           "modificator": {
             "description": "How the stat is affected",
             "type": "integer"
           }
         },
-        "required": ["battleStage", "modificator"]
+        "required": [
+          "battleStage",
+          "modificator"
+        ]
       }
     },
     "moveStatus": {
@@ -200,7 +215,17 @@
             "anyOf": [
               {
                 "type": "string",
-                "enum": ["POISONED", "PARALYZED", "BURN", "ASLEEP", "FROZEN", "CONFUSED", "FLINCH", "TOXIC", "DEATH"]
+                "enum": [
+                  "POISONED",
+                  "PARALYZED",
+                  "BURN",
+                  "ASLEEP",
+                  "FROZEN",
+                  "CONFUSED",
+                  "FLINCH",
+                  "TOXIC",
+                  "DEATH"
+                ]
               },
               {
                 "type": "string",
@@ -213,7 +238,10 @@
             "type": "integer"
           }
         },
-        "required": ["status", "luckRate"]
+        "required": [
+          "status",
+          "luckRate"
+        ]
       }
     },
     "effectChance": {
