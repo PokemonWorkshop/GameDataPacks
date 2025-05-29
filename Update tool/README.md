@@ -1,4 +1,4 @@
-# Datapack Merge Tool
+# Datapack Update Tool
 
 This small ruby program allows you to cherry-pick data from a pack and a version of your choice to update your existing files without having to do some potentially dangerous file manipulation. For now it only allows to update Pokémon, but later it will come with more options.
 
