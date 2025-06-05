@@ -67,6 +67,7 @@ Generation
 This structure replicates exactly a Pokémon Studio project's structure so that people can just download and copy an entire version folder's content directly into their project.
 
 If you want to get a pack's data for your project, here are the steps to do it:
+- Always make a backup before modifying your project
 - Download the ZIP file of the repository and extract it on your computer
 - Open the generation and version folder you want to set your project's data to, you should see three folders named `audio`, `Data` and `graphics`
 - In another window open your project's folder
