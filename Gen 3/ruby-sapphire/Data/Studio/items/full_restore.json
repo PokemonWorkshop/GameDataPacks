@@ -1,5 +1,4 @@
 {
-  "klass": "StatusRateHealItem",
   "id": 23,
   "dbSymbol": "full_restore",
   "icon": "023",
@@ -11,8 +10,9 @@
   "isLimited": true,
   "isHoldable": true,
   "flingPower": 30,
+  "klass": "StatusRateHealItem",
   "loyaltyMalus": 0,
-  "hpRate": 1.0,
+  "hpRate": 1,
   "statusList": [
     "POISONED",
     "PARALYZED",
@@ -22,5 +22,6 @@
     "CONFUSED",
     "FLINCH",
     "TOXIC"
-  ]
+  ],
+  "isAllowingMega": false
 }
