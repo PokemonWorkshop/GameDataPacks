@@ -2,8 +2,15 @@
   "klass": "Move",
   "id": 935,
   "dbSymbol": "matcha_gotcha",
+  "mapUse": 0,
+  "battleEngineMethod": "s_absorb",
   "type": "grass",
+  "power": 80,
+  "accuracy": 90,
+  "pp": 15,
   "category": "special",
+  "movecriticalRate": 1,
+  "priority": 0,
   "isAuthentic": false,
   "isBallistics": false,
   "isBite": false,
@@ -11,7 +18,6 @@
   "isCharge": false,
   "isDance": false,
   "isDirect": false,
-  "isDistance": false,
   "isEffectChance": false,
   "isGravity": false,
   "isHeal": true,
@@ -29,22 +35,18 @@
   "isSlicingAttack": false,
   "isUnfreeze": true,
   "isWind": false,
-  "power": 80,
-  "pp": 15,
-  "priority": 0,
-  "accuracy": 90,
-  "movecriticalRate": 1,
-  "effectChance": 20,
+  "battleEngineAimedTarget": "adjacent_all_foe",
+  "battleStageMod": [],
   "moveStatus": [
     {
       "status": "BURN",
       "luckRate": 100
     }
   ],
-  "battleEngineMethod": "s_absorb",
-  "battleStageMod": [
-
-  ],
-  "battleEngineAimedTarget": "adjacent_all_foe",
-  "mapUse": 0
+  "effectChance": 20,
+  "condition": "cool",
+  "appeal": 4,
+  "jam": 0,
+  "comboMoves": [],
+  "effectTags": []
 }
