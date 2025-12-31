@@ -126,6 +126,8 @@ If you want to contribute by reviewing you can:
 
 ## Graphic resources credits
 
+Feel free to contact @Aelysya on discord for any missing credits or claims
+
 <details>
 <summary>
 Click to expand
@@ -153,7 +155,7 @@ Click to expand
 - Gen 7 Pokemon Icon Sprites - Marin, MapleBranchWing, Contributors to the DS Styled Gen 7+ Repository
 - Gen 8 Icon Sprites - Larry Turbo, Leparagon
 - Shiny Icon Sprites - StarrWolf, Pokemon Shattered Light Team
-- PLA Pokemon Icon Sprites - LuigiTKO
+- PLA Pokemon Icon Sprites - LuigiTKO, StarrWolf
 - Gen 9 Icon Sprites - ezerart, JordanosArt
 
 ## Pokemon Gen 9 Overworld sprites
