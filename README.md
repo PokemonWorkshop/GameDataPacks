@@ -148,6 +148,7 @@ Click to expand
   Blaquaza, KingOfThe-X-Roads, KattenK, Travis, G.E.Z., SpheX, Hematite, SelenaArmorclaw
 - Gen 9 Pokemon Sprites - KingOfThe-X-Roads, Mak, Caruban, jinxed, leParagon, Sopita_Yorita, Azria, Mashirosakura,
   JordanosArt, Abnayami, OldSoulja, Katten, Divaruta 666, Clara, Skyflyer, AshnixsLaw, ace_stryfe
+- Z-A Pokemon Sprites - RetroNC, BluebirdDxD, EBaru, Pepsiman, Luis779, Lucifer, Miguel, MizterBubu, Pano, Turi, Adriix16, Aronousqui, Esneider, TheSonicGamerYT, Pipexhbk, KingOfTheXRoads
 
 ## Pokemon Icon Sprites
 
@@ -157,6 +158,7 @@ Click to expand
 - Shiny Icon Sprites - StarrWolf, Pokemon Shattered Light Team
 - PLA Pokemon Icon Sprites - LuigiTKO, StarrWolf
 - Gen 9 Icon Sprites - ezerart, JordanosArt
+- Z-A Icon Sprites - Batin, ezerart, Luis779
 
 ## Pokemon Gen 9 Overworld sprites
 
@@ -166,6 +168,7 @@ Click to expand
 - Gen 8 Pokemon Overworlds - SageDeoxys, Wolfang62, LarryTurbo, tammyclaydon
 - PLA Pokemon Overworlds - Boonzeet, DarkusShadow, princess-phoenix, Ezeart, WolfPP
 - Gen 9 Pokemon Overworlds - Azria, DarkusShadow, EduarPokeN, Carmanekko, StarWolff, Caruban
+- Z-A Pokemon Overworlds - DarkusShadow, BluebirdDxD
 
 ## Pokemon Cries
 
@@ -182,6 +185,7 @@ Click to expand
 
 - Gen 9 item sprites - lichenprincess, Caruban, jinxed
 - PLA item sprites - AztecCroc, 3DJackArt, Caruban, lichenprincess
+- Z-A Mega Stones - MCBMechachu
 
 ## Compilation of Resources
 
