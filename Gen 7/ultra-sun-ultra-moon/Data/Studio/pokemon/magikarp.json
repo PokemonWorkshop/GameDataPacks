@@ -1,0 +1,118 @@
+{
+  "klass": "Specie",
+  "id": 129,
+  "dbSymbol": "magikarp",
+  "forms": [
+    {
+      "form": 0,
+      "formTextId": {
+        "name": 164,
+        "description": 0
+      },
+      "height": 0.9,
+      "weight": 10,
+      "type1": "water",
+      "type2": "__undef__",
+      "baseHp": 20,
+      "baseAtk": 10,
+      "baseDfe": 55,
+      "baseSpd": 80,
+      "baseAts": 15,
+      "baseDfs": 20,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 1,
+      "evAts": 0,
+      "evDfs": 0,
+      "evolutions": [
+        {
+          "dbSymbol": "gyarados",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "minLevel",
+              "value": 20
+            }
+          ]
+        }
+      ],
+      "experienceType": 2,
+      "baseExperience": 40,
+      "baseLoyalty": 70,
+      "catchRate": 255,
+      "femaleRate": 50,
+      "breedGroups": [
+        12,
+        14
+      ],
+      "hatchSteps": 5120,
+      "babyDbSymbol": "magikarp",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "swift_swim",
+        "swift_swim",
+        "rattled"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "0129",
+        "iconF": "0129",
+        "iconShiny": "0129s",
+        "iconShinyF": "0129s",
+        "front": "0129",
+        "frontF": "0129f",
+        "frontShiny": "0129s",
+        "frontShinyF": "0129sf",
+        "back": "0129",
+        "backF": "0129f",
+        "backShiny": "0129s",
+        "backShinyF": "0129sf",
+        "footprint": "0129",
+        "character": "0129",
+        "characterF": "0129",
+        "characterShiny": "0129s",
+        "characterShinyF": "0129s",
+        "cry": "0129.ogg",
+        "hasFemale": true,
+        "egg": "egg",
+        "iconEgg": "egg"
+      },
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "splash",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "tackle",
+          "level": 15
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "flail",
+          "level": 30
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "bounce"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "whirlpool"
+        }
+      ]
+    }
+  ]
+}

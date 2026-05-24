@@ -1,0 +1,108 @@
+name: Validate JSON Files
+
+on:
+  # pull_request:
+  #   branches:
+  #     - "**"
+  #   paths:
+  #     - "**/*"
+  push:
+    branches:
+      - "**"
+    paths:
+      - "**/*"
+
+jobs:
+  Validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Get changed files
+        id: get_changed_files
+        uses: tj-actions/changed-files@v34
+        with:
+          separator: ','
+
+      - name: Display changed files
+        run: echo "Modified files - ${{ steps.get_changed_files.outputs.modified_files }}"
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 16
+
+      - name: Install AJV CLI
+        run: npm install -g ajv-cli
+
+      - name: Initialize error log
+        run: echo "Validation Errors:" > errors.log
+
+      - name: Validate abilities
+        run: |
+          IFS=',' read -r -a files <<< "${{ steps.get_changed_files.outputs.modified_files }}"
+          for file in "${files[@]}"; do
+            if [[ "$file" =~ ^.*/abilities/.*\.json$ ]]; then
+              echo "Validating file: $file"
+              ajv validate -s schemas/schema-abilities.json -d "$file" --spec=draft2020 || echo "Error in $file" >> errors.log
+            fi
+          done
+
+      - name: Validate dex
+        run: |
+          IFS=',' read -r -a files <<< "${{ steps.get_changed_files.outputs.modified_files }}"
+          for file in "${files[@]}"; do
+            if [[ "$file" =~ ^.*/dex/.*\.json$ ]]; then
+              echo "Validating file: $file"
+              ajv validate -s schemas/schema-dex.json -d "$file" --spec=draft2020 || echo "Error in $file" >> errors.log
+            fi
+          done
+
+      - name: Validate items
+        run: |
+          IFS=',' read -r -a files <<< "${{ steps.get_changed_files.outputs.modified_files }}"
+          for file in "${files[@]}"; do
+            if [[ "$file" =~ ^.*/items/.*\.json$ ]]; then
+              echo "Validating file: $file"
+              ajv validate -s schemas/schema-items.json -d "$file" --spec=draft2020 || echo "Error in $file" >> errors.log
+            fi
+          done
+
+      - name: Validate moves
+        run: |
+          IFS=',' read -r -a files <<< "${{ steps.get_changed_files.outputs.modified_files }}"
+          for file in "${files[@]}"; do
+            if [[ "$file" =~ ^.*/moves/.*\.json$ ]]; then
+              echo "Validating file: $file"
+              ajv validate -s schemas/schema-moves.json -d "$file" --spec=draft2020 || echo "Error in $file" >> errors.log
+            fi
+          done
+
+      - name: Validate pokemon
+        run: |
+          IFS=',' read -r -a files <<< "${{ steps.get_changed_files.outputs.modified_files }}"
+          for file in "${files[@]}"; do
+            if [[ "$file" =~ ^.*/pokemon/.*\.json$ ]]; then
+              echo "Validating file: $file"
+              ajv validate -s schemas/schema-pokemon.json -d "$file" --spec=draft2020 || echo "Error in $file" >> errors.log
+            fi
+          done
+
+      - name: Validate types
+        run: |
+          IFS=',' read -r -a files <<< "${{ steps.get_changed_files.outputs.modified_files }}"
+          for file in "${files[@]}"; do
+            if [[ "$file" =~ ^.*/types/.*\.json$ ]]; then
+              echo "Validating file: $file"
+              ajv validate -s schemas/schema-types.json -d "$file" --spec=draft2020 || echo "Error in $file" >> errors.log
+            fi
+          done
+
+      - name: Display collected errors
+        run: |
+          if grep -q "Error in" errors.log; then
+            cat errors.log
+            exit 1
+          fi

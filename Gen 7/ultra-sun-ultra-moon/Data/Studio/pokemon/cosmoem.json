@@ -1,0 +1,119 @@
+{
+  "klass": "Specie",
+  "id": 790,
+  "dbSymbol": "cosmoem",
+  "forms": [
+    {
+      "form": 0,
+      "height": 0.1,
+      "weight": 999.9,
+      "type1": "psychic",
+      "type2": "__undef__",
+      "baseHp": 43,
+      "baseAtk": 29,
+      "baseDfe": 131,
+      "baseSpd": 37,
+      "baseAts": 29,
+      "baseDfs": 131,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 1,
+      "evSpd": 0,
+      "evAts": 0,
+      "evDfs": 1,
+      "evolutions": [
+        {
+          "dbSymbol": "solgaleo",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "minLevel",
+              "value": 53
+            },
+            {
+              "type": "dayNight",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "dbSymbol": "lunala",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "minLevel",
+              "value": 53
+            },
+            {
+              "type": "dayNight",
+              "value": 0
+            }
+          ]
+        }
+      ],
+      "experienceType": 2,
+      "baseExperience": 140,
+      "baseLoyalty": 0,
+      "catchRate": 45,
+      "femaleRate": -1,
+      "breedGroups": [
+        15,
+        15
+      ],
+      "hatchSteps": 30720,
+      "babyDbSymbol": "cosmoem",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "sturdy",
+        "sturdy",
+        "sturdy"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "0790",
+        "iconShiny": "0790s",
+        "front": "0790",
+        "frontShiny": "0790s",
+        "back": "0790",
+        "backShiny": "0790s",
+        "footprint": "0790",
+        "character": "0790",
+        "characterShiny": "0790s",
+        "cry": "0790.ogg",
+        "hasFemale": false,
+        "egg": "egg",
+        "iconEgg": "egg"
+      },
+      "moveSet": [
+        {
+          "move": "teleport",
+          "klass": "LevelLearnableMove",
+          "level": 1
+        },
+        {
+          "move": "cosmic_power",
+          "klass": "LevelLearnableMove",
+          "level": 1
+        },
+        {
+          "move": "cosmic_power",
+          "klass": "EvolutionLearnableMove"
+        }
+      ],
+      "formTextId": {
+        "name": 1032,
+        "description": 0
+      }
+    }
+  ]
+}

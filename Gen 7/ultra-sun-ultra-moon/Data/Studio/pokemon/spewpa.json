@@ -1,0 +1,117 @@
+{
+  "klass": "Specie",
+  "id": 665,
+  "dbSymbol": "spewpa",
+  "forms": [
+    {
+      "form": 0,
+      "height": 0.3,
+      "weight": 8.4,
+      "type1": "bug",
+      "type2": "__undef__",
+      "baseHp": 45,
+      "baseAtk": 22,
+      "baseDfe": 60,
+      "baseSpd": 29,
+      "baseAts": 27,
+      "baseDfs": 30,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 2,
+      "evSpd": 0,
+      "evAts": 0,
+      "evDfs": 0,
+      "evolutions": [
+        {
+          "dbSymbol": "vivillon",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "minLevel",
+              "value": 12
+            }
+          ]
+        }
+      ],
+      "experienceType": 1,
+      "baseExperience": 75,
+      "baseLoyalty": 70,
+      "catchRate": 120,
+      "femaleRate": 50,
+      "breedGroups": [
+        3,
+        3
+      ],
+      "hatchSteps": 3840,
+      "babyDbSymbol": "scatterbug",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "shed_skin",
+        "shed_skin",
+        "friend_guard"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "0665",
+        "iconShiny": "0665s",
+        "front": "0665",
+        "frontShiny": "0665s",
+        "back": "0665",
+        "backShiny": "0665s",
+        "footprint": "0665",
+        "character": "0665",
+        "characterShiny": "0665s",
+        "cry": "0665.ogg",
+        "hasFemale": false,
+        "egg": "egg",
+        "iconEgg": "egg"
+      },
+      "moveSet": [
+        {
+          "move": "harden",
+          "klass": "LevelLearnableMove",
+          "level": 1
+        },
+        {
+          "move": "protect",
+          "klass": "LevelLearnableMove",
+          "level": 1
+        },
+        {
+          "move": "protect",
+          "klass": "EvolutionLearnableMove"
+        },
+        {
+          "move": "protect",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "iron_defense",
+          "klass": "TutorLearnableMove"
+        },
+        {
+          "move": "bug_bite",
+          "klass": "TutorLearnableMove"
+        },
+        {
+          "move": "electroweb",
+          "klass": "TutorLearnableMove"
+        }
+      ],
+      "formTextId": {
+        "name": 822,
+        "description": 0
+      }
+    }
+  ]
+}
