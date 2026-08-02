@@ -168,6 +168,7 @@ Click to expand
 - PLA Pokemon Overworlds - Boonzeet, DarkusShadow, princess-phoenix, Ezeart, WolfPP
 - Gen 9 Pokemon Overworlds - Azria, DarkusShadow, EduarPokeN, Carmanekko, StarWolff, Caruban
 - Z-A Pokemon Overworlds - DarkusShadow, BluebirdDxD
+- Shiny version of Stonjourner's character sprite - Flo
 
 ## Pokemon Cries
 
