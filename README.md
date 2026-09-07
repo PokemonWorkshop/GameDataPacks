@@ -71,6 +71,10 @@ Generation
 └── ...
 ```
 
+## How to install
+
+**IMPORTANT**: If you already made changes in your project (adding new Pokémon, moves, types, etc...) installing a datapack will almost cetainly result in ID conflicts and/or project loading issues, always install a datapack in a freshly created project.
+
 This structure replicates exactly a Pokémon Studio project's structure so that people can just download and copy an entire version folder's content directly into their project.
 
 If you want to get a pack's data for your project, here are the steps to do it:
